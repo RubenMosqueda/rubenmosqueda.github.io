@@ -58,53 +58,114 @@ body{
 } */
 
 .wrapper {
+  position: relative;
+  z-index: 1;
   margin: 1rem auto;
   max-width: 1000px;
-  position: relative;
   /*all body is set as a column with display grid property*/
   display: grid;
   grid-row-gap: 0;
   grid-template-columns: auto;
-
-  border: solid 1px rebeccapurple;
   background: inherit;
-
-  /* filter: drop-shadow(0 0 17px var(--color_secundario)); */
+  overflow: hidden;
+  /* border: solid 3px rebeccapurple; */
+  /*  */
 }
 
 .huecos{
   position: absolute;
-  border: solid 2px orange;
+  z-index: 3;
   background: inherit;
   border-radius: 5px;
-  width: 300px;
-  height: 150px;
 }
 
 .hueco1{
-  top: 10rem;
-  left: 10%;
+  top: 0;
+  left: 0;
+  width: 300px;
+  height: 30px;
+  box-shadow: inset -10px -10px 15px -5px white;
+  border: solid 3px orange;
+  border-top: none;
+  border-left: none;
 }
 
 .hueco2{
-  top: 25rem;
-  left: 30%;
+  top: 32rem;
+  left: 35%;
+  width: 300px;
+  height: 150px;
+  box-shadow: inset 0px 0px 25px 0px white;
+  border: solid 3px orange;
 }
 
 .hueco3{
-  top: 40rem;
-  left: 50%;
+  top: 50rem;
+  left: 65%;
+  width: 300px;
+  height: 300px;
+  box-shadow: inset 0px 0px 25px 0px white;
+  border: solid 3px orange;
 }
 
-.content-wrapper{
-  margin: 1rem;
-  border: solid 1px blue;
-  background: #D5D9DA;
+.backgroundContent{
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #697573;
+  border-radius: 10px;
+  /* box-shadow: 5px 5px 15px 5px white; */
+  /* filter: drop-shadow(0 0 25px white); */
+  /* border: solid 3px yellow; */
 }
 
 .content{
+  z-index: 4;
   margin: 1rem;
-  height: 150rem;
-  border: solid 1px aquamarine;
+  color: white;
+  /* border: solid 3px aquamarine; */
+}
+
+.presentacion{
+  margin: 2rem 3rem 0 3rem;
+  text-align: center;
+}
+
+.nombre{
+  margin: 1rem 0;
+}
+
+.nombre h1{
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nombre h2{
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+.imagen_perfil{
+  width: 55%;
+  height: auto;
+  margin: 1rem 0;
+  border: solid var(--color_primario) 4px;
+  border-radius: 50%;
+}
+
+.sobre_mi h1{
+  margin: 1rem 2rem;
+  text-align: right;
+  font-size: 2rem;
+}
+
+.sobre_mi p{
+  margin: 1rem 0;
+  text-align: left;
+  line-height: 1.4rem;
 }
 
