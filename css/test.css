@@ -1,0 +1,110 @@
+/*Variables para paleta de colores*/
+:root {
+  --color_primario: #D76F38;
+  --color_secundario: #336b83;
+  --color_terciario: #d3d642;
+  --color_extra_1: #D5D9DA;
+  --color_extra_2: #272729;
+  --color_extra_3: #8FE0F5;
+  --border__radius: 10px;
+  --blur_index: 4px;
+}
+
+body{
+  background-image: url(../imagenes/thumb-0004-1920x1080.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: Cavea, Arial, Helvetica, sans-serif;
+}
+
+/* .background-Wrapper{
+  position: absolute;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  background-color: var(--color_extra_1);
+  max-width: 1000px;
+  clip-path: polygon(
+                    0% 2%, 
+                    60% 2%,
+                    60% 0%,
+                    100% 0%,
+
+                    100% 30%,
+                    90% 22%,
+                    80% 28%,
+                    100% 45%,
+
+                    100% 87%,
+                    50% 87%,
+                    50% 95%,
+                    90% 95%,
+                    90% 87%,
+                    100% 87%,
+
+                    100% 98%,
+                    40% 98%,
+                    40% 100%,
+ 
+                    0% 100%,
+
+                    0% 45%,
+                    20% 45%,
+                    20% 37%,
+                    0% 37%
+                    );
+  z-index: -1;
+} */
+
+.wrapper {
+  margin: 1rem auto;
+  max-width: 1000px;
+  position: relative;
+  /*all body is set as a column with display grid property*/
+  display: grid;
+  grid-row-gap: 0;
+  grid-template-columns: auto;
+
+  border: solid 1px rebeccapurple;
+  background: inherit;
+
+  /* filter: drop-shadow(0 0 17px var(--color_secundario)); */
+}
+
+.huecos{
+  position: absolute;
+  border: solid 2px orange;
+  background: inherit;
+  border-radius: 5px;
+  width: 300px;
+  height: 150px;
+}
+
+.hueco1{
+  top: 10rem;
+  left: 10%;
+}
+
+.hueco2{
+  top: 25rem;
+  left: 30%;
+}
+
+.hueco3{
+  top: 40rem;
+  left: 50%;
+}
+
+.content-wrapper{
+  margin: 1rem;
+  border: solid 1px blue;
+  background: #D5D9DA;
+}
+
+.content{
+  margin: 1rem;
+  height: 150rem;
+  border: solid 1px aquamarine;
+}
+
