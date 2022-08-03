@@ -1,0 +1,427 @@
+/*Variables para paleta de colores*/
+:root {
+  --color_primario: #D76F38;
+  --color_secundario: #336b83;
+  --color_terciario: #d3d642;
+  --color_extra_1: #D5D9DA;
+  --color_extra_2: #272729;
+  --color_extra_3: #8FE0F5;
+  --border__radius: 10px;
+  --blur_index: 4px;
+}
+
+body{
+  background-color: var(--color_extra_1);
+  font-family: Cavea, Arial, Helvetica, sans-serif;
+}
+
+/*Warapper to limited content max width*/
+.content-wrapper {
+  margin:auto;
+  max-width: 1000px;
+  background: inherit;
+  /*all body is set as a column with display grid property*/
+  display: grid;
+  grid-row-gap: 1rem;
+  grid-template-columns: auto;
+}
+
+nav{
+  position: fixed;
+  top:0;
+  right: 0;
+  width: 1.5rem;
+  padding: 1.5rem 0.75rem;
+  border-radius: 10px 0 0 10px;
+  box-shadow: -3px 3px 0px 3px var(--color_extra_3);
+  background-color: var(--color_extra_2);
+  z-index: 5;
+}
+
+nav ul{
+  list-style-type: none;
+}
+
+nav li{
+  padding: 0.75rem 0;
+}
+
+nav li i{
+  font-size: 1.5rem;
+  color: var(--color_primario);
+}
+
+nav li:hover i{
+  color: var(--color_extra_3);
+}
+
+nav li a{
+  text-decoration: none;
+  color: var(--color_extra_1);
+}
+
+nav ul li:hover a::before{
+  position: absolute;
+  right: 2.7em;
+  padding: 0.3rem 0 0.3rem 0.5rem;
+  font-size: 1.1rem;
+  border-radius: 5px 0 0 5px;
+  box-shadow: -4px 4px 0px 0px var(--color_extra_3);
+  background-color: var(--color_extra_2);
+}
+
+nav ul li:hover .home::before{
+  content: "HOME";
+}
+
+nav ul li:hover .galeria::before{
+  content: "GALERIA";
+}
+
+nav ul li:hover .background::before{
+  content: "BACKGROUND";
+}
+
+nav ul li:hover .correo::before{
+  content: "CONTACTO";
+}
+
+nav ul li .activo{
+  color: var(--color_extra_3);
+}
+
+.top_bar{
+  width: 70%;
+  margin: 0;
+  padding: 0.75rem;
+  color: var(--color_extra_1);
+  border-radius: 0 0 10px 0;
+  box-shadow: 0px 0px 7px 4px var(--color_primario);
+  background-color: var(--color_extra_2);
+}
+
+.contenedor{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 500px;
+  border: solid 1px red;
+
+}
+
+.sprite{
+  height: 200px;
+  width: 200px;
+  border: solid 1px green;
+	background: url('/imagenes/foxSprite/fox_tira_2.png') no-repeat;
+  background-size: 300%;
+	animation: sprite 1.2s steps(3) infinite;
+}
+
+@keyframes sprite {
+  100% { background-position: -600px 0; }
+}
+
+/* @keyframes foxCamina {
+  0% {
+      background: url('../imagenes/foxSprite/fox_right_sprite_01.png');
+      background-size: contain;
+  }
+  25% {
+    background: url('../imagenes/foxSprite/fox_right_sprite_02.png');
+    background-size: contain;
+  }
+  50% {
+    background: url('../imagenes/foxSprite/fox_right_sprite_03.png');
+    background-size: contain;
+  }
+  100%{
+    background: url('../imagenes/foxSprite/fox_right_sprite_04.png');
+    background-size: contain;
+  }
+} */
+
+.presentacion{
+  margin: 2rem 3rem 0 3rem;
+  text-align: center;
+}
+
+.nombre{
+  margin: 1rem 0;
+}
+
+.nombre h1{
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.nombre h2{
+  font-size: 1rem;
+  font-weight: lighter;
+}
+
+.imagen_perfil{
+  width: 55%;
+  height: auto;
+  margin: 1rem 0;
+  border: solid var(--color_primario) 4px;
+  border-radius: 50%;
+}
+
+.sobre_mi h1{
+  margin: 1rem 2rem;
+  text-align: right;
+  font-size: 2rem;
+}
+
+.sobre_mi p{
+  margin: 1rem 0;
+  text-align: left;
+  line-height: 1.4rem;
+}
+
+.viñeta{
+  width: 70%;
+  margin: auto;
+  border: 1px solid var(--color_primario);
+  background-color: var(--color_primario);
+}
+
+.trabajo{
+  margin: 2rem 3rem 0 3rem;
+}
+
+.trabajo h1{
+  margin: 0 2rem 2rem 0;
+  text-align: right;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+.trabajo p{
+  margin: 1rem 0;
+  text-align: left;
+  line-height: 1.4rem;
+}
+
+.trabajo h2{
+  margin: 1rem 0;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.trabajo a{
+  text-decoration: none;
+  color: var(--color_primario);
+}
+
+.fake_window{
+  margin: 1rem auto;
+  width: 50%;
+  height: 10rem;
+  border: solid 4px var(--color_secundario);
+  border-radius: 15px;
+}
+
+.fake_bar{
+  display: flex;
+  justify-content: space-around;
+  height: 20%;
+  background-color: var(--color_secundario);
+  border-radius: 10px 10px 0 0;
+}
+
+.fake_button{
+  margin: 5px 0;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: var(--color_extra_1);
+}
+
+.fake_search{
+  margin: 5px;
+  width: 65%;
+  height: 15px;
+  border-radius: 5px;
+  background-color: var(--color_extra_1);
+}
+
+.fake_space{
+  display: flex;
+  height: 80%;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--color_extra_2);
+  border-radius: 0 0 10px 10px;
+}
+
+.fake_space h1{
+  margin: 0;
+  font-size: 4rem;
+}
+
+.paginaKPT{
+  margin: 2rem 3rem 0 3rem;
+  text-align: center;
+}
+
+.paginaKPT h1{
+  margin-bottom: 1.5rem;
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.paginaKPT h2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.paginaKPT h2 img{
+  width: 2rem;
+  height: auto;
+  margin-right: 1rem;
+}
+
+.paginaKPT h2 a{
+  text-decoration: none;
+  color: #304FFE;
+}
+
+.paginaKPT .kpt_pc{
+  width: 60%;
+  height: auto;
+}
+
+.componentesKPT {
+  position: relative;
+}
+
+.paginaKPT .componentesKPT img{
+  position: relative;
+  width: 12%;
+  height: auto;
+  margin: 0 .25rem;
+}
+
+@keyframes salto{
+  from {
+    bottom: 0;
+  }
+
+  to {
+    bottom: 0.75rem;
+  }
+}
+
+.animacion{
+  animation-name: salto;
+  animation-duration: 0.75s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+.cpu{
+  animation-delay: 0s;
+}
+
+.board{
+  animation-delay: 0.2s;
+}
+
+.disipador{
+  animation-delay: 0.4s;
+}
+
+.ram{
+  animation-delay: 0.6s;
+}
+
+.ssd{
+  animation-delay: 0.8s;
+}
+
+.video{
+  animation-delay: 1s;
+}
+
+.contacto{
+  margin: 2rem 3rem 0 3rem;
+  text-align: center;
+}
+
+.links_de_contacto{
+  margin-top: 1.5rem;
+  list-style-type: none;
+}
+
+.links_de_contacto li {
+  display: inline;
+  margin: 0 0.75rem;
+}
+
+.links_de_contacto i{
+  font-size: 2rem;
+}
+
+.links_de_contacto a{
+  text-decoration: none;
+  color: var(--color_primario);
+}
+
+.links_de_contacto a:hover{
+  color: var(--color_extra_3);
+}
+
+
+footer{
+  width: 80%;
+  margin: 1rem 0 0 auto;
+  padding: 0.75rem;
+  color: var(--color_extra_1);
+  border-radius: 10px 0 0 0;
+  box-shadow: 0px 0px 7px 4px var(--color_primario);
+  background-color: var(--color_extra_2);
+}
+
+@media (min-width: 700px) {
+  .presentacion{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .nombre{
+    margin-left: 2rem;
+  }
+
+  .contenido_presentacion{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+  }
+
+  .imagen_perfil{
+    width: 30%;
+    height: 80%;
+    margin: 1rem;
+  }
+
+  .sobre_mi{
+    width: 70%;
+    margin: 2rem;
+  }
+}
+
+@media (min-width: 850px){
+
+}
+
+@media (min-width: 1000px){
+
+}
