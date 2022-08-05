@@ -106,16 +106,6 @@ body{
 } 
 
 .win6{
-  display: none;
-  top: 65%;
-  left: -1rem;
-  width: 70%;
-  height: 0.65rem;
-  border-radius: 4px;
-  box-shadow: 0px 0px 0px 3px rgba(213, 217, 218, .75);
-} 
-
-.win7{
   bottom: -1rem;
   right: -1rem;
   width: 60%;
