@@ -30,35 +30,61 @@ body{
               135deg, 
               rgb(1, 151, 188) 65%, 
               rgba(213,217,218,1) 75%);
+  overflow: hidden;
 }
 
 .backgroundGradientLayer::before{
   position: absolute;
   z-index: 2;
   content: "";
-  top: -5rem;
-  left: -15%;
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
-  background-color: #D76F38;
-  animation: wave-animate 5s 1s infinite alternate;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(213,217,218);
+
+  background: linear-gradient(
+                            45deg, 
+                            rgba(213,217,218,1) 25%, 
+                            rgb(1, 151, 188) 35%, 
+                            rgba(213,217,218,1) 45%,
+
+                            rgba(213,217,218,1) 55%, 
+                            rgb(1, 151, 188) 65%, 
+                            rgba(213,217,218,1) 75%,
+
+                            rgba(213,217,218,1) 85%, 
+                            rgb(1, 151, 188) 90%, 
+                            rgba(213,217,218,1) 105%
+                            );
 }
 
 .backgroundGradientLayer::after{
   position: absolute;
-  content: "";
   z-index: 2;
-  top: -5rem;
-  left: -15%;
-  width: 3rem;
-  height: 3rem;
-  border-radius: 50%;
-  background-color: #ffc247;
-  animation: wave-animate 5s 2s infinite alternate;
+  content: "";
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(213,217,218);
+  background: linear-gradient(
+                            45deg, 
+                            rgba(213,217,218,1) 10%, 
+                            rgba(215,111,56,1) 20%, 
+                            rgba(213,217,218,1) 30%,
+
+                            rgba(213,217,218,1) 40%, 
+                            rgba(215,111,56,1) 50%, 
+                            rgba(213,217,218,1) 60%,
+
+                            rgba(213,217,218,1) 70%, 
+                            rgba(215,111,56,1) 80%, 
+                            rgba(213,217,218,1) 90%
+                            );
 }
 
-@keyframes wave-animate {
+/* @keyframes wave-animate {
   0% {
     transform: scale(0);
     opacity: 1;
@@ -70,9 +96,9 @@ body{
     opacity: 0.5;
     transform-origin: center;
   }
-}
+} */
 
-.textureLayer{
+/* .textureLayer{
   position: absolute;
   z-index: 4;
   top: 0;
@@ -83,7 +109,7 @@ body{
   background-repeat: repeat;
   background-size: 4rem;
   background-attachment: fixed;
-}
+} */
 
 .content-wrapper {
   position: relative;
