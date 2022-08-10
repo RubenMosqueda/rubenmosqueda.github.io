@@ -15,15 +15,14 @@ body{
   background-repeat: repeat;
   background-size: 4rem;
   background-attachment: fixed; */
-  position: relative;
-  background-color: #336b83;
-  background-image: url(../imagenes/PanalBackgroundWhite.png);
+
   font-family: Cavea, Arial, Helvetica, sans-serif;
   
 }
 
 .fondoTotal{
   position: fixed;
+  background-color: #336b83;
   width: 100%;
   height: 100vh;
 }
@@ -42,15 +41,14 @@ body{
 }
 
 .fondo{
-  position: absolute;
+  position: fixed;
   width: 100%;
   height: 100vh;
   background-image: url(../imagenes/PanalBackgroundWhite.png);
 }
 
 .contenido{
-  position: relative;
-  margin: 0rem auto;
+  margin: 1rem auto;
   max-width: 1000px;
   height: 2000px;
   border: solid 1px red;
@@ -58,6 +56,20 @@ body{
   display: grid;
   grid-row-gap: 0;
   grid-template-columns: auto;
+
+  background: rgba( 255, 255, 255, 0.25 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  backdrop-filter: blur( 4px );
+  border-radius: 10px;
+  border: 1px solid rgba( 255, 255, 255, 0.18 );
+}
+
+.hueco{
+  width: 300px;
+  height: 300px;
+  margin: 5rem auto;
+  border: solid 1px red;
+  background: inherit transparent;
 }
 
 @keyframes lightAnimation {
