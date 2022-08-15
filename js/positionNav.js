@@ -11,7 +11,7 @@ function fixedBehavior(){
   }
 
   if(windowWidth > 1000){
-    var rightPosition = (windowWidth-1000)/2 - 9;
+    var rightPosition = (windowWidth-1000)/2;
     navbar.style.right = rightPosition + "px";
   }
 
