@@ -135,6 +135,7 @@ body{
   z-index: 3;
   margin: 0 auto;
   max-width: 1000px;
+  height: 2000px;
   
   background: var(--glass_background);
   box-shadow: var(--glass_box_shadow);
@@ -143,10 +144,12 @@ body{
   border: var(--glass_border);
 }
 
+/*Nav Menu*/
+
 nav{
   position: fixed;
-  top:0;
   right: 0;
+  top:0;
   width: 1.5rem;
   padding: 1.5rem 0.75rem;
   border-radius: 10px 0 0 10px;
@@ -205,6 +208,12 @@ nav ul li:hover .correo::before{
 
 nav ul li .activo{
   color: var(--color_nav_icon_active);
+}
+
+@media (min-width: 1000px) {
+  /* nav{
+    right: 10%;
+  }; */
 }
 
 .canvaAnimated{
