@@ -317,7 +317,7 @@ nav ul li .activo{
   align-self: center;
   margin: 0 auto;
   align-self: end;
-  background-image: url("/imagenes/Run.png");
+  background-image: url("/imagenes/Sprites/Run.png");
   background-size: 1280px;
   height: 96px;
   width: 160px;
@@ -357,7 +357,7 @@ nav ul li .activo{
   align-self: center;
   margin: 0 auto;
   align-self: end;
-  background-image: url("/imagenes/Run.png");
+  background-image: url("/imagenes/Sprites/Run.png");
   background-size: 1280px;
   height: 96px;
   width: 160px;
@@ -397,7 +397,7 @@ nav ul li .activo{
   align-self: center;
   margin: 0 auto;
   align-self: end;
-  background-image: url("/imagenes/Run.png");
+  background-image: url("/imagenes/Sprites/Run.png");
   background-size: 1280px;
   height: 96px;
   width: 160px;
@@ -436,7 +436,7 @@ nav ul li .activo{
   align-self: center;
   margin: 0 auto;
   align-self: end;
-  background-image: url("/imagenes/Run.png");
+  background-image: url("/imagenes/Sprites/Run.png");
   background-size: 427px;
   height: 31px;
   width: 53px;
