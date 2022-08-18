@@ -36,6 +36,14 @@
   --color_tabBackground: #272729;
   --color_tabShadow: -3px 3px 0px 3px #8FE0F5;
   --border_tab: 10px 0 0 10px;
+
+  /*Barras de progreso*/
+  --color_porcentajeBarra: #272729;
+  --color_porcentajeProgreso: var(--color_extra_3);
+  --boxShadow_porcentajeBarra: 2px 2px 5px 0px #D76F38;
+  --boxShadow_porcentajeProgreso:2px 0px 1px 0px #D76F38;
+  --boxShadow_habilidadesP: 0px 0px 4px 3px #D76F38;
+  --background_habilidadesP: #272729;
   
   /*Misc*/
   --border_radius: 10px;
@@ -361,11 +369,117 @@ nav ul li .activo{
   }
 }
 
-/*
-@media (min-width: 720px) {
+/*Habilidades*/
 
+.habilidades{
+  position: relative;
+  margin: 0 3rem 0 2rem;
 }
 
-@media (min-width: 1000px) {
+.software_tecnologia{
+  margin: 1rem 0 0 2rem;
+}
 
-}  */
+.software_tecnologia h2{
+  margin-bottom: 1.5rem;
+  color: var(--color_texto);
+  text-align: center;
+}
+
+.software_tecnologia h3{
+  color: var(--color_texto);
+  margin-bottom: 0.5rem;
+}
+
+.elemento_tec{
+  display: grid;
+  grid-template-columns: 15% 85%;
+  align-items: center;
+}
+
+.elemento_tec img{
+  width: 25px;
+  height: auto;
+  margin: 0.5rem;
+}
+
+.elemento{
+  padding: 0.5rem;
+}
+
+.barra_de_porcentaje{
+  width: 100%;
+  height: 20px;
+  background-color: var(--color_porcentajeBarra);
+  border-radius: 15px;
+  box-shadow: var(--boxShadow_porcentajeBarra);
+}
+
+.progreso{
+  height: 100%;
+  border-radius: 15px;
+  background-color: var(--color_porcentajeProgreso);
+  box-shadow: var(--boxShadow_porcentajeProgreso);
+}
+
+.p1{width: 85%;}/*HTML*/
+.p2{width: 85%;}/*CSS*/
+.p3{width: 60%;}/*JavaScript*/
+.p4{width: 60%;}/*Git*/
+.p5{width: 60%;}/*GitHub*/
+.p6{width: 80%;}/*Atom*/
+.p7{width: 75%;}/*Wordpress*/
+.p8{width: 85%;}/*SEO*/
+.p9{width: 85%;}/*Copywriting*/
+.p10{width: 85%;}/*UI/UX*/
+.p11{width: 85%;}/*Responsive*/
+.p12{width: 60%;}/*Adobe XD*/
+.p13{width: 60%;}/*Photoshop*/
+
+.profesionales{
+  margin: 1.5rem 0;
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  align-items: center;
+  color: var(--color_texto);
+}
+
+.profesionales h2{
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  text-align: center;
+  padding: 1rem 1.5rem;
+  margin: 0;
+  color: var(--color_texto);
+  border-radius: 5px;
+  box-shadow: var(--boxShadow_habilidadesP);
+  background-color: var(--background_habilidadesP);
+}
+
+.profesionales p{
+  margin: 1.5rem 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media (min-width: 700px){
+
+  .software_tecnologia{
+    margin: 0 2rem;;
+  }
+
+  .profesionales h2{
+    writing-mode: horizontal-tb;
+    transform: rotate(0deg);
+    padding: 1rem 1.5rem;
+    align-self: center;
+  }
+}
+
+@media (min-width: 850px){
+  .software_tecnologia{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+  }
+}
