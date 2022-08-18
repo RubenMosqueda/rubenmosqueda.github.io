@@ -31,8 +31,15 @@
   --light_background: linear-gradient(70deg, transparent 40%, #336b83 50%, transparent 70%);
   --background_image_url: url(../imagenes/texture_2.png);
 
+  /*Tab*/
+  --color_tabText: #D76F38;
+  --color_tabBackground: #272729;
+  --color_tabShadow: -3px 3px 0px 3px #8FE0F5;
+  --border_tab: 10px 0 0 10px;
+  
   /*Misc*/
   --border_radius: 10px;
+  --color_viñeta: #D76F38;
 }
 
 body{
@@ -171,14 +178,14 @@ nav ul li .activo{
   grid-row-gap: 3rem;
   grid-template-columns: auto;
   z-index: 4;
-  margin: 1rem;
+  margin: 1rem 0;
 }
 
 /* Presentacion */
 
 .presentacion{
-  margin: 2rem 3rem 0 3rem;
   text-align: center;
+  margin: 1rem 3.5rem 0rem 2rem;
 }
 
 .presentacion_1 .imagen_perfil{
@@ -241,8 +248,6 @@ nav ul li .activo{
     gap: 2rem;
   }
 
-
-
   .presentacion_1 i{
     font-size: 1.5rem;
   }
@@ -252,70 +257,115 @@ nav ul li .activo{
   }
 }
 
-/* @media (min-width: 520px) {
-  .nombre h1{
-    font-size: 1.75rem;
+/*Tab y viñeta*/
+
+.viñeta{
+  width: 70%;
+  margin: auto;
+  border: 1px solid var(--color_viñeta);
+  background-color: var(--color_viñeta);
+}
+
+.tab{
+  position: absolute;
+  top: 1rem;
+  left: -2rem;
+  padding: 0.75rem;
+  font-size: 1rem;
+  text-align: center;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  color: var(--color_tabText);
+  border-radius: var(--border_tab);
+  box-shadow: var(--color_tabShadow);
+  background-color: var(--color_tabBackground);
+}
+
+@media (min-width: 700px) {
+  .viñeta{
+    display: none;
   }
-  
-  .nombre h2{
-    font-size: 1rem;
+
+  .tab{
+    position: static;
+    width: 90%;
+    margin-bottom: 2rem;
+    margin-left: -2.1rem;
+    font-size: 1.5rem;
+    writing-mode: horizontal-tb ;
+    transform: rotate(0);
+    border-radius: 0 8px 8px 0px;
+    box-shadow: 4px 0px 0px 3px var(--color_extra_3);
   }
 }
 
+/*Formacion Academica*/
+
+.formacion{
+  position: relative;
+  margin: 0rem 3.5rem 0rem 2rem;
+  text-align: left;
+}
+
+.carrera, .cursos{
+  margin-left: 2rem;
+}
+
+.formacion a{
+  text-decoration: none;
+  color: var(--color_primario);
+}
+
+.carrera .curso{
+  color: var(--color_titulos);
+}
+
+.curso{
+  margin-top: 1.15rem;
+  font-weight: bold;
+  font-size: 1rem;
+  color: var(--color_texto);
+}
+
+.fecha_del_curso{
+  margin-top:0.25rem;
+  margin-left: 1rem;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+@media (min-width: 700px) {
+  .formacion{
+    text-align: center;
+  }
+
+  .carrera .curso{
+    font-size: 1.5rem;
+  }
+
+  .carrera .fecha_del_curso{
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 850px){
+  .formacion{
+    text-align: left;
+  }
+
+  .cursos{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 1rem;
+    column-gap: 2rem;
+  }
+}
+
+/*
 @media (min-width: 720px) {
-  .presentacion{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-  }
 
-  .nombre{
-    align-self: center;
-  }
-
-  .contenido_presentacion{
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-  }
-
-  .imagen_perfil{
-    width: 30%;
-  }
-
-  .sobre_mi{
-    width: 70%;
-    margin-right: 1rem;
-  }
-
-  .sobre_mi h1{
-    margin: 1rem 0;
-  }
-
-  .sobre_mi p{
-    text-align: right;
-  }
 }
 
 @media (min-width: 1000px) {
-  .nombre{
-    align-self: flex-start;
-  }
 
-  .nombre h1{
-    font-size: 2rem;
-  }
-  
-  .nombre h2{
-    font-size: 1rem;
-  }
-
-  .sobre_mi h1{
-    margin: 1rem 2rem;
-  }
-
-  .sobre_mi p{
-    margin: 1rem 2rem;
-    
-  }
 }  */
