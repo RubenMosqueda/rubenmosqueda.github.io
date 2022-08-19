@@ -209,12 +209,6 @@ nav ul li .activo{
   color: var(--color_nav_icon_active);
 }
 
-@media (min-width: 1000px) {
-  /* nav{
-    right: 10%;
-  }; */
-}
-
 .canvaAnimated{
   position: relative;
   border: var(--canva_border);
