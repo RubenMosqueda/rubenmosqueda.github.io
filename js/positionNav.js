@@ -4,6 +4,8 @@ window.addEventListener('resize', fixedBehavior);
 function fixedBehavior(){
 
   const windowWidth = window.innerWidth;
+  const contenidoWidth  = document.documentElement.scrollWidth;
+
   const navbar = document.getElementById("navbar");
 
   if (windowWidth < 1000){
@@ -11,8 +13,16 @@ function fixedBehavior(){
   }
 
   if(windowWidth > 1000){
-    var rightPosition = (windowWidth-1000)/2;
-    navbar.style.right = rightPosition + "px";
+
+    if(contenidoWidth<windowWidth){
+      var rightPosition = ((windowWidth-1000)/2) - 9;
+      navbar.style.right = rightPosition + "px";
+    }
+    else{
+      var rightPosition = (windowWidth-1000)/2;
+      navbar.style.right = rightPosition + "px";
+    }
+    
   }
 
 }
