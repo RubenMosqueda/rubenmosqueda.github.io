@@ -361,6 +361,14 @@ nav ul li .activo{
     text-align: left;
   }
 
+  .carrera{
+    text-align: center;
+  }
+
+  .carrera .fecha_del_curso{
+    margin-left: 0;
+  }
+
   .cursos{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -482,4 +490,29 @@ nav ul li .activo{
     grid-template-columns: 1fr 1fr;
     column-gap: 3rem;
   }
+}
+
+/*Hobbies*/
+
+.hobbies{
+  position: relative;
+  margin: 0 3rem 0 2rem;
+}
+
+.hobies_iconos{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 1.5rem;
+  margin: 1rem 0 0 2rem;
+}
+
+.hobbie_elemento img{
+  width: 50px;
+  height: auto;
+  margin-bottom: 0.75rem;
+}
+
+.hobbie_elemento{
+  text-align: center;
+  font-weight: bold;
 }
