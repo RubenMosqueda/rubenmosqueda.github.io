@@ -13,34 +13,47 @@
   <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
   <!--Iconos de font awsome-->
   <script src="https://kit.fontawesome.com/9fa61f2471.js" crossorigin="anonymous"></script>
-  <title>Galeria RMB</title>
+
+  <title>Home RMB</title>
 
 </head>
 
 <body>
+
+  <div class="backgroundGradientLayer">
+    <div class="textureLayer"></div>
+  </div>
+  
+  <nav id="navbar">
+    <ul>
+      <li> <a href="../index.html" class="link home"> <i class="fa-solid fa-house-chimney activo"></i> </a> </li>
+      <li> <a href="../pages/galeria.html" class="link galeria"> <i class="fa-regular fa-images"></i> </a> </li>
+      <li> <a href="../pages/sobre_mi.html" class="link background"> <i class="fa-solid fa-address-card"></i> </a> </li>
+      <li> <a href="mailto:mosquedabruben@gmail.com?Subject=Me%20gustaría%20trabajar%20contigo"> <i class="fa-regular fa-envelope"></i> </a> </li>
+    </ul>
+  </nav>
+
   <div class="content-wrapper">
 
-    <nav>
-      <ul>
-        <li> <a href="../index.html" class="link home"> <i class="fa-solid fa-house-chimney"></i> </a> </li>
-        <li> <a href="galeria.html" class="link galeria"> <i class="fa-regular fa-images activo"></i> </a> </li>
-        <li> <a href="sobre_mi.html" class="link background"> <i class="fa-solid fa-address-card"></i> </a> </li>
-        <li> <a href="contacto.html" class="link correo"> <i class="fa-regular fa-envelope"></i> </a> </li>
-      </ul>
-    </nav>
+    <div class="content">
 
-    <div class="top_bar">
-      <p>ponga una animacion aqui</p>
+      <div class="canvaAnimated canva4">
+        <div class="animatedContainer">
+          <div class="rearShadow"></div>
+          <div class="frontShadow"></div>
+          <div class="characterContainer">
+            <div class="character"></div>
+          </div>
+        </div>
+        <div class="canvaBackground"></div>
+      </div>
+
     </div>
-
-    <h1>ESTA ES LA GALERIA ALGUN DIA DIGO :v</h1>
-
-    <footer>
-      <p>ponga una animacion aqui</p>
-    </footer>
 
   </div>
 
 </body>
+
+<script src="../js/positionNav.js"></script>
 
 </html>
