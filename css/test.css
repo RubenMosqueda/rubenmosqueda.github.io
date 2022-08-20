@@ -31,20 +31,6 @@
   --light_background: linear-gradient(70deg, transparent 40%, #336b83 50%, transparent 70%);
   --background_image_url: url(../imagenes/texture_2.png);
 
-  /*Tab*/
-  --color_tabText: #D76F38;
-  --color_tabBackground: #272729;
-  --color_tabShadow: -3px 3px 0px 3px #8FE0F5;
-  --border_tab: 10px 0 0 10px;
-
-  /*Barras de progreso*/
-  --color_porcentajeBarra: #272729;
-  --color_porcentajeProgreso: var(--color_extra_3);
-  --boxShadow_porcentajeBarra: 2px 2px 5px 0px #D76F38;
-  --boxShadow_porcentajeProgreso:2px 0px 1px 0px #D76F38;
-  --boxShadow_habilidadesP: 0px 0px 4px 3px #D76F38;
-  --background_habilidadesP: #272729;
-
   /*Canva animated*/
   --canva_border: 1px solid rgba(255, 255, 255, 0.5);
 
@@ -145,6 +131,7 @@ body{
   z-index: 3;
   margin: 0 auto;
   max-width: 1000px;
+  height: 95vh;
   
   background: var(--glass_background);
   box-shadow: var(--glass_box_shadow);
@@ -227,334 +214,6 @@ nav ul li .activo{
   margin: 1rem 0;
 }
 
-/* Presentacion */
-
-.presentacion{
-  text-align: center;
-  margin: 1rem 3.5rem 0rem 2rem;
-}
-
-.presentacion_1 .imagen_perfil{
-  width: 65%;
-  height: auto;
-  margin: 1rem 0;
-  border: solid var(--image_profile_border) 4px;
-  border-radius: 50%;
-}
-
-.presentacion_1 h1{
-  color: var(--color_texto);
-  margin-bottom: 0.5rem;
-  font-size: 1.25rem;
-  font-weight: bold;
-}
-
-.presentacion_1 h2{
-  color: var(--color_titulos);
-  color: var(--color_titulos);
-  font-size: 0.8rem;
-}
-
-.presentacion_1 ul{
-  margin-top: 1.5rem;
-  padding: 0;
-  list-style-type: none;
-}
-
-.presentacion_1 li {
-  display: inline;
-  margin: 0 0.75rem;
-}
-
-.presentacion_1 i{
-  font-size: 2rem;
-}
-
-.presentacion_1 a{
-  text-decoration: none;
-  color: var(--color_texto);
-}
-
-.presentacion_1 a:hover{
-  color: var(--color_icons_hover);
-}
-
-.presentacion_2 p{
-  color: var(--color_texto);
-  margin: 1rem 0;
-  text-align: center;
-  line-height: 1.4rem;
-}
-
-@media (min-width: 700px) {
-  .presentacion{
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-    gap: 2rem;
-  }
-
-  .presentacion_1 i{
-    font-size: 1.5rem;
-  }
-
-  .presentacion_2 p{
-    text-align: right;
-  }
-}
-
-/*Tab y viñeta*/
-
-.viñeta{
-  width: 70%;
-  margin: auto;
-  border: 1px solid var(--color_viñeta);
-  background-color: var(--color_viñeta);
-}
-
-.tab{
-  position: absolute;
-  top: 1rem;
-  left: -2rem;
-  padding: 0.75rem;
-  font-size: 1rem;
-  text-align: center;
-  writing-mode: vertical-lr;
-  transform: rotate(180deg);
-  color: var(--color_tabText);
-  border-radius: var(--border_tab);
-  box-shadow: var(--color_tabShadow);
-  background-color: var(--color_tabBackground);
-}
-
-@media (min-width: 700px) {
-  .viñeta{
-    display: none;
-  }
-
-  .tab{
-    position: static;
-    width: 90%;
-    margin-bottom: 2rem;
-    margin-left: -2.1rem;
-    font-size: 1.5rem;
-    writing-mode: horizontal-tb ;
-    transform: rotate(0);
-    border-radius: 0 8px 8px 0px;
-    box-shadow: 4px 0px 0px 3px var(--color_extra_3);
-  }
-}
-
-/*Formacion Academica*/
-
-.formacion{
-  position: relative;
-  margin: 0rem 3.5rem 0rem 2rem;
-  text-align: left;
-}
-
-.carrera, .cursos{
-  margin-left: 2rem;
-}
-
-.formacion a{
-  text-decoration: none;
-  color: var(--color_primario);
-}
-
-.carrera .curso{
-  color: var(--color_titulos);
-}
-
-.curso{
-  margin-top: 1.15rem;
-  font-weight: bold;
-  font-size: 1rem;
-  color: var(--color_texto);
-}
-
-.fecha_del_curso{
-  margin-top:0.25rem;
-  margin-left: 1rem;
-  font-size: 0.9rem;
-  font-weight: bold;
-}
-
-@media (min-width: 700px) {
-  .formacion{
-    text-align: center;
-  }
-
-  .carrera .curso{
-    font-size: 1.5rem;
-  }
-
-  .carrera .fecha_del_curso{
-    font-size: 1.2rem;
-  }
-}
-
-@media (min-width: 850px){
-  .formacion{
-    text-align: left;
-  }
-
-  .carrera{
-    text-align: center;
-  }
-
-  .carrera .fecha_del_curso{
-    margin-left: 0;
-  }
-
-  .cursos{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin-top: 1rem;
-    column-gap: 2rem;
-  }
-}
-
-/*Habilidades*/
-
-.habilidades{
-  position: relative;
-  margin: 0 3rem 0 2rem;
-}
-
-.software_tecnologia{
-  margin: 1rem 0 0 2rem;
-}
-
-.software_tecnologia h2{
-  margin-bottom: 1.5rem;
-  color: var(--color_texto);
-  text-align: center;
-}
-
-.software_tecnologia h3{
-  color: var(--color_texto);
-  margin-bottom: 0.5rem;
-}
-
-.elemento_tec{
-  display: grid;
-  grid-template-columns: 15% 85%;
-  align-items: center;
-}
-
-.elemento_tec img{
-  width: 25px;
-  height: auto;
-  margin: 0.5rem;
-}
-
-.elemento{
-  padding: 0.5rem;
-}
-
-.barra_de_porcentaje{
-  width: 100%;
-  height: 20px;
-  background-color: var(--color_porcentajeBarra);
-  border-radius: 15px;
-  box-shadow: var(--boxShadow_porcentajeBarra);
-}
-
-.progreso{
-  height: 100%;
-  border-radius: 15px;
-  background-color: var(--color_porcentajeProgreso);
-  box-shadow: var(--boxShadow_porcentajeProgreso);
-}
-
-.p1{width: 85%;}/*HTML*/
-.p2{width: 85%;}/*CSS*/
-.p3{width: 60%;}/*JavaScript*/
-.p4{width: 60%;}/*Git*/
-.p5{width: 60%;}/*GitHub*/
-.p6{width: 80%;}/*Atom*/
-.p7{width: 75%;}/*Wordpress*/
-.p8{width: 85%;}/*SEO*/
-.p9{width: 85%;}/*Copywriting*/
-.p10{width: 85%;}/*UI/UX*/
-.p11{width: 85%;}/*Responsive*/
-.p12{width: 60%;}/*Adobe XD*/
-.p13{width: 60%;}/*Photoshop*/
-
-.profesionales{
-  margin: 1.5rem 0;
-  display: grid;
-  grid-template-columns: 2fr 1fr 2fr;
-  align-items: center;
-  color: var(--color_texto);
-}
-
-.profesionales h2{
-  writing-mode: vertical-lr;
-  transform: rotate(180deg);
-  text-align: center;
-  padding: 1rem 1.5rem;
-  margin: 0;
-  color: var(--color_texto);
-  border-radius: 5px;
-  box-shadow: var(--boxShadow_habilidadesP);
-  background-color: var(--background_habilidadesP);
-}
-
-.profesionales p{
-  margin: 1.5rem 0;
-  font-weight: bold;
-  text-align: center;
-}
-
-@media (min-width: 700px){
-
-  .software_tecnologia{
-    margin: 0 2rem;;
-  }
-
-  .profesionales h2{
-    writing-mode: horizontal-tb;
-    transform: rotate(0deg);
-    padding: 1rem 1.5rem;
-    align-self: center;
-  }
-}
-
-@media (min-width: 850px){
-  .software_tecnologia{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    column-gap: 3rem;
-  }
-}
-
-/*Hobbies*/
-
-.hobbies{
-  position: relative;
-  margin: 0 3rem 0 2rem;
-}
-
-.hobies_iconos{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-row-gap: 1.5rem;
-  margin: 1rem 0 0 2rem;
-}
-
-.hobbie_elemento img{
-  width: 50px;
-  height: auto;
-  margin-bottom: 0.75rem;
-}
-
-.hobbie_elemento{
-  text-align: center;
-  font-weight: bold;
-}
-
 /*Footer Animacion*/
 
 .canvaAnimated{
@@ -624,15 +283,18 @@ nav ul li .activo{
   0%{
     background-position: left;
   }
+  50% {
+    transform: scaleX(-1);
+  }
   100%{
     background-position: right;
   }
 }
 
 .canva4{
-  width: 95%;
-  height: 30px;
-  margin: 0 auto;
+  width: 70%;
+  height: 300px;
+  margin: 15rem auto;
   background-color: var(--canva_background_color4);
 }
 
@@ -657,11 +319,12 @@ nav ul li .activo{
 .canva4 .character{
   align-self: center;
   margin: 0 auto;
+  z-index: 5;
   align-self: end;
   background-image: url("/imagenes/Sprites/Run.png");
-  background-size: 427px;
-  height: 31px;
-  width: 53px;
+  background-size: 2560px;
+  height: 192px;
+  width: 320px;
   animation-name: caminar;
   animation-duration: 1s;
   animation-iteration-count: infinite;
