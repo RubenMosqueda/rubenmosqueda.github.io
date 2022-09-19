@@ -212,7 +212,7 @@ nav ul li:hover .background::before{
 }
 
 nav ul li:hover .correo::before{
-  content: "CONTACTO";
+  content: "CONTACTAME";
 }
 
 nav ul li .activo{

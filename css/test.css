@@ -230,7 +230,7 @@ nav ul li .activo{
   top: 0;
   left: -100%;
   animation-name: moveContainer;
-  animation-direction: alternate;
+  /* animation-direction: alternate; */
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
@@ -239,10 +239,27 @@ nav ul li .activo{
   0% {
     left: -100%;
   }
+  50% {
+    left: 100%;
+    transform: scaleX(1);
+  }
+  51%{
+    transform: scaleX(-1);
+  }
+  100%{
+  left: -100%;
+  transform: scaleX(-1);
+  }
+}
+
+/* @keyframes moveContainer {
+  0% {
+    left: -100%;
+  }
   100% {
     left: 100%;
   }
-}
+} */
 
 .rearShadow{
   position: absolute;
@@ -255,7 +272,7 @@ nav ul li .activo{
 
 .canvaBackground{
   position: absolute;
-  z-index: 2;
+  z-index: 1;
   width: 100%;
   height: 100%;
 }
@@ -283,14 +300,11 @@ nav ul li .activo{
   0%{
     background-position: left;
   }
-  50% {
-    transform: scaleX(-1);
-  }
   100%{
     background-position: right;
   }
 }
-
+  
 .canva4{
   width: 70%;
   height: 300px;
