@@ -48,9 +48,9 @@
   --front_shadow3: radial-gradient(circle, #d770388a 10%, transparent 40%);
   --front_shadow4: radial-gradient(circle, #b985698a 5%, transparent 40%);
 
-  --animation_duration1: 10s; 
-  --animation_duration2: 10s; 
-  --animation_duration3: 10s; 
+  --animation_duration1: 5s; 
+  --animation_duration2: 5s; 
+  --animation_duration3: 5s; 
   --animation_duration4: 20s; 
 
   --canva_image_url1: url(../imagenes/texture_5.png);
@@ -223,7 +223,6 @@ nav ul li .activo{
   top: 0;
   left: -100%;
   animation-name: moveContainer;
-  animation-direction: alternate;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
 }
