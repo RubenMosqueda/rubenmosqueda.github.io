@@ -48,24 +48,24 @@
   /*Canva animated*/
   --canva_border: 1px solid rgba(255, 255, 255, 0.5);
 
-  --rear_shadow1: radial-gradient(circle, rgb(255, 248, 44) 10%, transparent 60%);
-  --rear_shadow2: radial-gradient(circle, rgb(255, 255, 0) 10%, transparent 60%);
-  --rear_shadow3: radial-gradient(circle, rgb(255, 255, 0) 10%, transparent 60%);
-  --rear_shadow4: radial-gradient(circle, #336b83 10%, transparent 60%);
+  --rear_shadow1: linear-gradient(135deg, transparent 30%, #8FE0F5 50%, transparent 80%);
+  --rear_shadow2: linear-gradient(45deg, transparent 30%, #8FE0F5 50%, transparent 80%);
+  --rear_shadow3: linear-gradient(90deg, transparent 10%, #8FE0F5 50%, transparent 90%);
+  --rear_shadow4: radial-gradient(circle, #8FE0F5 10%, transparent 25%);
 
-  --front_shadow1: radial-gradient(circle, #FF60F48a 10%, transparent 40%);
-  --front_shadow2: radial-gradient(circle, #d770388a 10%, transparent 40%);
-  --front_shadow3: radial-gradient(circle, #d770388a 10%, transparent 40%);
-  --front_shadow4: radial-gradient(circle, #b985698a 5%, transparent 40%);
+  /* --front_shadow1: radial-gradient(circle, #c97216ad 10%, transparent 50%);
+  --front_shadow2: radial-gradient(circle, #c97216ad 10%, transparent 50%);
+  --front_shadow3: radial-gradient(circle, #c97216ad 10%, transparent 50%);*/
+  --front_shadow4: radial-gradient(circle, #b985698a 2%, transparent 10%);
 
   --animation_duration1: 10s; 
   --animation_duration2: 10s; 
   --animation_duration3: 10s; 
-  --animation_duration4: 40s; 
+  --animation_duration4: 30s; 
 
-  --canva_image_url1: url(../imagenes/texture_5.png);
+  /* --canva_image_url1: url(../imagenes/texture_5.png);
   --canva_image_url2: url(../imagenes/texture_3.png);
-  --canva_image_url3: url(../imagenes/texture_1.png);
+  --canva_image_url3: url(../imagenes/texture_1.png); */
   --canva_image_url4: url(../imagenes/texture_2.png);
 
   --canva_background_color1: #373737;
@@ -73,9 +73,9 @@
   --canva_background_color3: #373737;
   --canva_background_color4: #373737;
 
-  --canva_texture_size1: 2rem;
-  --canva_texture_size2: 2rem;
-  --canva_texture_size3: 2.5rem;
+  /* --canva_texture_size1: 3.5rem;
+  --canva_texture_size2: 3.5rem;
+  --canva_texture_size3: 3.5rem; */
   --canva_texture_size4: 2.5rem;
 
   --canva_box_shadow1:  inset 0px -4px 10px 0 rgb(155, 155, 155);
