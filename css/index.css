@@ -38,34 +38,34 @@
   /*Canva animated*/
   --canva_border: 1px solid rgba(255, 255, 255, 0.5);
 
-  --rear_shadow1: radial-gradient(circle, rgb(255, 248, 44) 10%, transparent 60%);
+  --rear_shadow1: radial-gradient(circle, rgb(255, 248, 44) 5%, transparent 70%);
   --rear_shadow2: radial-gradient(circle, rgb(255, 255, 0) 10%, transparent 60%);
   --rear_shadow3: radial-gradient(circle, rgb(255, 255, 0) 10%, transparent 60%);
   --rear_shadow4: radial-gradient(circle, #336b83 10%, transparent 60%);
 
-  --front_shadow1: radial-gradient(circle, #FF60F48a 10%, transparent 40%);
+  /* --front_shadow1: radial-gradient(circle, #FF60F48a 10%, transparent 40%);
   --front_shadow2: radial-gradient(circle, #d770388a 10%, transparent 40%);
   --front_shadow3: radial-gradient(circle, #d770388a 10%, transparent 40%);
-  --front_shadow4: radial-gradient(circle, #b985698a 5%, transparent 40%);
+  --front_shadow4: radial-gradient(circle, #b985698a 5%, transparent 40%); */
 
   --animation_duration1: 5s; 
   --animation_duration2: 5s; 
   --animation_duration3: 5s; 
-  --animation_duration4: 20s; 
+  --animation_duration4: 40s; 
 
-  --canva_image_url1: url(../imagenes/texture_5.png);
-  --canva_image_url2: url(../imagenes/texture_3.png);
-  --canva_image_url3: url(../imagenes/texture_1.png);
-  --canva_image_url4: url(../imagenes/texture_2.png);
+  /* --canva_image_url1: url(../imagenes/texture_2.png);
+  --canva_image_url2: url(../imagenes/texture_2.png);
+  --canva_image_url3: url(../imagenes/texture_2.png);
+  --canva_image_url4: url(../imagenes/texture_2.png); */
 
   --canva_background_color1: #373737;
   --canva_background_color2: #373737;
   --canva_background_color3: #373737;
   --canva_background_color4: #373737;
 
-  --canva_texture_size1: 2rem;
-  --canva_texture_size2: 2rem;
-  --canva_texture_size3: 2.5rem;
+  --canva_texture_size1: 3.5rem;
+  --canva_texture_size2: 3.5rem;
+  --canva_texture_size3: 3.5rem;
   --canva_texture_size4: 2.5rem;
 
   --canva_box_shadow1:  inset 0px -4px 10px 0 rgb(155, 155, 155);
@@ -282,14 +282,15 @@ nav ul li .activo{
 
 .canva1{
   display: none;
-  width: 70%;
-  height: 100px;
+  width: 50%;
+  height: 150px;
   margin: 0.5rem auto;
   background-color: var(--canva_background_color1);
 }
 
 .canva1 .animatedContainer{
-  animation-duration: var(--animation_duration1);
+  left: 0%;
+  animation-iteration-count: none;
 }
 
 .canva1 .animatedContainer .rearShadow{
@@ -310,26 +311,28 @@ nav ul li .activo{
   align-self: center;
   margin: 0 auto;
   align-self: end;
-  background-image: url("/imagenes/Sprites/Run.png");
-  background-size: 1280px;
-  height: 96px;
-  width: 160px;
+  background-image: url("/imagenes/Sprites/SpriteCustomWork.png");
+  background-size: 770px;
+  height: 130px;
+  width: 130px;
   animation-name: caminar;
   animation-duration: 1s;
   animation-iteration-count: infinite;
-  animation-timing-function: steps(7);
+  animation-direction: alternate;
+  animation-timing-function: steps(5);
 }
 
 .canva2{
   display: none;
-  width: 100%;
+  width: 70%;
   height: 150px;
-  margin: 0;
+  margin: 0 auto;
   background-color: var(--canva_background_color2);
 }
 
 .canva2 .animatedContainer{
-  animation-duration: var(--animation_duration2);
+  left: 0%;
+  animation-iteration-count: none;
 }
 
 .canva2 .animatedContainer .rearShadow{
@@ -350,26 +353,28 @@ nav ul li .activo{
   align-self: center;
   margin: 0 auto;
   align-self: end;
-  background-image: url("/imagenes/Sprites/Run.png");
-  background-size: 1280px;
-  height: 96px;
-  width: 160px;
+  background-image: url("/imagenes/Sprites/SpriteCustomWork2.png");
+  background-size: 770px;
+  height: 130px;
+  width: 130px;
   animation-name: caminar;
   animation-duration: 1s;
   animation-iteration-count: infinite;
-  animation-timing-function: steps(7);
+  animation-direction: alternate;
+  animation-timing-function: steps(5);
 }
 
 .canva3{
   display: none;
-  width: 70%;
-  height: 100px;
+  width: 50%;
+  height: 150px;
   margin: 0.5rem auto;
   background-color: var(--canva_background_color3);
 }
 
 .canva3 .animatedContainer{
-  animation-duration: var(--animation_duration3);
+  left: 0%;
+  animation-iteration-count: none;
 }
 
 .canva3 .animatedContainer .rearShadow{
@@ -390,14 +395,15 @@ nav ul li .activo{
   align-self: center;
   margin: 0 auto;
   align-self: end;
-  background-image: url("/imagenes/Sprites/Run.png");
-  background-size: 1280px;
-  height: 96px;
-  width: 160px;
+  background-image: url("/imagenes/Sprites/SpriteCustomInvoke.png");
+  background-size: 990px;
+  height: 130px;
+  width: 135px;
   animation-name: caminar;
   animation-duration: 1s;
   animation-iteration-count: infinite;
-  animation-timing-function: steps(7);
+  animation-direction: alternate;
+  animation-timing-function: steps(6);
 }
 
 .canva4{
@@ -429,14 +435,14 @@ nav ul li .activo{
   align-self: center;
   margin: 0 auto;
   align-self: end;
-  background-image: url("/imagenes/Sprites/Run.png");
-  background-size: 427px;
+  background-image: url("/imagenes/Sprites/SpriteCustomWalk.png");
+  background-size: 288px;
   height: 31px;
-  width: 53px;
+  width: 31px;
   animation-name: caminar;
   animation-duration: 1s;
   animation-iteration-count: infinite;
-  animation-timing-function: steps(7);
+  animation-timing-function: steps(8);
 }
 
 .content{
@@ -716,8 +722,8 @@ nav ul li .activo{
   }
 
   .canva2{
-    width: 70%;
-    height: 100px;
+    width: 50%;
+    height: 150px;
     margin: 0.5rem auto;
   }
 
