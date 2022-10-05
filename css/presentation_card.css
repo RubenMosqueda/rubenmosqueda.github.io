@@ -8,30 +8,27 @@
   --color_extra_2: #272729;
   --color_extra_3: #8FE0F5;
 
-  /*Text Format*/
-  --color_titulos: #D76F38;
-  --color_texto: #ffffff;
-  --image_profile_border: #D76F38;
-  --color_icons_hover: #8FE0F5;
-
-
-  /*Wrapper Glassmorphism*/
-  --glass_background: rgba(39, 39, 41, 0.3);
-  --glass_box_shadow: 0 0 32px 0 #d77038b9;
-  --glass_border: 2px solid #D76F38;
+  /*Colors*/
+  --title_Color: #D76F38;
+  --text_Color: #ffffff;
+  --background_Color: #D5D9DA;
+  --black_Glass_Color: rgba(39, 39, 41, 0.3);
+  --white_Glass_Color: rgba(255, 255, 255, 0.5);
   --blur_index: 5px;
-
-  --color_background: #cacacb;
-  --light_background: linear-gradient(70deg, transparent 40%, #336b83 50%, transparent 70%);
-  --background_image_url: url(../imagenes/texture_2.png);
-  
-  /*Misc*/
-  --border_radius: 10px;
-  --color_viñeta: #D76F38;
+  --border_Info: 2px solid #D76F38;
+  --border_Logo: 1px solid #D76F38;
+  --footer_Border_Orange_color: solid 4px #D76F38;
+  --footer_Border_Aqua_color: solid 4px #8FE0F5;
+  --box_Shadow_Orange_Color: 0 0 32px 0 #D76F38;
+  --footer_Box_Shadow_Orange_Color: 0 -5px 16px 0 #D76F38;
+  --footer_Box_Shadow_Aqua_Color:0 -5px 16px 0 0 #8FE0F5;
+  --hr_Orange_Color: #D76F38;
+  --hr_Aqua_Color: #8FE0F5;
 }
 
 body{
   font-family: Cavea, Arial, Helvetica, sans-serif;
+  background-color: var(--background_Color);
 }
 
 .content-wrapper {
@@ -39,21 +36,18 @@ body{
   display: grid;
   grid-row-gap: 0;
   grid-template-columns: auto;
-
   margin: 0 auto;
-  width: 100%;
+  max-width: 400px;
   height: 100vh;
-  
-  background-image: url(../imagenes/texture_2.png);
-  background-size: 7rem;
-
-  overflow: hidden;
+  box-shadow: var(--box_Shadow_Orange_Color);
 }
 
 .content{
   width: 100%;
   background-image: url(../imagenes/texture_1.png);
   background-size: 7rem;
+  margin: 0 auto;
+  overflow: hidden;
 }
 
 .information{
@@ -63,22 +57,19 @@ body{
 }
 
 .infoContainer{
-  width: 65%;
-  height: 32.5vh;
-  border: solid 1px red;
-  border-radius: 50%;
-  margin: 0 auto;
-
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  
-  background: var(--glass_background);
-  box-shadow: var(--glass_box_shadow);
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background: var(--black_Glass_Color);
+  box-shadow: var(--box_Shadow_Orange_Color);
   backdrop-filter: blur( var(--blur_index) );
   -webkit-backdrop-filter: blur( var(--blur_index) );
-  border: var(--glass_border);
+  border: var(--border_Info);
 }
 
 .infoName{
@@ -86,23 +77,23 @@ body{
 }
 
 .infoName h1{
-  color: var(--color_titulos);
+  color: var(--title_Color);
   font-size: 1.25rem;
   text-align: center;
   margin-bottom: 0.5rem;
 }
 
 .infoName h2{
-  color: var(--color_texto);
-  font-size: 0.6rem;
+  color: var(--text_Color);
+  font-size: 0.7rem;
   text-align: center;
   margin-top: 0.5rem;
 }
 
 .infoName hr{
   height: 1px;
-  background-color: #8FE0F5;
-  border-color: #8FE0F5;
+  background-color: var(--hr_Aqua_Color);
+  border-color: var(--hr_Aqua_Color);
 }
 
 .infoContact{
@@ -110,14 +101,14 @@ body{
 }
 
 .infoContact{
-  color: var(--color_texto);
+  color: var(--text_Color);
   text-align: left;
   font-size: 0.6rem;
 }
 
 .infoContact a{
   text-decoration: none;
-  color: var(--color_texto);
+  color: var(--text_Color);
 }
 
 .infoContact ul{
@@ -132,7 +123,7 @@ body{
 .infoContact ul li .fa-square-github{
   margin-right: 0.25rem;
   font-size: 1.2rem;
-  color: rgb(0, 213, 255);
+  color: #8FE0F5;
 }
 
 .infoContact ul li .fa-envelope{
@@ -143,7 +134,7 @@ body{
 .infoContact ul li .fa-phone{
   margin-right: 0.25rem;
   font-size: 1rem;
-  color: rgb(51, 255, 0);
+  color: #33ff00;
 }
 
 .infoContact ul li p{
@@ -153,7 +144,6 @@ body{
 .footer{
   position: relative;
   height: 50vh;
-  /* border-top: solid 1px red; */
 }
 
 .footer .logo{
@@ -162,25 +152,22 @@ body{
   transform: rotate(-45deg);
   width: 72px;
   height: 72px;
-  /* border: solid 1px #D76F38; */
 }
 
 .footer .logo .glassLogo{
-  background: rgba(255, 255, 255, 0.5);
-  box-shadow: var(--glass_box_shadow);
+  background: var(--white_Glass_Color);
+  box-shadow: var(--box_Shadow_Orange_Color);
   backdrop-filter: blur( var(--blur_index) );
   -webkit-backdrop-filter: blur( var(--blur_index) );
-  border: solid 1px #D76F38;
-
+  border: var(--border_Logo);
 }
 
 .footer .logo .glassDarkLogo{
-  background: var(--glass_background);
-  box-shadow: var(--glass_box_shadow);
+  background: var(--black_Glass_Color);
+  box-shadow: var(--box_Shadow_Orange_Color);
   backdrop-filter: blur( var(--blur_index) );
   -webkit-backdrop-filter: blur( var(--blur_index) );
-  border: solid 1px #D76F38;
-
+  border: var(--border_Logo);
 }
 
 .footer .logo .one{
@@ -189,21 +176,7 @@ body{
   top: -5px;
   width: 34px;
   height: 33px;
-  /* transform: rotate(-45deg); */
   border-radius: 0 100% 0 0;
-}
-
-.footer .logo .one div{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-  width: 100%;
-  height: 100%;
-  font-size: 1rem;
-  color: #D76F38;
-  transform: rotate(45deg);
-  margin: 3px -3px;
 }
 
 .footer .logo .two{
@@ -212,21 +185,7 @@ body{
   top: -4px;
   width: 34px;
   height: 33px;
-  /* transform: rotate(-45deg); */
   border-radius: 100% 0 0 0;
-}
-
-.footer .logo .two div{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  
-  width: 100%;
-  height: 100%;
-  font-size: 1rem;
-  color: #D76F38;
-  transform: rotate(45deg);
-  margin: 3px 3px;
 }
 
 .footer .logo .three{
@@ -237,7 +196,7 @@ body{
   border-radius: 0 0 70px 70px;
 }
 
-.footer .logo .three div{
+.footer .logo .logoText{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -245,14 +204,22 @@ body{
   width: 100%;
   height: 100%;
   font-size: 1rem;
-  color: #D76F38;
+  color: var(--text_Color);
   transform: rotate(45deg);
   margin: 0 auto;
 }
 
+.footer .logo .one div{
+  margin: 3px -3px;
+}
+
+.footer .logo .two div{
+  margin: 3px 3px;
+}
+
 .footer .glass{
   position: absolute;
-  background: rgba(255, 255, 255, 0.5);
+  background: var(--white_Glass_Color);
   backdrop-filter: blur( var(--blur_index) );
   -webkit-backdrop-filter: blur( var(--blur_index) );
 }
@@ -264,8 +231,8 @@ body{
   width: 180%;
   height: 50vh;
   transform: rotate(45deg);
-  box-shadow: 0 -5px 16px 0 #d77038b9;
-  border-top: solid 4px #D76F38;
+  box-shadow: var(--footer_Box_Shadow_Orange_Color);
+  border-top: var(--footer_Border_Orange_color);
 }
 
 .footer .orange hr{
@@ -273,8 +240,7 @@ body{
   height: 8px;
   margin-top: 0.4rem;
   border: none;
-  background-color: #D76F38;
-  
+  background-color: var(--hr_Orange_Color);
 }
 
 .footer .blue{
@@ -284,8 +250,8 @@ body{
   width: 100%;
   height: 50vh;
   transform: rotate(-45deg);
-  box-shadow: 0 -5px 16px 0 #8fe1f5b5;
-  border-top: solid 4px #8FE0F5;
+  box-shadow: var(--footer_Box_Shadow_Aqua_Color);
+  border-top: var(--footer_Border_Aqua_color);
 }
 
 .footer .blue hr{
@@ -293,5 +259,5 @@ body{
   height: 8px;
   margin-top: 0.4rem;
   border: none;
-  background-color: #8FE0F5;
+  background-color: var(--hr_Aqua_Color);
 }
