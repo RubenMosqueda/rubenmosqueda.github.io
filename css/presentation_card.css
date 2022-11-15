@@ -146,10 +146,20 @@ body{
   height: 50vh;
 }
 
-.footer .logo{
+#myBtn{
   position: relative;
+  display: block;
+  border: none;
+  background: none;
   margin: 0 auto;
-  transform: rotate(-45deg);
+  border-radius: 100%;
+  width: 90px;
+  height: 90px;
+}
+
+.footer .logo{
+  margin: 0 auto; 
+  transform: rotate(-135deg);
   width: 72px;
   height: 72px;
 }

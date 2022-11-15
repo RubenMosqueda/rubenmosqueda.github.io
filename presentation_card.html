@@ -8,6 +8,7 @@
   <!--Hoja de estilos-->
   <link rel="stylesheet" href="css/configuraciones/Normalizer.css">
   <link rel="stylesheet" href="css/presentation_card.css">
+  <link rel="stylesheet" href="css/modal.css">
   <!--Fuente de Google-->
   <link href="https://fonts.googleapis.com/css?family=Caveat&amp;display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
@@ -24,9 +25,35 @@
 
     <div class="content">
 
+      <div id="myModal" class="modal">
+        <div class="modal-content">
+          <img src="../imagenes/QR_Tarjeta.png" alt="">
+        </div>
+      </div>
+
+      <!-- <form >
+        <label for="alpha" style="color: white">Alpha</label>
+        <input id="alpha" type="number">
+        <br>
+        <label for="beta" style="color: white">Beta</label>
+        <input id="beta" type="number">
+        <br>
+        <label for="gamma" style="color: white">Gamma</label>
+        <input id="gamma" type="number">
+        <br>
+        <label for="angleInfo" style="color: white">Angle Info</label>
+        <input id="angleInfo" type="number">
+        <br>
+        <label for="angleLogo" style="color: white">Angle Logo</label>
+        <input id="angleLogo" type="number">
+        <br>
+        <label for="correccion" style="color: white">Angle Correction</label>
+        <input id="correccion" type="number">
+      </form> -->
+
       <section class="information">
 
-        <div class="infoContainer">
+        <div class="infoContainer" id="infoContainer">
 
           <section class="infoName">
             <h1>Rubén <br> Mosqueda Bautista</h1>
@@ -38,7 +65,7 @@
             <ul>
               <li>
                 <i class="fa-brands fa-square-github"></i>
-                <a href="">https://rubenmosqueda.github.io</a>
+                <a href="https://rubenmosqueda.github.io/RubenMosqueda/">https://rubenmosqueda.github.io</a>
               </li>
   
               <li>
@@ -60,21 +87,24 @@
 
       <section class="footer">
 
-        <div class="logo">
+        <button id="myBtn">
 
-          <div class="glassLogo one"> 
-            <div class="logoText">R</div>
+          <div class="logo" id="logo">
+
+            <div class="glassLogo one"> 
+              <div class="logoText">R</div>
+            </div>
+  
+            <div class="glassDarkLogo two">
+              <div class="logoText">M</div>
+            </div>
+  
+            <div class="glassDarkLogo three">
+              <div class="logoText">B</div>
+            </div>
           </div>
 
-          <div class="glassDarkLogo two">
-            <div class="logoText">M</div>
-          </div>
-
-          <div class="glassDarkLogo three">
-            <div class="logoText">B</div>
-          </div>
-
-        </div>
+        </button>
 
         <div class="glass orange">
           <hr>
@@ -91,5 +121,8 @@
   </div>
 
 </body>
+
+<script src="./js/accel.js"></script>
+<script src="./js/modal.js"></script>
 
 </html>
