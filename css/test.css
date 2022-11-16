@@ -31,6 +31,16 @@
   --light_background: linear-gradient(70deg, transparent 40%, #336b83 50%, transparent 70%);
   --background_image_url: url(../imagenes/texture_2.png);
 
+    /*Barras de progreso*/
+    --color_porcentajeBarra: #272729;
+    --color_porcentajeProgreso: var(--color_extra_3);
+    --boxShadow_porcentajeBarra: 2px 2px 5px 0px #D76F38;
+    --boxShadow_porcentajeProgreso:2px 0px 1px 0px #D76F38;
+    --boxShadow_habilidadesP: 0px 0px 4px 3px #D76F38;
+    --background_habilidadesP: #272729;
+
+    --p1Width: 85%;
+
 }
 
 body{
@@ -172,3 +182,43 @@ nav ul li .activo{
   z-index: 4;
   margin: 1rem 0;
 }
+
+
+.barra_de_porcentaje{
+  width: 40%;
+  height: 20px;
+  margin: 30rem auto;
+  background-color: var(--color_porcentajeBarra);
+  border-radius: 10px;
+  box-shadow: -5px -5px 5px -2px #7fc7cc inset;
+}
+
+.progreso{
+
+  height: 18px;
+  border-radius: 10px;
+  border: solid 1px #a7a7a7cc;
+  /* background: linear-gradient(45deg, rgba(59,215,255,1) 30%, rgba(255,255,255,1) 90%); */
+
+  background: linear-gradient(0deg, rgb(139, 139, 139) 10%, rgba(59,215,255,1) 65%);
+
+  box-shadow:2px 0px 2px 0px rgba(255, 255, 255, 0.75);
+}
+
+
+.p1{
+  width: var(--p1Width);
+  animation-name: load-progress;
+  animation-duration: 0.6s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
+}/*HTML*/
+  
+  @keyframes load-progress {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: var(--p1Width);
+    }
+  }
