@@ -207,18 +207,154 @@ nav ul li .activo{
 
 
 .p1{
-  width: var(--p1Width);
-  animation-name: load-progress;
+  width: 60%;
+  animation-name: load-progress_60;
   animation-duration: 0.6s;
   animation-iteration-count: 1;
   animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
 }/*HTML*/
   
-  @keyframes load-progress {
-    0% {
-      width: 0%;
-    }
-    100% {
-      width: var(--p1Width);
-    }
-  }
+@keyframes load-progress_60 {
+   0% {
+     width: 0%;
+   }
+   100% {
+      width: 60%;
+   }
+}
+
+.p2{
+  width: 65%;
+  animation-name: load-progress_65;
+  animation-duration: 0.6s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
+}/*HTML*/
+  
+@keyframes load-progress_65 {
+   0% {
+     width: 0%;
+   }
+   100% {
+      width: 65%;
+   }
+}
+
+.p3{
+  width: 70%;
+  animation-name: load-progress_70;
+  animation-duration: 0.6s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
+}/*HTML*/
+  
+@keyframes load-progress_70 {
+   0% {
+     width: 0%;
+   }
+   100% {
+      width: 70%;
+   }
+}
+
+.p4{
+  width: 75%;
+  animation-name: load-progress_75;
+  animation-duration: 0.6s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
+}/*HTML*/
+  
+@keyframes load-progress_75 {
+   0% {
+     width: 0%;
+   }
+   100% {
+      width: 75%;
+   }
+}
+
+.p5{
+  width: 80%;
+  animation-name: load-progress_80;
+  animation-duration: 0.6s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
+}/*HTML*/
+  
+@keyframes load-progress_80 {
+   0% {
+     width: 0%;
+   }
+   100% {
+      width: 80%;
+   }
+}
+
+.p6{
+  width: 85%;
+  animation-name: load-progress_85;
+  animation-duration: 0.6s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
+}/*HTML*/
+  
+@keyframes load-progress_85 {
+   0% {
+     width: 0%;
+   }
+   100% {
+      width: 85%;
+   }
+}
+
+.p7{
+  width: 90%;
+  animation-name: load-progress_90;
+  animation-duration: 0.6s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
+}/*HTML*/
+  
+@keyframes load-progress_90 {
+   0% {
+     width: 0%;
+   }
+   100% {
+      width: 90%;
+   }
+}
+
+.p8{
+  width: 95%;
+  animation-name: load-progress_95;
+  animation-duration: 0.6s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
+}/*HTML*/
+  
+@keyframes load-progress_95 {
+   0% {
+     width: 0%;
+   }
+   100% {
+      width: 95%;
+   }
+}
+
+.p9{
+  width: 99%;
+  animation-name: load-progress_100;
+  animation-duration: 0.6s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
+}/*HTML*/
+  
+@keyframes load-progress_100 {
+   0% {
+     width: 0%;
+   }
+   100% {
+      width: 99%;
+   }
+}
