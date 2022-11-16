@@ -185,175 +185,184 @@ nav ul li .activo{
 
 
 .barra_de_porcentaje{
-  width: 40%;
+  width: 80%;
   height: 20px;
-  margin: 30rem auto;
+  margin: 0rem auto;
   background-color: var(--color_porcentajeBarra);
   border-radius: 10px;
   box-shadow: -5px -5px 5px -2px #7fc7cc inset;
 }
 
 .progreso{
-
   height: 18px;
+  width: 5%;
   border-radius: 10px;
   border: solid 1px #a7a7a7cc;
-  /* background: linear-gradient(45deg, rgba(59,215,255,1) 30%, rgba(255,255,255,1) 90%); */
-
   background: linear-gradient(0deg, rgb(139, 139, 139) 10%, rgba(59,215,255,1) 65%);
-
   box-shadow:2px 0px 2px 0px rgba(255, 255, 255, 0.75);
 }
 
 
 .p1{
-  width: 60%;
   animation-name: load-progress_60;
   animation-duration: 0.6s;
   animation-iteration-count: 1;
   animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
-}/*HTML*/
+  animation-fill-mode: forwards;
+}
   
 @keyframes load-progress_60 {
-   0% {
+   /* 0% {
      width: 0%;
-   }
+     animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
+   } */
    100% {
       width: 60%;
    }
 }
 
+
+
 .p2{
-  width: 65%;
   animation-name: load-progress_65;
   animation-duration: 0.6s;
   animation-iteration-count: 1;
   animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
-}/*HTML*/
+  animation-fill-mode: forwards;
+}
   
 @keyframes load-progress_65 {
-   0% {
-     width: 0%;
-   }
+   /* 0% {
+     width: 1%;
+     box-shadow:2px 0px 2px 0px rgba(255, 255, 255, 0.75);
+   } */
    100% {
       width: 65%;
+      
    }
 }
 
 .p3{
-  width: 70%;
   animation-name: load-progress_70;
   animation-duration: 0.6s;
   animation-iteration-count: 1;
   animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
-}/*HTML*/
+  animation-fill-mode: forwards;
+}
   
 @keyframes load-progress_70 {
-   0% {
+   /* 0% {
      width: 0%;
-   }
+     box-shadow:2px 0px 2px 0px rgba(255, 255, 255, 0.75);
+   } */
    100% {
       width: 70%;
    }
 }
 
 .p4{
-  width: 75%;
   animation-name: load-progress_75;
   animation-duration: 0.6s;
   animation-iteration-count: 1;
   animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
-}/*HTML*/
+  animation-fill-mode: forwards;
+}
   
 @keyframes load-progress_75 {
-   0% {
+   /* 0% {
      width: 0%;
-   }
+     box-shadow:2px 0px 2px 0px rgba(255, 255, 255, 0.75);
+   } */
    100% {
       width: 75%;
    }
 }
 
 .p5{
-  width: 80%;
   animation-name: load-progress_80;
   animation-duration: 0.6s;
   animation-iteration-count: 1;
   animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
-}/*HTML*/
+  animation-fill-mode: forwards;
+}
   
 @keyframes load-progress_80 {
-   0% {
+   /* 0% {
      width: 0%;
-   }
+     box-shadow:2px 0px 2px 0px rgba(255, 255, 255, 0.75);
+   } */
    100% {
       width: 80%;
    }
 }
 
 .p6{
-  width: 85%;
   animation-name: load-progress_85;
   animation-duration: 0.6s;
   animation-iteration-count: 1;
   animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
-}/*HTML*/
+  animation-fill-mode: forwards;
+}
   
 @keyframes load-progress_85 {
-   0% {
+   /* 0% {
      width: 0%;
-   }
+     box-shadow:2px 0px 2px 0px rgba(255, 255, 255, 0.75);
+   } */
    100% {
       width: 85%;
    }
 }
 
 .p7{
-  width: 90%;
   animation-name: load-progress_90;
   animation-duration: 0.6s;
   animation-iteration-count: 1;
   animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
-}/*HTML*/
+  animation-fill-mode: forwards;
+}
   
 @keyframes load-progress_90 {
-   0% {
+   /* 0% {
      width: 0%;
-   }
+     box-shadow:2px 0px 2px 0px rgba(255, 255, 255, 0.75);
+   } */
    100% {
       width: 90%;
    }
 }
 
 .p8{
-  width: 95%;
   animation-name: load-progress_95;
   animation-duration: 0.6s;
   animation-iteration-count: 1;
   animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
+  animation-fill-mode: forwards;
 }/*HTML*/
   
 @keyframes load-progress_95 {
-   0% {
+   /* 0% {
      width: 0%;
-   }
+     box-shadow:2px 0px 2px 0px rgba(255, 255, 255, 0.75);
+   } */
    100% {
       width: 95%;
    }
 }
 
 .p9{
-  width: 99%;
   animation-name: load-progress_100;
   animation-duration: 0.6s;
   animation-iteration-count: 1;
   animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
+  animation-fill-mode: forwards;
 }/*HTML*/
   
 @keyframes load-progress_100 {
-   0% {
+   /* 0% {
      width: 0%;
-   }
+     box-shadow:2px 0px 2px 0px rgba(255, 255, 255, 0.75);
+   } */
    100% {
       width: 99%;
    }
