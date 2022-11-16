@@ -453,7 +453,7 @@ nav ul li .activo{
   padding: 0.5rem;
 }
 
-.barra_de_porcentaje{
+/* .barra_de_porcentaje{
   width: 100%;
   height: 20px;
   background-color: var(--color_porcentajeBarra);
@@ -466,21 +466,9 @@ nav ul li .activo{
   border-radius: 15px;
   background-color: var(--color_porcentajeProgreso);
   box-shadow: var(--boxShadow_porcentajeProgreso);
-}
+} */
 
-.p1{width: 85%;}/*HTML*/
-.p2{width: 85%;}/*CSS*/
-.p3{width: 60%;}/*JavaScript*/
-.p4{width: 60%;}/*Git*/
-.p5{width: 60%;}/*GitHub*/
-.p6{width: 80%;}/*Atom*/
-.p7{width: 75%;}/*Wordpress*/
-.p8{width: 85%;}/*SEO*/
-.p9{width: 85%;}/*Copywriting*/
-.p10{width: 85%;}/*UI/UX*/
-.p11{width: 85%;}/*Responsive*/
-.p12{width: 60%;}/*Adobe XD*/
-.p13{width: 60%;}/*Photoshop*/
+
 
 .profesionales{
   margin: 1.5rem 0;
@@ -665,4 +653,191 @@ nav ul li .activo{
   animation-duration: 1s;
   animation-iteration-count: infinite;
   animation-timing-function: steps(8);
+}
+
+
+
+
+.barra_de_porcentaje{
+  width: 100%;
+  height: 20px;
+  margin: 0rem auto;
+  background-color: var(--color_porcentajeBarra);
+  border-radius: 10px;
+  box-shadow: -5px -5px 5px -2px #7fc7cc inset;
+}
+
+.progreso{
+  height: 18px;
+  width: 5%;
+  border-radius: 10px;
+  border: solid 1px #a7a7a7cc;
+  background: linear-gradient(0deg, rgb(139, 139, 139) 10%, rgba(59,215,255,1) 65%);
+  box-shadow:2px 0px 2px 0px rgba(255, 255, 255, 0.75);
+}
+
+
+.p1{
+  animation-name: load-progress_60;
+  animation-duration: 0.6s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
+  animation-fill-mode: forwards;
+}
+  
+@keyframes load-progress_60 {
+   /* 0% {
+     width: 0%;
+     animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
+   } */
+   100% {
+      width: 60%;
+   }
+}
+
+
+
+.p2{
+  animation-name: load-progress_65;
+  animation-duration: 0.6s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
+  animation-fill-mode: forwards;
+}
+  
+@keyframes load-progress_65 {
+   /* 0% {
+     width: 1%;
+     box-shadow:2px 0px 2px 0px rgba(255, 255, 255, 0.75);
+   } */
+   100% {
+      width: 65%;
+      
+   }
+}
+
+.p3{
+  animation-name: load-progress_70;
+  animation-duration: 0.6s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
+  animation-fill-mode: forwards;
+}
+  
+@keyframes load-progress_70 {
+   /* 0% {
+     width: 0%;
+     box-shadow:2px 0px 2px 0px rgba(255, 255, 255, 0.75);
+   } */
+   100% {
+      width: 70%;
+   }
+}
+
+.p4{
+  animation-name: load-progress_75;
+  animation-duration: 0.6s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
+  animation-fill-mode: forwards;
+}
+  
+@keyframes load-progress_75 {
+   /* 0% {
+     width: 0%;
+     box-shadow:2px 0px 2px 0px rgba(255, 255, 255, 0.75);
+   } */
+   100% {
+      width: 75%;
+   }
+}
+
+.p5{
+  animation-name: load-progress_80;
+  animation-duration: 0.6s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
+  animation-fill-mode: forwards;
+}
+  
+@keyframes load-progress_80 {
+   /* 0% {
+     width: 0%;
+     box-shadow:2px 0px 2px 0px rgba(255, 255, 255, 0.75);
+   } */
+   100% {
+      width: 80%;
+   }
+}
+
+.p6{
+  animation-name: load-progress_85;
+  animation-duration: 0.6s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
+  animation-fill-mode: forwards;
+}
+  
+@keyframes load-progress_85 {
+   /* 0% {
+     width: 0%;
+     box-shadow:2px 0px 2px 0px rgba(255, 255, 255, 0.75);
+   } */
+   100% {
+      width: 85%;
+   }
+}
+
+.p7{
+  animation-name: load-progress_90;
+  animation-duration: 0.6s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
+  animation-fill-mode: forwards;
+}
+  
+@keyframes load-progress_90 {
+   /* 0% {
+     width: 0%;
+     box-shadow:2px 0px 2px 0px rgba(255, 255, 255, 0.75);
+   } */
+   100% {
+      width: 90%;
+   }
+}
+
+.p8{
+  animation-name: load-progress_95;
+  animation-duration: 0.6s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
+  animation-fill-mode: forwards;
+}/*HTML*/
+  
+@keyframes load-progress_95 {
+   /* 0% {
+     width: 0%;
+     box-shadow:2px 0px 2px 0px rgba(255, 255, 255, 0.75);
+   } */
+   100% {
+      width: 95%;
+   }
+}
+
+.p9{
+  animation-name: load-progress_100;
+  animation-duration: 0.6s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
+  animation-fill-mode: forwards;
+}/*HTML*/
+  
+@keyframes load-progress_100 {
+   /* 0% {
+     width: 0%;
+     box-shadow:2px 0px 2px 0px rgba(255, 255, 255, 0.75);
+   } */
+   100% {
+      width: 99%;
+   }
 }
