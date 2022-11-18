@@ -1,5 +1,6 @@
 @import url(navbar.css);
 @import url(body.css);
+@import url(animation_KPT.css);
 
 /*Variables para paleta de colores*/
 :root {
@@ -635,7 +636,7 @@
   margin: 0 .25rem;
 }
 
-@keyframes salto{
+/* @keyframes salto{
   from {
     bottom: 0;
   }
@@ -674,7 +675,7 @@
 
 .video{
   animation-delay: 1s;
-}
+} */
 
 @media (min-width: 1000px) {
   .seccionKPT{

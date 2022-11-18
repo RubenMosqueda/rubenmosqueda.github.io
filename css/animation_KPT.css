@@ -1,0 +1,43 @@
+/* Animation KPT */
+
+.animacion{
+  animation-name: salto;
+  animation-duration: 0.75s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+@keyframes salto{
+  from {
+    bottom: 0;
+  }
+
+  to {
+    bottom: 0.75rem;
+  }
+}
+
+.cpu{
+  animation-delay: 0s;
+}
+
+.board{
+  animation-delay: 0.2s;
+}
+
+.disipador{
+  animation-delay: 0.4s;
+}
+
+.ram{
+  animation-delay: 0.6s;
+}
+
+.ssd{
+  animation-delay: 0.8s;
+}
+
+.video{
+  animation-delay: 1s;
+}
+
