@@ -21,6 +21,7 @@
   --color_background: #cacacb;
   --light_background: linear-gradient(70deg, transparent 40%, #336b83 50%, transparent 70%);
   --background_image_url: url(../imagenes/texture_2.png);
+
 }
 
 body{

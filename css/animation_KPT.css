@@ -1,13 +1,12 @@
 /* Animation KPT */
-
-.animacion{
-  animation-name: salto;
+.animationKPT{
+  animation-name: componentJump;
   animation-duration: 0.75s;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
 
-@keyframes salto{
+@keyframes componentJump{
   from {
     bottom: 0;
   }
@@ -40,4 +39,3 @@
 .video{
   animation-delay: 1s;
 }
-
