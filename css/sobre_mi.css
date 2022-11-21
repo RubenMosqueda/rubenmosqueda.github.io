@@ -218,45 +218,45 @@
   }
 }
 
-/*Habilidades*/
+/*Skills*/
 
-.habilidades{
+.skills{
   position: relative;
   margin: 0 3rem 0 2rem;
 }
 
-.software_tecnologia{
+.software_tecnology{
   margin: 1rem 0 0 2rem;
 }
 
-.software_tecnologia h2{
+.software_tecnology h2{
   margin-bottom: 1.5rem;
   color: var(--color_texto);
   text-align: center;
 }
 
-.software_tecnologia h3{
+.software_tecnology h3{
   color: var(--color_texto);
   margin-bottom: 0.5rem;
 }
 
-.elemento_tec{
+.element_tec{
   display: grid;
   grid-template-columns: 15% 85%;
   align-items: center;
 }
 
-.elemento_tec img{
+.element_tec img{
   width: 25px;
   height: auto;
   margin: 0.5rem;
 }
 
-.elemento{
+.tecnology{
   padding: 0.5rem;
 }
 
-.profesionales{
+.profesional_skills{
   margin: 1.5rem 0;
   display: grid;
   grid-template-columns: 2fr 1fr 2fr;
@@ -264,7 +264,7 @@
   color: var(--color_texto);
 }
 
-.profesionales h2{
+.profesional_skills h2{
   writing-mode: vertical-lr;
   transform: rotate(180deg);
   text-align: center;
@@ -276,7 +276,7 @@
   background-color: var(--background_habilidadesP);
 }
 
-.profesionales p{
+.profesional_skills p{
   margin: 1.5rem 0;
   font-weight: bold;
   text-align: center;
@@ -284,11 +284,11 @@
 
 @media (min-width: 700px){
 
-  .software_tecnologia{
+  .software_tecnology{
     margin: 0 2rem;;
   }
 
-  .profesionales h2{
+  .profesional_skills h2{
     writing-mode: horizontal-tb;
     transform: rotate(0deg);
     padding: 1rem 1.5rem;
@@ -297,7 +297,7 @@
 }
 
 @media (min-width: 850px){
-  .software_tecnologia{
+  .software_tecnology{
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 3rem;
