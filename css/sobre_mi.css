@@ -1,35 +1,15 @@
+@import url(../css/body.css);
+@import url(../css/navbar.css);
+@import url(../css/progress_bar.css);
+@import url(../css/sprite_animation.css);
+
 /*Variables para paleta de colores*/
 :root {
-  /*Paleta de colores de referencia No direccionar estas variables*/
-  --color_primario: #D76F38;
-  --color_secundario: #336b83;
-  --color_terciario: #d3d642;
-  --color_extra_1: #D5D9DA;
-  --color_extra_2: #272729;
-  --color_extra_3: #8FE0F5;
-
   /*Text Format*/
   --color_titulos: #D76F38;
   --color_texto: #ffffff;
   --image_profile_border: #D76F38;
   --color_icons_hover: #8FE0F5;
-
-  /*Nav*/
-  --color_nav_text: #D5D9DA;
-  --color_nav_icon: #D5D9DA;
-  --color_nav_icon_active: #8FE0F5;
-  --color_nav_background: #272729;
-  --color_nav_shadow: #8FE0F5;
-
-  /*Wrapper Glassmorphism*/
-  --glass_background: rgba(110, 110, 110, 0.5);
-  --glass_box_shadow: 0 8px 32px 0 rgba(90, 90, 90, 0.75);
-  --glass_border: 1px solid rgba(255, 255, 255, 0.5);
-  --blur_index: 2px;
-
-  --color_background: #cacacb;
-  --light_background: linear-gradient(70deg, transparent 40%, #336b83 50%, transparent 70%);
-  --background_image_url: url(../imagenes/texture_2.png);
 
   /*Tab*/
   --color_tabText: #D76F38;
@@ -37,186 +17,9 @@
   --color_tabShadow: -3px 3px 0px 3px #8FE0F5;
   --border_tab: 10px 0 0 10px;
 
-  /*Barras de progreso*/
-  --color_porcentajeBarra: #272729;
-  --color_porcentajeProgreso: var(--color_extra_3);
-  --boxShadow_porcentajeBarra: 2px 2px 5px 0px #D76F38;
-  --boxShadow_porcentajeProgreso:2px 0px 1px 0px #D76F38;
-  --boxShadow_habilidadesP: 0px 0px 4px 3px #D76F38;
-  --background_habilidadesP: #272729;
-
-  /*Canva animated*/
-  --canva_border: 1px solid rgba(255, 255, 255, 0.5);
-
-  --rear_shadow1: linear-gradient(135deg, transparent 30%, #8FE0F5 50%, transparent 80%);
-  --rear_shadow2: linear-gradient(45deg, transparent 30%, #8FE0F5 50%, transparent 80%);
-  --rear_shadow3: linear-gradient(90deg, transparent 10%, #8FE0F5 50%, transparent 90%);
-  --rear_shadow4: radial-gradient(circle, #8FE0F5 10%, transparent 25%);
-
-  /* --front_shadow1: radial-gradient(circle, #c97216ad 10%, transparent 50%);
-  --front_shadow2: radial-gradient(circle, #c97216ad 10%, transparent 50%);
-  --front_shadow3: radial-gradient(circle, #c97216ad 10%, transparent 50%);*/
-  --front_shadow4: radial-gradient(circle, #b985698a 2%, transparent 10%);
-
-  --animation_duration1: 10s; 
-  --animation_duration2: 10s; 
-  --animation_duration3: 10s; 
-  --animation_duration4: 30s; 
-
-  /* --canva_image_url1: url(../imagenes/texture_5.png);
-  --canva_image_url2: url(../imagenes/texture_3.png);
-  --canva_image_url3: url(../imagenes/texture_1.png); */
-  --canva_image_url4: url(../imagenes/texture_2.png);
-
-  --canva_background_color1: #373737;
-  --canva_background_color2: #373737;
-  --canva_background_color3: #373737;
-  --canva_background_color4: #373737;
-
-  /* --canva_texture_size1: 3.5rem;
-  --canva_texture_size2: 3.5rem;
-  --canva_texture_size3: 3.5rem; */
-  --canva_texture_size4: 2.5rem;
-
-  --canva_box_shadow1:  inset 0px -4px 10px 0 rgb(155, 155, 155);
-  --canva_box_shadow2:  inset 0px -4px 10px 0 rgb(155, 155, 155);
-  --canva_box_shadow3:  inset 0px -4px 10px 0 rgb(155, 155, 155);
-  --canva_box_shadow4:  inset 0px -4px 10px 0 rgb(155, 155, 155);
-  
   /*Misc*/
   --border_radius: 10px;
   --color_viñeta: #D76F38;
-}
-
-body{
-  font-family: Cavea, Arial, Helvetica, sans-serif;
-}
-
-.backgroundGradientLayer{
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 1;
-  width: 100%;
-  height: 100vh;
-  background-color: var(--color_background);
-  overflow: hidden;
-}
-
-.backgroundGradientLayer::after{
-  position: absolute;
-  content: "";
-  width: 100%;
-  height: 100vh;
-  top: 0;
-  left: 100%;
-  background: var(--light_background);
-  animation-name: wave-animate;
-  animation-duration: 10s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
-
-@keyframes wave-animate {
-  0% {
-    left: 100%;
-  }
-  100% {
-    left: -100%;
-  }
-}
-
-.textureLayer{
-  position: absolute;
-  z-index: 2;
-  width: 100%;
-  height: 100vh;
-  background-image: var(--background_image_url);
-  background-size: 8rem;
-}
-
-.content-wrapper {
-  /* all body is set as a column with display grid property */
-  display: grid;
-  grid-row-gap: 0;
-  grid-template-columns: auto;
-
-  position: relative;
-  z-index: 3;
-  margin: 0 auto;
-  max-width: 1000px;
-  
-  background: var(--glass_background);
-  box-shadow: var(--glass_box_shadow);
-  backdrop-filter: blur( var(--blur_index) );
-  -webkit-backdrop-filter: blur( var(--blur_index) );
-  border: var(--glass_border);
-}
-
-/*Nav Menu*/
-
-nav{
-  position: fixed;
-  right: 0;
-  top:0;
-  width: 1.5rem;
-  padding: 1.5rem 0.75rem;
-  border-radius: 10px 0 0 10px;
-  box-shadow: -3px 3px 0px 3px var(--color_nav_shadow);
-  background-color: var(--color_nav_background);
-  z-index: 5;
-}
-
-nav ul{
-  list-style-type: none;
-}
-
-nav li{
-  padding: 0.75rem 0;
-}
-
-nav li i{
-  font-size: 1.5rem;
-  color: var(--color_nav_icon);
-}
-
-nav li:hover i{
-  color: var(--color_nav_icon_active);
-}
-
-nav li a{
-  text-decoration: none;
-  color: var(--color_nav_text);
-}
-
-nav ul li:hover a::before{
-  position: absolute;
-  right: 2.7em;
-  padding: 0.3rem 0 0.3rem 0.5rem;
-  font-size: 1.1rem;
-  border-radius: 5px 0 0 5px;
-  box-shadow: -4px 4px 0px 0px var(--color_nav_shadow);
-  background-color: var(--color_nav_background);
-}
-
-nav ul li:hover .home::before{
-  content: "HOME";
-}
-
-nav ul li:hover .galeria::before{
-  content: "GALERIA";
-}
-
-nav ul li:hover .background::before{
-  content: "BACKGROUND";
-}
-
-nav ul li:hover .correo::before{
-  content: "CONTACTAME";
-}
-
-nav ul li .activo{
-  color: var(--color_nav_icon_active);
 }
 
 .content{
@@ -229,12 +32,12 @@ nav ul li .activo{
 
 /* Presentacion */
 
-.presentacion{
+.presentation{
   text-align: center;
   margin: 1rem 3.5rem 0rem 2rem;
 }
 
-.presentacion_1 .imagen_perfil{
+.presentation_section1 .profile_image{
   width: 65%;
   height: auto;
   margin: 1rem 0;
@@ -242,44 +45,44 @@ nav ul li .activo{
   border-radius: 50%;
 }
 
-.presentacion_1 h1{
+.presentation_section1 h1{
   color: var(--color_texto);
   margin-bottom: 0.5rem;
   font-size: 1.25rem;
   font-weight: bold;
 }
 
-.presentacion_1 h2{
+.presentation_section1 h2{
   color: var(--color_titulos);
   color: var(--color_titulos);
   font-size: 0.8rem;
 }
 
-.presentacion_1 ul{
+.presentation_section1 ul{
   margin-top: 1.5rem;
   padding: 0;
   list-style-type: none;
 }
 
-.presentacion_1 li {
+.presentation_section1 li {
   display: inline;
   margin: 0 0.75rem;
 }
 
-.presentacion_1 i{
+.presentation_section1 i{
   font-size: 2rem;
 }
 
-.presentacion_1 a{
+.presentation_section1 a{
   text-decoration: none;
   color: var(--color_texto);
 }
 
-.presentacion_1 a:hover{
+.presentation_section1 a:hover{
   color: var(--color_icons_hover);
 }
 
-.presentacion_2 p{
+.presentation_section2 p{
   color: var(--color_texto);
   margin: 1rem 0;
   text-align: center;
@@ -287,18 +90,18 @@ nav ul li .activo{
 }
 
 @media (min-width: 700px) {
-  .presentacion{
+  .presentation{
     display: flex;
     align-items: center;
     flex-direction: row-reverse;
     gap: 2rem;
   }
 
-  .presentacion_1 i{
+  .presentation_section1 i{
     font-size: 1.5rem;
   }
 
-  .presentacion_2 p{
+  .presentation_section2 p{
     text-align: right;
   }
 }
@@ -347,33 +150,33 @@ nav ul li .activo{
 
 /*Formacion Academica*/
 
-.formacion{
+.studies{
   position: relative;
   margin: 0rem 3.5rem 0rem 2rem;
   text-align: left;
 }
 
-.carrera, .cursos{
+.career, .grades{
   margin-left: 2rem;
 }
 
-.formacion a{
+.studies a{
   text-decoration: none;
   color: var(--color_primario);
 }
 
-.carrera .curso{
+.career .grade{
   color: var(--color_titulos);
 }
 
-.curso{
+.grade{
   margin-top: 1.15rem;
   font-weight: bold;
   font-size: 1rem;
   color: var(--color_texto);
 }
 
-.fecha_del_curso{
+.grade_date{
   margin-top:0.25rem;
   margin-left: 1rem;
   font-size: 0.9rem;
@@ -381,33 +184,33 @@ nav ul li .activo{
 }
 
 @media (min-width: 700px) {
-  .formacion{
+  .studies{
     text-align: center;
   }
 
-  .carrera .curso{
+  .career .grade{
     font-size: 1.5rem;
   }
 
-  .carrera .fecha_del_curso{
+  .career .grade_date{
     font-size: 1.2rem;
   }
 }
 
 @media (min-width: 850px){
-  .formacion{
+  .studies{
     text-align: left;
   }
 
-  .carrera{
+  .career{
     text-align: center;
   }
 
-  .carrera .fecha_del_curso{
+  .career .grade_date{
     margin-left: 0;
   }
 
-  .cursos{
+  .grades{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 1rem;
@@ -452,23 +255,6 @@ nav ul li .activo{
 .elemento{
   padding: 0.5rem;
 }
-
-/* .barra_de_porcentaje{
-  width: 100%;
-  height: 20px;
-  background-color: var(--color_porcentajeBarra);
-  border-radius: 15px;
-  box-shadow: var(--boxShadow_porcentajeBarra);
-}
-
-.progreso{
-  height: 100%;
-  border-radius: 15px;
-  background-color: var(--color_porcentajeProgreso);
-  box-shadow: var(--boxShadow_porcentajeProgreso);
-} */
-
-
 
 .profesionales{
   margin: 1.5rem 0;
@@ -541,303 +327,4 @@ nav ul li .activo{
 .hobbie_elemento{
   text-align: center;
   font-weight: bold;
-}
-
-/*Footer Animacion*/
-
-.canvaAnimated{
-  position: relative;
-  border: var(--canva_border);
-  border-radius: var(--border_radius);
-  overflow: hidden;
-}
-
-.animatedContainer{
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: -100%;
-  animation-name: moveContainer;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
-
-@keyframes moveContainer {
-  0% {
-    left: -100%;
-  }
-  100% {
-    left: 100%;
-  }
-}
-
-.rearShadow{
-  position: absolute;
-  z-index: 1;
-  width: 100%;
-  height: 200%;
-  bottom: -85%;
-  left: 0%;
-}
-
-.canvaBackground{
-  position: absolute;
-  z-index: 2;
-  width: 100%;
-  height: 100%;
-}
-
-.frontShadow{
-  position: absolute;
-  z-index: 3;
-  width: 100%;
-  height: 200%;
-  bottom: -100%;
-  left: 0%;
-}
-
-.characterContainer{
-  position: absolute;
-  display: grid;
-  z-index: 4;
-  width: 100%;
-  height: 100%;
-  top: 0%;
-  left: 0%;
-}
-
-@keyframes caminar{
-  0%{
-    background-position: left;
-  }
-  100%{
-    background-position: right;
-  }
-}
-
-.canva4{
-  width: 95%;
-  height: 30px;
-  margin: 0 auto;
-  background-color: var(--canva_background_color4);
-}
-
-.canva4 .animatedContainer{
-  animation-duration: var(--animation_duration4);
-}
-
-.canva4 .animatedContainer .rearShadow{
-  background: var(--rear_shadow4);
-}
-
-.canva4 .canvaBackground{
-  box-shadow: var(--canva_box_shadow4);
-  background-image: var(--canva_image_url4);
-  background-size: var(--canva_texture_size4);
-}
-
-.canva4 .animatedContainer .frontShadow{
-  background: var(--front_shadow4);
-}
-
-.canva4 .character{
-  align-self: center;
-  margin: 0 auto;
-  align-self: end;
-  background-image: url("/imagenes/Sprites/SpriteCustomWalk.png");
-  background-size: 288px;
-  height: 31px;
-  width: 31px;
-  animation-name: caminar;
-  animation-duration: 1s;
-  animation-iteration-count: infinite;
-  animation-timing-function: steps(8);
-}
-
-
-
-
-.barra_de_porcentaje{
-  width: 100%;
-  height: 20px;
-  margin: 0rem auto;
-  background-color: var(--color_porcentajeBarra);
-  border-radius: 10px;
-  box-shadow: -5px -5px 5px -2px #7fc7cc inset;
-}
-
-.progreso{
-  height: 18px;
-  width: 5%;
-  border-radius: 10px;
-  border: solid 1px #a7a7a7cc;
-  background: linear-gradient(0deg, rgb(139, 139, 139) 10%, rgba(59,215,255,1) 65%);
-  box-shadow:2px 0px 2px 0px rgba(255, 255, 255, 0.75);
-}
-
-
-.p1{
-  animation-name: load-progress_60;
-  animation-duration: 0.6s;
-  animation-iteration-count: 1;
-  animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
-  animation-fill-mode: forwards;
-}
-  
-@keyframes load-progress_60 {
-   /* 0% {
-     width: 0%;
-     animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
-   } */
-   100% {
-      width: 60%;
-   }
-}
-
-
-
-.p2{
-  animation-name: load-progress_65;
-  animation-duration: 0.6s;
-  animation-iteration-count: 1;
-  animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
-  animation-fill-mode: forwards;
-}
-  
-@keyframes load-progress_65 {
-   /* 0% {
-     width: 1%;
-     box-shadow:2px 0px 2px 0px rgba(255, 255, 255, 0.75);
-   } */
-   100% {
-      width: 65%;
-      
-   }
-}
-
-.p3{
-  animation-name: load-progress_70;
-  animation-duration: 0.6s;
-  animation-iteration-count: 1;
-  animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
-  animation-fill-mode: forwards;
-}
-  
-@keyframes load-progress_70 {
-   /* 0% {
-     width: 0%;
-     box-shadow:2px 0px 2px 0px rgba(255, 255, 255, 0.75);
-   } */
-   100% {
-      width: 70%;
-   }
-}
-
-.p4{
-  animation-name: load-progress_75;
-  animation-duration: 0.6s;
-  animation-iteration-count: 1;
-  animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
-  animation-fill-mode: forwards;
-}
-  
-@keyframes load-progress_75 {
-   /* 0% {
-     width: 0%;
-     box-shadow:2px 0px 2px 0px rgba(255, 255, 255, 0.75);
-   } */
-   100% {
-      width: 75%;
-   }
-}
-
-.p5{
-  animation-name: load-progress_80;
-  animation-duration: 0.6s;
-  animation-iteration-count: 1;
-  animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
-  animation-fill-mode: forwards;
-}
-  
-@keyframes load-progress_80 {
-   /* 0% {
-     width: 0%;
-     box-shadow:2px 0px 2px 0px rgba(255, 255, 255, 0.75);
-   } */
-   100% {
-      width: 80%;
-   }
-}
-
-.p6{
-  animation-name: load-progress_85;
-  animation-duration: 0.6s;
-  animation-iteration-count: 1;
-  animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
-  animation-fill-mode: forwards;
-}
-  
-@keyframes load-progress_85 {
-   /* 0% {
-     width: 0%;
-     box-shadow:2px 0px 2px 0px rgba(255, 255, 255, 0.75);
-   } */
-   100% {
-      width: 85%;
-   }
-}
-
-.p7{
-  animation-name: load-progress_90;
-  animation-duration: 0.6s;
-  animation-iteration-count: 1;
-  animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
-  animation-fill-mode: forwards;
-}
-  
-@keyframes load-progress_90 {
-   /* 0% {
-     width: 0%;
-     box-shadow:2px 0px 2px 0px rgba(255, 255, 255, 0.75);
-   } */
-   100% {
-      width: 90%;
-   }
-}
-
-.p8{
-  animation-name: load-progress_95;
-  animation-duration: 0.6s;
-  animation-iteration-count: 1;
-  animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
-  animation-fill-mode: forwards;
-}/*HTML*/
-  
-@keyframes load-progress_95 {
-   /* 0% {
-     width: 0%;
-     box-shadow:2px 0px 2px 0px rgba(255, 255, 255, 0.75);
-   } */
-   100% {
-      width: 95%;
-   }
-}
-
-.p9{
-  animation-name: load-progress_100;
-  animation-duration: 0.6s;
-  animation-iteration-count: 1;
-  animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
-  animation-fill-mode: forwards;
-}/*HTML*/
-  
-@keyframes load-progress_100 {
-   /* 0% {
-     width: 0%;
-     box-shadow:2px 0px 2px 0px rgba(255, 255, 255, 0.75);
-   } */
-   100% {
-      width: 99%;
-   }
 }
