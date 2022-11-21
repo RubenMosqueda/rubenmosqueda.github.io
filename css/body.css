@@ -9,8 +9,8 @@
   --color_extra_3: #8FE0F5;
 
   /*Text Format*/
-  --color_titulos: #D76F38;
-  --color_texto: #ffffff;
+  --title_color: #D76F38;
+  --text_color: #ffffff;
 
   /*Wrapper Glassmorphism*/
   --glass_background: rgba(110, 110, 110, 0.5);
