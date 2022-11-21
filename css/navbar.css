@@ -55,7 +55,7 @@ nav ul li:hover .home::before{
   content: "HOME";
 }
 
-nav ul li:hover .galeria::before{
+nav ul li:hover .galery::before{
   content: "GALERIA";
 }
 
@@ -63,11 +63,11 @@ nav ul li:hover .background::before{
   content: "BACKGROUND";
 }
 
-nav ul li:hover .correo::before{
+nav ul li:hover .mail::before{
   content: "CONTACTO";
 }
 
-nav ul li .activo{
+nav ul li .active{
   color: var(--color_nav_icon_active);
 }
 
