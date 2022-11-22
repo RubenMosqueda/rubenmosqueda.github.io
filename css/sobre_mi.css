@@ -17,6 +17,10 @@
   --color_tabShadow: -3px 3px 0px 3px #8FE0F5;
   --border_tab: 10px 0 0 10px;
 
+  /* Professional Skills */
+  --boxShadow_skills_p: 0px 0px 4px 3px #D76F38;
+  --background_skills_p: #272729;
+
   /*Misc*/
   --border_radius: 10px;
   --color_viñeta: #D76F38;
@@ -272,8 +276,8 @@
   margin: 0;
   color: var(--text_color);
   border-radius: 5px;
-  box-shadow: var(--boxShadow_habilidadesP);
-  background-color: var(--background_habilidadesP);
+  box-shadow: var(--boxShadow_skills_p);
+  background-color: var(--background_skills_p);
 }
 
 .profesional_skills p{
