@@ -6,8 +6,8 @@
 /*Variables para paleta de colores*/
 :root {
   /*Text Format*/
-  --color_titulos: #D76F38;
-  --color_texto: #ffffff;
+  --title_color: #D76F38;
+  --text_color: #ffffff;
   --image_profile_border: #D76F38;
   --color_icons_hover: #8FE0F5;
 
@@ -46,15 +46,15 @@
 }
 
 .presentation_section1 h1{
-  color: var(--color_texto);
+  color: var(--text_color);
   margin-bottom: 0.5rem;
   font-size: 1.25rem;
   font-weight: bold;
 }
 
 .presentation_section1 h2{
-  color: var(--color_titulos);
-  color: var(--color_titulos);
+  color: var(--title_color);
+  color: var(--title_color);
   font-size: 0.8rem;
 }
 
@@ -75,7 +75,7 @@
 
 .presentation_section1 a{
   text-decoration: none;
-  color: var(--color_texto);
+  color: var(--text_color);
 }
 
 .presentation_section1 a:hover{
@@ -83,7 +83,7 @@
 }
 
 .presentation_section2 p{
-  color: var(--color_texto);
+  color: var(--text_color);
   margin: 1rem 0;
   text-align: center;
   line-height: 1.4rem;
@@ -166,14 +166,14 @@
 }
 
 .career .grade{
-  color: var(--color_titulos);
+  color: var(--title_color);
 }
 
 .grade{
   margin-top: 1.15rem;
   font-weight: bold;
   font-size: 1rem;
-  color: var(--color_texto);
+  color: var(--text_color);
 }
 
 .grade_date{
@@ -231,12 +231,12 @@
 
 .software_tecnology h2{
   margin-bottom: 1.5rem;
-  color: var(--color_texto);
+  color: var(--text_color);
   text-align: center;
 }
 
 .software_tecnology h3{
-  color: var(--color_texto);
+  color: var(--text_color);
   margin-bottom: 0.5rem;
 }
 
@@ -261,7 +261,7 @@
   display: grid;
   grid-template-columns: 2fr 1fr 2fr;
   align-items: center;
-  color: var(--color_texto);
+  color: var(--text_color);
 }
 
 .profesional_skills h2{
@@ -270,7 +270,7 @@
   text-align: center;
   padding: 1rem 1.5rem;
   margin: 0;
-  color: var(--color_texto);
+  color: var(--text_color);
   border-radius: 5px;
   box-shadow: var(--boxShadow_habilidadesP);
   background-color: var(--background_habilidadesP);
@@ -311,20 +311,20 @@
   margin: 0 3rem 0 2rem;
 }
 
-.hobies_iconos{
+.hobies_icons{
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-row-gap: 1.5rem;
   margin: 1rem 0 0 2rem;
 }
 
-.hobbie_elemento img{
+.hobbie_element img{
   width: 50px;
   height: auto;
   margin-bottom: 0.75rem;
 }
 
-.hobbie_elemento{
+.hobbie_element{
   text-align: center;
   font-weight: bold;
 }
