@@ -20,7 +20,7 @@
 }
 
 .modal-content img{
-  width: 100%;
+  width: 16rem;
   border-radius: 15px;
   border: solid 2px rgba(150, 234, 234, 0.75);
   box-shadow: 0px 0px 10px 5px rgba(143,224,245,0.9);
