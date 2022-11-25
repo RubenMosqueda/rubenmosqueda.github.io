@@ -4,7 +4,7 @@
   /*Colors*/
   --title_Color: #D76F38;
   --text_Color: #ffffff;
-  --background_Color: #D5D9DA;
+  --background_Color: #204B4B;
   --black_Glass_Color: rgba(39, 39, 41, 0.3);
   --white_Glass_Color: rgba(255, 255, 255, 0.5);
   --blur_index: 5px;
@@ -13,8 +13,8 @@
   --footer_Border_Orange_color: solid 4px #D76F38;
   --footer_Border_Aqua_color: solid 4px #8FE0F5;
   --box_Shadow_Orange_Color: 0 0 32px 0 #D76F38;
-  --footer_Box_Shadow_Orange_Color: 0 -5px 16px 0 #D76F38;
-  --footer_Box_Shadow_Aqua_Color:0 -5px 16px 0 0 #8FE0F5;
+  --footer_Box_Shadow_Orange_Color: 0px 0px 24px 0px #D76F38;
+  --footer_Box_Shadow_Aqua_Color: 0px 0px 24px 0px #8FE0F5;
   --hr_Orange_Color: #D76F38;
   --hr_Aqua_Color: #8FE0F5;
 }
@@ -30,26 +30,257 @@ body{
   grid-row-gap: 0;
   grid-template-columns: auto;
   margin: 0 auto;
-  max-width: 400px;
+  max-width: 500px;
   height: 100vh;
-  box-shadow: var(--box_Shadow_Orange_Color);
+  
 }
 
 .content{
+  position: relative;
   width: 100%;
+  height: 100vh;
+  background-color: #D5D9DA;
   background-image: url(../imagenes/texture_1.png);
   background-size: 7rem;
-  margin: 0 auto;
+  margin: auto auto;
   overflow: hidden;
+}
+
+.informationContainer{
+  display: grid;
+  grid-template-rows: 4fr 1fr;
+  align-items: center;
+  justify-items: center;
+  width: 100%;
+  height: 65%;
 }
 
 .information{
   display: flex;
+  flex-direction: column;
   align-items: center;
-  height: 50vh;
+  justify-content: center;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  background: var(--black_Glass_Color);
+  box-shadow: var(--box_Shadow_Orange_Color);
+  backdrop-filter: blur( var(--blur_index) );
+  -webkit-backdrop-filter: blur( var(--blur_index) );
+  border: var(--border_Info);
 }
 
-.infoContainer{
+.informationName{
+  width: 80%;
+}
+
+.informationName h1{
+  color: var(--title_Color);
+  font-size: 1.25rem;
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+.informationName h2{
+  color: var(--text_Color);
+  font-size: 0.7rem;
+  text-align: center;
+  margin-top: 0.5rem;
+}
+
+.informationName hr{
+  height: 1px;
+  background-color: var(--hr_Aqua_Color);
+  border-color: var(--hr_Aqua_Color);
+}
+
+.infornationContact{
+  padding-top: 1rem;
+}
+
+.infornationContact{
+  color: var(--text_Color);
+  text-align: left;
+  font-size: 0.6rem;
+}
+
+.infornationContact a{
+  text-decoration: none;
+  color: var(--text_Color);
+}
+
+.infornationContact ul{
+  list-style-type: none;
+  margin: 0 auto;
+}
+
+.infornationContact ul li{
+  margin-top: 0.4rem;
+}
+
+.infornationContact ul li .fa-square-github{
+  margin-right: 0.25rem;
+  font-size: 1.2rem;
+  color: #8FE0F5;
+}
+
+.infornationContact ul li .fa-envelope{
+  margin-right: 0.25rem;
+  font-size: 1rem;
+  color: #D5D9DA;
+}
+
+.infornationContact ul li .fa-twitter{
+  margin-right: 0.25rem;
+  font-size: 1rem;
+  color: #00acee;
+}
+
+#myBtn{
+  width: 72px;
+  height: 72px;
+  border-radius: 100%;
+  border: none;
+  background: none;
+}
+
+.logo{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+  transform: rotate(-45deg);
+}
+
+.logo .glassLogo{
+  background: var(--white_Glass_Color);
+  box-shadow: var(--box_Shadow_Orange_Color);
+  backdrop-filter: blur( var(--blur_index) );
+  -webkit-backdrop-filter: blur( var(--blur_index) );
+  border: var(--border_Logo);
+}
+
+.logo .glassDarkLogo{
+  background: var(--black_Glass_Color);
+  box-shadow: var(--box_Shadow_Orange_Color);
+  backdrop-filter: blur( var(--blur_index) );
+  -webkit-backdrop-filter: blur( var(--blur_index) );
+  border: var(--border_Logo);
+}
+
+.logo .one{
+  position: absolute;
+  right: -4px;
+  top: -5px;
+  width: 34px;
+  height: 33px;
+  border-radius: 0 100% 0 0;
+}
+
+.logo .two{
+  position: absolute;
+  left: 0;
+  top: -4px;
+  width: 34px;
+  height: 33px;
+  border-radius: 100% 0 0 0;
+}
+
+.logo .three{
+  position: absolute;
+  bottom: 0;
+  width: 70px;
+  height: 35px;
+  border-radius: 0 0 70px 70px;
+}
+
+.logo .logoText{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: 100%;
+  height: 100%;
+  font-size: 1rem;
+  color: var(--text_Color);
+  transform: rotate(45deg);
+  margin: 0 auto;
+}
+
+.logo .one div{
+  margin: 3px -3px;
+}
+
+.logo .two div{
+  margin: 3px 3px;
+}
+
+.covers{
+  position: absolute;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  width: 200%;
+  height: 200%;
+  top: -25%;
+  right: -50%;
+  transform: rotate(-45deg);
+}
+
+.glass{
+  background: var(--white_Glass_Color);
+  backdrop-filter: blur( var(--blur_index) );
+  -webkit-backdrop-filter: blur( var(--blur_index) );
+}
+
+.orange{
+  z-index: 3; 
+  width: 50%;
+  height: 100%;
+  box-shadow: var(--footer_Box_Shadow_Orange_Color);
+  border-right: var(--footer_Border_Orange_color);
+}
+
+.orange hr{
+  width:  8px;
+  height: 100%;
+  margin-left: 96%;
+  border: none;
+  background-color: var(--hr_Orange_Color);
+}
+
+.blue{
+  z-index: 2; 
+  width: 50%;
+  height: 50%;
+  box-shadow: var(--footer_Box_Shadow_Aqua_Color);
+  border-top: var(--footer_Border_Aqua_color);
+}
+
+.blue hr{
+  width: 100%;
+  height: 8px;
+  margin-top: 2%;
+  border: none;
+  background-color: var(--hr_Aqua_Color);
+
+}
+
+@media (min-width: 500px){
+
+  .content{
+    width: 400px;
+    height: 900px;
+    border-radius: 15px;
+    border: solid 2px rgba(150, 234, 234, 0.75);
+    box-shadow: 0px 0px 10px 5px rgba(143,224,245,0.9);
+  }
+
+}
+
+
+
+/* .infoContainer{
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -63,80 +294,75 @@ body{
   backdrop-filter: blur( var(--blur_index) );
   -webkit-backdrop-filter: blur( var(--blur_index) );
   border: var(--border_Info);
-}
+} */
 
-.infoName{
+/* .informationName{
   width: 80%;
 }
 
-.infoName h1{
+.informationName h1{
   color: var(--title_Color);
   font-size: 1.25rem;
   text-align: center;
   margin-bottom: 0.5rem;
 }
 
-.infoName h2{
+.informationName h2{
   color: var(--text_Color);
   font-size: 0.7rem;
   text-align: center;
   margin-top: 0.5rem;
 }
 
-.infoName hr{
+.informationName hr{
   height: 1px;
   background-color: var(--hr_Aqua_Color);
   border-color: var(--hr_Aqua_Color);
 }
 
-.infoContact{
+.infornationContact{
   padding-top: 1rem;
 }
 
-.infoContact{
+.infornationContact{
   color: var(--text_Color);
   text-align: left;
   font-size: 0.6rem;
 }
 
-.infoContact a{
+.infornationContact a{
   text-decoration: none;
   color: var(--text_Color);
 }
 
-.infoContact ul{
+.infornationContact ul{
   list-style-type: none;
   margin: 0 auto;
 }
 
-.infoContact ul li{
+.infornationContact ul li{
   margin-top: 0.4rem;
 }
 
-.infoContact ul li .fa-square-github{
+.infornationContact ul li .fa-square-github{
   margin-right: 0.25rem;
   font-size: 1.2rem;
   color: #8FE0F5;
 }
 
-.infoContact ul li .fa-envelope{
+.infornationContact ul li .fa-envelope{
   margin-right: 0.25rem;
   font-size: 1rem;
 }
 
-.infoContact ul li .fa-twitter{
+.infornationContact ul li .fa-twitter{
   margin-right: 0.25rem;
   font-size: 1rem;
   color: #00acee;
 }
 
-.infoContact ul li p{
+.infornationContact ul li p{
   display: inline-block;
-}
-
-.footer{
-  position: relative;
-  height: 50vh;
 }
 
 #myBtn{
@@ -150,14 +376,14 @@ body{
   height: 90px;
 }
 
-.footer .logo{
+.infornationContact.footer .logo{
   margin: 0 auto; 
   transform: rotate(-135deg);
   width: 72px;
   height: 72px;
 }
 
-.footer .logo .glassLogo{
+.infornationContact .logo .glassLogo{
   background: var(--white_Glass_Color);
   box-shadow: var(--box_Shadow_Orange_Color);
   backdrop-filter: blur( var(--blur_index) );
@@ -165,7 +391,7 @@ body{
   border: var(--border_Logo);
 }
 
-.footer .logo .glassDarkLogo{
+.infornationContact .logo .glassDarkLogo{
   background: var(--black_Glass_Color);
   box-shadow: var(--box_Shadow_Orange_Color);
   backdrop-filter: blur( var(--blur_index) );
@@ -173,7 +399,7 @@ body{
   border: var(--border_Logo);
 }
 
-.footer .logo .one{
+.infornationContact .logo .one{
   position: absolute;
   right: -4px;
   top: -5px;
@@ -182,7 +408,7 @@ body{
   border-radius: 0 100% 0 0;
 }
 
-.footer .logo .two{
+.infornationContact .logo .two{
   position: absolute;
   left: 0;
   top: -4px;
@@ -191,7 +417,7 @@ body{
   border-radius: 100% 0 0 0;
 }
 
-.footer .logo .three{
+.infornationContact .logo .three{
   position: absolute;
   bottom: 0;
   width: 70px;
@@ -199,7 +425,7 @@ body{
   border-radius: 0 0 70px 70px;
 }
 
-.footer .logo .logoText{
+.infornationContact .logo .logoText{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -212,13 +438,20 @@ body{
   margin: 0 auto;
 }
 
-.footer .logo .one div{
+.infornationContact .logo .one div{
   margin: 3px -3px;
 }
 
-.footer .logo .two div{
+.infornationContact .logo .two div{
   margin: 3px 3px;
+} */
+
+/* .footer{
+  position: relative;
+  height: 50vh;
 }
+
+
 
 .footer .glass{
   position: absolute;
@@ -263,4 +496,4 @@ body{
   margin-top: 0.4rem;
   border: none;
   background-color: var(--hr_Aqua_Color);
-}
+} */

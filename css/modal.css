@@ -1,5 +1,5 @@
 .modal {
-  display: none; /* Hidden by default */
+  display: none;  /*Hidden by default*/
   position: fixed;
   align-items: center;
   justify-items: center;
@@ -14,7 +14,6 @@
 
 .modal-content {
   display: grid;
-  width: 75%;
   align-items: center;
   justify-items: center;
 }

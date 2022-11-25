@@ -31,7 +31,7 @@ const handleOrientationEvent = (frontToBack, leftToRight, rotateDegrees) => {
     // ejeY.value = leftToRight;
     
     const logo = document.getElementById("logo");
-    const infoContainer = document.getElementById("infoContainer");
+    const infoContainer = document.getElementById("information");
 
 
     let correccionValue = Math.round(25 * (1 - (1/80 * (frontToBack + 10))));
