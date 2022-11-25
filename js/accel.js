@@ -10,13 +10,22 @@ if (window.DeviceOrientationEvent) {
 }
 
 const handleOrientationEvent = (frontToBack, leftToRight, rotateDegrees) => {
- // do something amazing  
+    // do something amazing  
+    // To debug:
     // const ejeZ = document.getElementById("alpha");
     // const ejeX = document.getElementById("beta");
     // const ejeY = document.getElementById("gamma");
     // const angleInfo = document.getElementById("angleInfo");
     // const angleLogo = document.getElementById("angleLogo");
     // const correccion = document.getElementById("correccion");
+
+    const logo = document.getElementById("logo");
+    const infoContainer = document.getElementById("information");
+    const pageWidth  = document.documentElement.scrollWidth;
+
+    let correccionValue = Math.round(25 * (1 - (1/80 * (frontToBack + 10))));
+    let infoValue = Math.round(-leftToRight);
+    let logoValue = Math.round((1/90) * (-leftToRight) * 90 - 45);
 
     if (frontToBack < -10){
       frontToBack = -10;
@@ -26,18 +35,12 @@ const handleOrientationEvent = (frontToBack, leftToRight, rotateDegrees) => {
       frontToBack = 70;
     }
 
+    // To debug:
     // ejeZ.value = rotateDegrees;
     // ejeX.value = frontToBack;
     // ejeY.value = leftToRight;
     
-    const logo = document.getElementById("logo");
-    const infoContainer = document.getElementById("information");
-
-
-    let correccionValue = Math.round(25 * (1 - (1/80 * (frontToBack + 10))));
-    let infoValue = Math.round(-leftToRight);
-    let logoValue = Math.round((1/90) * (-leftToRight) * 90 - 45);
-
+    // Limits and values adjusted
     if(infoValue < 20 && infoValue > -20){
       infoValue = 0;
     }
@@ -68,10 +71,20 @@ const handleOrientationEvent = (frontToBack, leftToRight, rotateDegrees) => {
       }   
     }
 
+    // To debug:
     // angleInfo.value = infoValue;
     // angleLogo.value = logoValue;
     // correccion.value = correccionValue;
 
-    infoContainer.style.transform = "rotate("+ infoValue  +"deg)";
-    logo.style.transform = "rotate("+ logoValue  +"deg)";
+    //Rotation if page width is les of 500px
+    if(pageWidth < 500){
+      infoContainer.style.transform = "rotate("+ infoValue  +"deg)";
+      logo.style.transform = "rotate("+ logoValue  +"deg)";
+    }
+
+    else{
+      infoContainer.style.transform = "rotate("+ 0 +"deg)";
+      logo.style.transform = "rotate("+ -45 +"deg)";
+    }
+
 };
