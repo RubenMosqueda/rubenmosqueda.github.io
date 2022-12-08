@@ -1,6 +1,7 @@
 @import url(../css/body.css);
 @import url(../css/navbar.css);
 @import url(../css/sprite_animation.css);
+@import url(../css/cards_galery.css);
 
 /*Variables para paleta de colores*/
 :root {
@@ -11,19 +12,41 @@
   --color_extra_1: #D5D9DA;
   --color_extra_2: #272729;
   --color_extra_3: #8FE0F5;
+
+  /*Tab*/
+  --color_tabText: #D76F38;
+  --color_tabBackground: #272729;
+  --color_tabShadow: -3px 3px 0px 3px #8FE0F5;
+  --border_tab: 10px 0 0 10px;
   
   /*Misc*/
   --border_radius: 10px;
 }
 
-.content-wrapper {
+/* .content-wrapper {
   height: 95vh;
-}
+} */
 
 .content{
   display: grid;
-  grid-row-gap: 3rem;
+  grid-row-gap: 0;
   grid-template-columns: auto;
   z-index: 4;
-  margin: 1rem 0;
+  margin: 1.5rem 0;
+}
+
+section{
+  width: 100%;
+  margin: 0;
+}
+
+.tab{
+  width: 60%;
+  font-size: 1.75rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 0 8px 8px 0px;
+  color: var(--color_tabText);
+  background-color: var(--color_tabBackground);
+  box-shadow: 4px 0px 0px 3px var(--color_extra_3);
 }
