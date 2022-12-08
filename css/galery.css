@@ -2,6 +2,7 @@
 @import url(../css/navbar.css);
 @import url(../css/sprite_animation.css);
 @import url(../css/cards_galery.css);
+@import url(../css/swiper.css);
 
 /*Variables para paleta de colores*/
 :root {
@@ -36,6 +37,11 @@
 }
 
 section{
+  width: 100%;
+  margin: 0;
+}
+
+.codepenSection{
   width: 100%;
   margin: 0;
 }
