@@ -170,6 +170,10 @@
   background-size: cover;
 }
 
+.cpImageDefault{
+  background-image: url("../imagenes/codepen_default.JPG");
+}
+
 .cpImage1{
   background-image: url("../imagenes/codepen.JPG");
 }
@@ -177,6 +181,32 @@
 .cpImage2{
   background-image: url("../imagenes/codepen_card.JPG");
 }
+
+.cpImage3{
+  background-image: url("../imagenes/behance_card.JPG");
+}
+
+.cpImage4{
+  background-image: url("../imagenes/fake_window_card.JPG");
+}
+
+.cpImage5{
+  background-image: url("../imagenes/e-book_card.JPG");
+}
+
+.cpImage6{
+  background-image: url("../imagenes/behance_card.JPG");
+}
+
+.cpImage7{
+  background-image: url("../imagenes/codepen_css_sprite_animation.JPG");
+}
+
+
+
+
+
+
 
 .codepenDescription{
   display: grid;
@@ -232,7 +262,7 @@
   bottom: 0;
   width: 100%;
   height: 30%;
-  background: linear-gradient(0deg, rgba(93,93,93,1) 20%, transparent 90%);
+  background: linear-gradient(0deg, rgba(30, 30, 30, 1) 0, transparent 90%);
 }
 
 .designCard h2{
@@ -247,7 +277,31 @@
   font-weight: 100;
 }
 
+.designImgDefault {
+  background-size: cover;
+  background-image: url("https://mir-s3-cdn-cf.behance.net/projects/404/a87ff6109434083.Y3JvcCw4MDgsNjMyLDAsMA.jpg");
+}
+
 .designImg_1 {
   background-size: cover;
-  background-image: url("../imagenes/behance.JPG");
+  background-image: url("../imagenes/behance_resume.JPG");
+}
+
+.designImg_2 {
+  background-size: cover;
+  background-image: url("../imagenes/behance_menu_web_restaurant.JPG");
+}
+
+.designImg_3 {
+  background-size: cover;
+  background-image: url("../imagenes/behance_menu_taco_al_pastor.JPG");
+}
+
+.designImg_4 {
+  background-size: cover;
+  background-image: url("../imagenes/behance_kits_para_todos.JPG");
+}
+.designImg_5 {
+  background-size: cover;
+  background-image: url("../imagenes/behance_art_creator_web.JPG");
 }
