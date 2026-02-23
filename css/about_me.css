@@ -164,6 +164,16 @@
   margin-left: 2rem;
 }
 
+.grades hr{
+  margin: 1rem 1rem;
+}
+
+.gradesList{
+  height: 13rem;
+  overflow: hidden;
+  transition: all 1s ease;
+}
+
 .studies a{
   text-decoration: none;
   color: var(--color_primario);
@@ -185,6 +195,31 @@
   margin-left: 1rem;
   font-size: 0.9rem;
   font-weight: bold;
+}
+
+.openButton{
+  width: 1.75rem;
+  height: 1.75rem;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  background-color: #272729;
+  box-shadow: -2px 2px 0px 0px #8FE0F5;
+}
+
+.openButton i{
+  font-size: 1.25rem;
+  color: #D5D9DA;
+}
+
+.openButton i:hover{
+  color: #8FE0F5;
+}
+
+.openButton:hover{
+  box-shadow: -2px 2px 0px 0px #D5D9DA;
 }
 
 @media (min-width: 700px) {
@@ -214,7 +249,7 @@
     margin-left: 0;
   }
 
-  .grades{
+  .gradesList{
     display: grid;
     grid-template-columns: 1fr 1fr;
     margin-top: 1rem;
