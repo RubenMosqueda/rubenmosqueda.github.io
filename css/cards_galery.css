@@ -170,54 +170,6 @@
   background-size: cover;
 }
 
-.cpImageDefault{
-  background-image: url("../imagenes/codepen_my_codepen_space.jpg");
-}
-
-.cpImage1{
-  background-image: url("../imagenes/codepen_css_sprite_animation.JPG");
-}
-
-.cpImage2{
-  background-image: url("../imagenes/codepen_landing_page_exercise.JPG");
-}
-
-.cpImage3{
-  background-image: url("../imagenes/codepen_card.JPG");
-}
-
-.cpImage4{
-  background-image: url("../imagenes/codepen_behance_card.JPG");
-}
-
-.cpImage5{
-  background-image: url("../imagenes/codepen_fake_window_card.JPG");
-}
-
-.cpImage6{
-  background-image: url("../imagenes/codepen_e_book_card.JPG");
-}
-
-.cpImage7{
-  background-image: url("../imagenes/codepen_accordion_list_css.JPG");
-}
-
-.cpImage8{
-  background-image: url("../imagenes/codepen_accordion_list_with_transition_css.jpg");
-}
-
-.cpImage9{
-  background-image: url("../imagenes/codepen_accordion_list_responsive_with_javascript.jpg");
-}
-
-.cpImage10{
-  background-image: url("../imagenes/codepen_layout_responsive.jpg");
-}
-
-.cpImage11{
-  background-image: url("../imagenes/.jpg");
-}
-
 .codepenDescription{
   display: grid;
   grid-template-columns: 1fr 4fr;
@@ -235,7 +187,6 @@
   height: 40px;
   background-size: cover;
   background-color: #FFFFFF;
-  background-image: url("../imagenes/Logo.png");
   border-radius: 10px;
 }
 
