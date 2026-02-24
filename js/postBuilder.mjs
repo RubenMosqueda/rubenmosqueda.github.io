@@ -53,22 +53,10 @@ export function CodePenSlideBuilder(indexPost, mySwiper){
   mySwiper.appendChild(codePenslide);
 }
 
-/*Funcion que rellena la seccion  Swiper-wrapper con los post creados por CodePenSlideBuilder() */
-export function codePenSlideFiller() {
-  const mySwiper = document.getElementById("swiper-wrapper");
-  for (var indexPost = 0; indexPost < articlesCodePenDB.length; indexPost++) {
-    CodePenSlideBuilder(indexPost, mySwiper);
-  }
-}
-
-/*Llamamos a la funcion para que rellene el swiper con todos los post de CodePen */
-codePenSlideFiller();
-
-
 //TODO: Crear la funcion que genere la structura HTML para cada post de la seccion de Diseños
 //**Diseños post generator */
 
-/* html Diseñós post
+/* html Diseños post
   <div class="swiper-slide">
     <button id="myBtn" class="designCard designImg_6">
       <div class="designInfo">
@@ -78,3 +66,45 @@ codePenSlideFiller();
     </button> 
   </div>
 */
+export function DesingSlideBuilder(indexPost, mySwiper){
+  /*creamos el div que contendra el post que queremos crear */
+  const desingSlide = document.createElement("div");
+  /*Le asignamos la clase slide*/
+  desingSlide.className += ("swiper-slide");
+  /*Colocamos todo el HTML que ira dentro de este bloque*/
+  /*Esta slide en particular contendra 3 variables que seran leidas de la base de datos de postGaleryDB.jms*/
+  /*
+  ${articlesDesingDB[indexPost].image}
+  ${articlesDesingDB[indexPost].title}
+  ${articlesDesingDB[indexPost].autor}
+  */
+  desingSlide.innerHTML = `
+    <button id="myBtn" class="designCard" style="background-image: url('${articlesDesingDB[indexPost].image}');">
+      <div class="designInfo">
+        <h2>${articlesDesingDB[indexPost].title}</h2> 
+        <h3>${articlesDesingDB[indexPost].autor}</h3>
+      </div>
+    </button> 
+  `;
+  mySwiper.appendChild(desingSlide);
+}
+
+/*Funcion que rellena la seccion  Swiper-wrapper con los post creados por CodePenSlideBuilder() */
+export function postSlideFiller(swiperWeapper) {
+  const mySwiper = document.getElementById(swiperWeapper);
+  if(swiperWeapper == "swiper-wrapper-cp"){
+    for (var indexPost = 0; indexPost < articlesCodePenDB.length; indexPost++) {
+    CodePenSlideBuilder(indexPost, mySwiper);
+    }
+  }
+  if(swiperWeapper == "swiper-wrapper-dsg"){
+    for (var indexPost = 0; indexPost < articlesDesingDB.length; indexPost++) {
+    DesingSlideBuilder(indexPost, mySwiper);
+    }
+  } 
+}
+
+/*Llamamos a la funcion para que rellene el swiper con todos los post de CodePen */
+postSlideFiller("swiper-wrapper-cp");
+/*Llamamos a la funcion para que rellene el swiper con todos los post de Diseño */
+postSlideFiller("swiper-wrapper-dsg");

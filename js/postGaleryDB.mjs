@@ -74,13 +74,33 @@ export const articlesCodePenDB =
 export const articlesDesingDB =
 [
     {
-      image:"set image link",
-      title:"set post title",
+      image:"../imagenes/behance_pusheen_panels.JPG",
+      title:"Pusheen Skin Twitch Panels",
       autor:"Rubén Mosqueda"
     },
     {
-      image:"set image link",
-      title:"set post title",
+      image:"../imagenes/behance_art_creator_web.JPG",
+      title:"Art Creator Web",
+      autor:"Rubén Mosqueda"
+    },
+    {
+      image:"../imagenes/behance_kits_para_todos.JPG",
+      title:"Kits para Todos",
+      autor:"Rubén Mosqueda"
+    },
+    {
+      image:"../imagenes/behance_menu_taco_al_pastor.JPG",
+      title:"Taco al Pastor Menu",
+      autor:"Rubén Mosqueda"
+    },
+    {
+      image:"../imagenes/behance_menu_web_restaurant.JPG",
+      title:"Menu Web Restaurant",
+      autor:"Rubén Mosqueda"
+    },
+    {
+      image:"../imagenes/behance_resume.JPG",
+      title:"Resume",
       autor:"Rubén Mosqueda"
     }
 ]
