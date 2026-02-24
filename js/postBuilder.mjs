@@ -79,7 +79,7 @@ export function DesingSlideBuilder(indexPost, mySwiper){
   ${articlesDesingDB[indexPost].autor}
   */
   desingSlide.innerHTML = `
-    <button id="myBtn" class="designCard" style="background-image: url('${articlesDesingDB[indexPost].image}');">
+    <button id="btn_${indexPost}" class="designCard btn" style="background-image: url('${articlesDesingDB[indexPost].minature}');">
       <div class="designInfo">
         <h2>${articlesDesingDB[indexPost].title}</h2> 
         <h3>${articlesDesingDB[indexPost].autor}</h3>
@@ -92,6 +92,7 @@ export function DesingSlideBuilder(indexPost, mySwiper){
 /*Funcion que rellena la seccion  Swiper-wrapper con los post creados por CodePenSlideBuilder() */
 export function postSlideFiller(swiperWeapper) {
   const mySwiper = document.getElementById(swiperWeapper);
+  let btnArray = [];
   if(swiperWeapper == "swiper-wrapper-cp"){
     for (var indexPost = 0; indexPost < articlesCodePenDB.length; indexPost++) {
     CodePenSlideBuilder(indexPost, mySwiper);
@@ -100,11 +101,51 @@ export function postSlideFiller(swiperWeapper) {
   if(swiperWeapper == "swiper-wrapper-dsg"){
     for (var indexPost = 0; indexPost < articlesDesingDB.length; indexPost++) {
     DesingSlideBuilder(indexPost, mySwiper);
-    }
+    /*btnArray.push( 'btn_' + indexPost );
+      console.log(btnArray);*/
+    } 
   } 
+  // Selecciona todos los botones con la clase 'btn'
+  const botones = document.querySelectorAll(".btn");
+  console.log(botones);
+
+  // Recorre el arreglo de botones y añade un evento click a cada uno
+  botones.forEach((boton, index) => {
+    boton.addEventListener("click", () => {
+      
+      console.log(`Botón ${index + 1} presionado`);
+
+      // Get the modal
+      const modal = document.getElementById("myModal");
+      const modal_galery = document.getElementById("modal-galery");
+
+      // Get the button that opens the modal
+      const btn = document.getElementById("btn_" + index);
+      console.log(btn);
+      console.log(index);
+
+      // When the user clicks on the button, open the modal
+
+        modal_galery.innerHTML=`<img src="${articlesDesingDB[index].image}" alt=""></img>`;
+        modal.style.display = "grid";
+        console.log(articlesDesingDB[index].image);
+
+
+      // When the user clicks anywhere outside of the modal, close it
+      window.onclick = function(event) {
+        if (event.target == modal) {
+          modal.style.display = "none";
+        }
+      }
+    });
+  });
 }
 
 /*Llamamos a la funcion para que rellene el swiper con todos los post de CodePen */
 postSlideFiller("swiper-wrapper-cp");
 /*Llamamos a la funcion para que rellene el swiper con todos los post de Diseño */
 postSlideFiller("swiper-wrapper-dsg");
+
+
+
+
