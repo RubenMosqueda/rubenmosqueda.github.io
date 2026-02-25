@@ -3,6 +3,8 @@
 import { articlesCodePenDB } from "./postGaleryDB.mjs";
 import { articlesDesingDB } from "./postGaleryDB.mjs";
 import { logo } from "./postGaleryDB.mjs";
+import { loadModalDesign } from "./modal_galery.mjs";
+
 
 //*<--------------------Codepen Slide Builder ---------------------->*/
 /* hmtl Codepen post
@@ -94,9 +96,6 @@ export function postSlideFiller(swiperWeapper) {
   
   //*? Seleccionamos el swiper segun el Id del swiper de entrada (swiperWeapper)*/
   const mySwiper = document.getElementById(swiperWeapper);
-  //*? Declaramos un arreglo de botones vacio */
-  let btnArray = [];
-
   //*? Selector de tipo de Slide a rellenar */
   if(swiperWeapper == "swiper-wrapper-cp"){
     //**? Ciclo para rellenar el Swiper tipo CODEPEN */
@@ -108,53 +107,18 @@ export function postSlideFiller(swiperWeapper) {
     //**? Ciclo para rellenar el Swiper tipo DISEÑOS */
     for (var indexPost = 0; indexPost < articlesDesingDB.length; indexPost++) {
     DesingSlideBuilder(indexPost, mySwiper);
-    //*!lectura de array de botones de control*/
-    /* btnArray.push( 'btn_' + indexPost ); console.log(btnArray);*/
     } 
   } 
-
-
-  // Selecciona todos los botones con la clase 'btn'
-  const botones = document.querySelectorAll(".btn");
-  console.log(botones);
-
-  // Recorre el arreglo de botones y añade un evento click a cada uno
-  botones.forEach((boton, index) => {
-    boton.addEventListener("click", () => {
-      
-      console.log(`Botón ${index + 1} presionado`);
-
-      // Get the modal
-      const modal = document.getElementById("myModal");
-      const modal_galery = document.getElementById("modal-galery");
-
-      // Get the button that opens the modal
-      const btn = document.getElementById("btn_" + index);
-      console.log(btn);
-      console.log(index);
-
-      // When the user clicks on the button, open the modal
-
-        modal_galery.innerHTML=`<img src="${articlesDesingDB[index].image}" alt=""></img>`;
-        modal.style.display = "grid";
-        console.log(articlesDesingDB[index].image);
-
-
-      // When the user clicks anywhere outside of the moda, close it
-      window.onclick = function(event) {
-        if (event.target == modal_galery ||event.target == modal) {
-          modal.style.display = "none";
-        }
-      }
-    });
-  });
 }
+
+
 
 /*Llamamos a la funcion para que rellene el swiper con todos los post de CodePen */
 postSlideFiller("swiper-wrapper-cp");
 /*Llamamos a la funcion para que rellene el swiper con todos los post de Diseño */
 postSlideFiller("swiper-wrapper-dsg");
 
+loadModalDesign();
 
 
 
