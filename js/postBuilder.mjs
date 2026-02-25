@@ -64,6 +64,7 @@ export function CodePenSlideBuilder(indexPost, mySwiper){
   </div>
 */
 
+//*? Parametros de entrada: numero de post, Swiper donde ira la slide*/
 export function DesingSlideBuilder(indexPost, mySwiper){
   //*? Creamos el elemento que contendra el post/
   const desingSlide = document.createElement("div");
@@ -107,12 +108,12 @@ export function postSlideFiller(swiperWeapper) {
     //**? Ciclo para rellenar el Swiper tipo DISEÑOS */
     for (var indexPost = 0; indexPost < articlesDesingDB.length; indexPost++) {
     DesingSlideBuilder(indexPost, mySwiper);
-    /*btnArray.push( 'btn_' + indexPost );
-      console.log(btnArray);*/
+    //*!lectura de array de botones de control*/
+    /* btnArray.push( 'btn_' + indexPost ); console.log(btnArray);*/
     } 
   } 
 
-  
+
   // Selecciona todos los botones con la clase 'btn'
   const botones = document.querySelectorAll(".btn");
   console.log(botones);
