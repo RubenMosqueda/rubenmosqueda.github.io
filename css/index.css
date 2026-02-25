@@ -412,7 +412,7 @@
 }
 
 .contact_links a:hover{
-  color: var(--color_background);
+  color: var(--color_extra_3);
 }
 
 @media (min-width: 720px) {

@@ -135,6 +135,11 @@ body{
   font-size: 1rem;
   color: #00acee;
 }
+.infornationContact ul li .fa-instagram{
+  margin-right: 0.25rem;
+  font-size: 1rem;
+  color: #e1306c;
+}
 
 #myBtn{
   width: 72px;
