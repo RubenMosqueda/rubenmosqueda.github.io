@@ -1,40 +1,32 @@
 "use strict";
 
+import { articlesDesingDB } from "./postGaleryDB.mjs";
+
 export function loadModalDesign(){
-    //*? Declaramos un arreglo de botones vacio */
-  let btnArray = [];
- // Selecciona todos los botones con la clase 'btn'
+  
+  //*? Obtenemos el bloque de myModal y modal-galery del HTML*/
+  const modal = document.getElementById("myModal");
+  const modal_galery = document.getElementById("modal-galery");
+  
+  //*? Selecciona todos los botones con la clase 'btn'*/
   const botones = document.querySelectorAll(".btn");
-  console.log(botones);
 
-  // Recorre el arreglo de botones y añade un evento click a cada uno
+  //*? Funcion que recorre el arreglo de botones*/
   botones.forEach((boton, index) => {
+    
+    //*? Añade un EventListener click a cada boton*/
     boton.addEventListener("click", () => {
-      
-      console.log(`Botón ${index + 1} presionado`);
-
-      // Get the modal
-      const modal = document.getElementById("myModal");
-      const modal_galery = document.getElementById("modal-galery");
-
-      // Get the button that opens the modal
-      const btn = document.getElementById("btn_" + index);
-      console.log(btn);
-      console.log(index);
-
-      // When the user clicks on the button, open the modal
-
-        modal_galery.innerHTML=`<img src="${articlesDesingDB[index].image}" alt=""></img>`;
-        modal.style.display = "grid";
-        console.log(articlesDesingDB[index].image);
-
-
-      // When the user clicks anywhere outside of the moda, close it
-      window.onclick = function(event) {
-        if (event.target == modal_galery ||event.target == modal) {
-          modal.style.display = "none";
-        }
-      }
+      //*? When the user clicks on the button:*/
+      //*? 1- Agrega la imagen que sera mostrada en el modal*/
+      modal_galery.innerHTML=`<img src="${articlesDesingDB[index].image}" alt=""></img>`;
+      //*? 2- Muestra el modal cambiando la propiedad .diplay a grid*/
+      modal.style.display = "grid";
     });
   });
-}
+
+  //*? When the user clicks on modal_galery or modal, the modal y closet changing .diplay to none*/
+  window.onclick = function(event) {
+    if (event.target == modal_galery ||event.target == modal) 
+      { modal.style.display = "none";};
+  };
+};
