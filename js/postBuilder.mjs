@@ -3,7 +3,7 @@
 import { articlesCodePenDB } from "./postGaleryDB.mjs";
 import { articlesDesingDB } from "./postGaleryDB.mjs";
 import { logo } from "./postGaleryDB.mjs";
-import { loadModalDesign } from "./modal_galery.mjs";
+import { modalGalery } from "./modal_galery.mjs";
 
 
 //*<--------------------Codepen Slide Builder ---------------------->*/
@@ -23,33 +23,33 @@ import { loadModalDesign } from "./modal_galery.mjs";
   </div>
 */
 
-//*? Parametros de entrada: numero de post, Swiper donde ira la slide*/
-export function CodePenSlideBuilder(indexPost, mySwiper){
-  //*? Creamos el elemento que contendra el post/
+//*? Input parameters: Slide number, Swiper where the Slide will go*/
+export function CodePenSlideBuilder(indexSlide, mySwiper){
+  //*? Create the element will contain the Slide*/
   const codePenslide = document.createElement("div");
-  //*? Le asignamos la clase slide*/
+  //*? Assign the class slide*/
   codePenslide.className += ("swiper-slide");
-  /* Esta slide contendra 5 variables que seran leidas de la base de datos de postGaleryDB.jms 
+  /* This slide will contain 5 variables that will be read from the database postGaleryDB.jms 
    1- ${articlesCodePenDB[indexPost].codePenLink} 
    2- ${articlesCodePenDB[indexPost].image} 
    3- ${logo} 
    4- ${articlesCodePenDB[indexPost].title} 
-   5- ${articlesCodePenDB[indexPost].autor} */
-  //*? Colocamos todo el HTML que ira dentro de este bloque*/
+   5- ${articlesCodePenDB[indexPost].author} */
+  //*? We place all the HTML that will go inside this block*/
   codePenslide.innerHTML = `
-    <a class="codepenCard" href="${articlesCodePenDB[indexPost].codePenLink}" target="_blank">
-      <div class="codepenImg" style="background-image: url('${articlesCodePenDB[indexPost].image}');"></div>
+    <a class="codepenCard" href="${articlesCodePenDB[indexSlide].codePenLink}" target="_blank">
+      <div class="codepenImg" style="background-image: url('${articlesCodePenDB[indexSlide].image}');"></div>
       <div class="codepenBackground"></div>
       <div class="codepenDescription">
         <div class="codepenProfileImage" style="background-image: url('${logo}');"></div>
         <div class="codepenInfo">
-          <h2>${articlesCodePenDB[indexPost].title}</h2>
-          <h3>${articlesCodePenDB[indexPost].autor}</h3>
+          <h2>${articlesCodePenDB[indexSlide].title}</h2>
+          <h3>${articlesCodePenDB[indexSlide].author}</h3>
         </div>
       </div>
     </a>
   `;
-  //*? Agregamos el post creado al bloque swiper deseado (codepenSwiper)*/
+  //*? We add the created slide to the desired swiper block (codepenSwiper)*/
   mySwiper.appendChild(codePenslide);
 }
 
@@ -66,26 +66,26 @@ export function CodePenSlideBuilder(indexPost, mySwiper){
   </div>
 */
 
-//*? Parametros de entrada: numero de post, Swiper donde ira la slide*/
-export function DesingSlideBuilder(indexPost, mySwiper){
-  //*? Creamos el elemento que contendra el post/
+//*? Input parameters: Slide number, Swiper where the Slide will go*/
+export function DesingSlideBuilder(indexSlide, mySwiper){
+  //*? Create the element will contain the Slide*/
   const desingSlide = document.createElement("div");
-  //*? Le asignamos la clase slide*/
+  //*? Assign the class slide*/
   desingSlide.className += ("swiper-slide");
-  /* Esta slide contendra 3 variables que seran leidas de la base de datos de postGaleryDB.jms 
+  /* This slide will contain 3 variables that will be read from the database postGaleryDB.jms 
    1- ${articlesDesingDB[indexPost].image}
    2- ${articlesDesingDB[indexPost].title}
-   3- ${articlesDesingDB[indexPost].autor}*/
-  //*? Colocamos todo el HTML que ira dentro de este bloque*/
+   3- ${articlesDesingDB[indexPost].author}*/
+  //*? We place all the HTML that will go inside this block*/
   desingSlide.innerHTML = `
-    <button id="btn_${indexPost}" class="designCard btn" style="background-image: url('${articlesDesingDB[indexPost].minature}');">
+    <button id="btn_${indexSlide}" class="designCard btn" style="background-image: url('${articlesDesingDB[indexSlide].miniature}');">
       <div class="designInfo">
-        <h2>${articlesDesingDB[indexPost].title}</h2> 
-        <h3>${articlesDesingDB[indexPost].autor}</h3>
+        <h2>${articlesDesingDB[indexSlide].title}</h2> 
+        <h3>${articlesDesingDB[indexSlide].author}</h3>
       </div>
     </button> 
   `;
-  //*? Agregamos el post creado al bloque swiper deseado (designSwiper)*/
+  //*? We add the created slide to the desired swiper block (designSwiper)*/
   mySwiper.appendChild(desingSlide);
 }
 
@@ -111,14 +111,14 @@ export function postSlideFiller(swiperWeapper) {
   } 
 }
 
-
-
-/*Llamamos a la funcion para que rellene el swiper con todos los post de CodePen */
+/*We call the function to fill the swiper with all the CodePen posts*/
 postSlideFiller("swiper-wrapper-cp");
-/*Llamamos a la funcion para que rellene el swiper con todos los post de Diseño */
+
+/*We call the function to fill the swiper with all the Desing posts*/
 postSlideFiller("swiper-wrapper-dsg");
 
-loadModalDesign();
+/*Call to modal*/
+modalGalery();
 
 
 

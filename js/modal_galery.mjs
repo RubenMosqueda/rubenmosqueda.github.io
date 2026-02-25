@@ -2,24 +2,24 @@
 
 import { articlesDesingDB } from "./postGaleryDB.mjs";
 
-export function loadModalDesign(){
+export function modalGalery(){
   
-  //*? Obtenemos el bloque de myModal y modal-galery del HTML*/
+  //*? Obtain myModal and modal-galery blocks from HTML*/
   const modal = document.getElementById("myModal");
   const modal_galery = document.getElementById("modal-galery");
   
-  //*? Selecciona todos los botones con la clase 'btn'*/
-  const botones = document.querySelectorAll(".btn");
+  //*? Select all buttons with class 'btn'*/
+  const btnsArray = document.querySelectorAll(".btn");
 
-  //*? Funcion que recorre el arreglo de botones*/
-  botones.forEach((boton, index) => {
+  //*? Function that iterates through the array of buttons*/
+  btnsArray.forEach((button, index) => {
     
-    //*? Añade un EventListener click a cada boton*/
-    boton.addEventListener("click", () => {
-      //*? When the user clicks on the button:*/
-      //*? 1- Agrega la imagen que sera mostrada en el modal*/
+    //*? set an EventListener click to each button*/
+    button.addEventListener("click", () => {
+      //*? When the user clicks on the button:
+      //*? 1- Add the image that will be displayed in the modal*/
       modal_galery.innerHTML=`<img src="${articlesDesingDB[index].image}" alt=""></img>`;
-      //*? 2- Muestra el modal cambiando la propiedad .diplay a grid*/
+      //*? 2- Display the modal by changing the property .diplay to grid*/
       modal.style.display = "grid";
     });
   });
