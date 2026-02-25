@@ -119,11 +119,11 @@
 }
 
 .image_1{
-  background-image: url("../imagenes/kpt.jpg");
+  background-image: url("../imagenes/trabajo_kpt.jpg");
 }
 
 .image_2{
-  background-image: url("../imagenes/foxtales.JPG");
+  background-image: url("../imagenes/trabajo_foxtales.JPG");
 }
 
 /* Codepen */
@@ -236,37 +236,4 @@
   margin: 0.5rem 0 0 0.5rem;
   font-size: 0.7rem;
   font-weight: 100;
-}
-
-.designImgDefault {
-  background-size: cover;
-  background-image: url("../imagenes/behance_RMB.jpg");
-}
-
-.designImg_1 {
-  background-size: cover;
-  background-image: url("../imagenes/behance_resume.JPG");
-}
-
-.designImg_2 {
-  background-size: cover;
-  background-image: url("../imagenes/behance_menu_web_restaurant.JPG");
-}
-
-.designImg_3 {
-  background-size: cover;
-  background-image: url("../imagenes/behance_menu_taco_al_pastor.JPG");
-}
-
-.designImg_4 {
-  background-size: cover;
-  background-image: url("../imagenes/behance_kits_para_todos.JPG");
-}
-.designImg_5 {
-  background-size: cover;
-  background-image: url("../imagenes/behance_art_creator_web.JPG");
-}
-.designImg_6 {
-  background-size: cover;
-  background-image: url("../imagenes/Presentacion.png");
 }

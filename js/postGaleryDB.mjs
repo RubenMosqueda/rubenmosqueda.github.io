@@ -72,46 +72,53 @@ export const articlesCodePenDB =
 ]
 
 export const articlesDesingDB =
-[
+[    
     {
-      minature:"../imagenes/",
-      image:"../imagenes/Galeria_Diseños/Control_panel_concept.png",
+      minature:"../imagenes/diseño_control_panel_concept.jpg",
+      image:"../imagenes/presentacion_control_panel_concept.jpg",
       title:"Control Panel Concept",
       autor:"Rubén Mosqueda"
     },
     {
-      minature:"../imagenes/behance_pusheen_panels.JPG",
-      image:"../imagenes/Galeria_Diseños/Presentacion_Pusheen.jpg",
+      minature:"../imagenes/diseño_terminal_fox.jpg",
+      image:"../imagenes/presentacion_terminal_fox.jpg",
+      title:"Terminal Concept",
+      autor:"Rubén Mosqueda"
+    },
+
+    {
+      minature:"../imagenes/diseño_pusheen_panels.JPG",
+      image:"../imagenes/presentacion_Pusheen.jpg",
       title:"Pusheen Skin Twitch Panels",
       autor:"Rubén Mosqueda"
     },
     {
-      minature:"../imagenes/behance_art_creator_web.JPG",
-      image:"../imagenes/Galeria_Diseños/Preseentacion_ComisionesArt.jpg",
+      minature:"../imagenes/diseño_art_creator_web.JPG",
+      image:"../imagenes/presentacion_art_creator_web.JPG",
       title:"Art Creator Web",
       autor:"Rubén Mosqueda"
     },
     {
-      minature:"../imagenes/behance_kits_para_todos.JPG",
-      image:"../imagenes/Galeria_Diseños/Presentacion_KPT.jpg",
+      minature:"../imagenes/diseño_kits_para_todos.JPG",
+      image:"../imagenes/presentacion_KPT.jpg",
       title:"Kits para Todos",
       autor:"Rubén Mosqueda"
     },
     {
-      minature:"../imagenes/behance_menu_taco_al_pastor.JPG",
-      image:"../imagenes/Galeria_Diseños/Presentacion_tacos_al_pastor.png",
+      minature:"../imagenes/diseño_menu_taco_al_pastor.JPG",
+      image:"../imagenes/presentacion_tacos_al_pastor.jpg",
       title:"Taco al Pastor Menu",
       autor:"Rubén Mosqueda"
     },
     {
-      minature:"../imagenes/behance_menu_web_restaurant.JPG",
-      image:"../imagenes/Galeria_Diseños/Presentacion_menu_web_restaurant.png",
+      minature:"../imagenes/diseño_menu_web_restaurant.JPG",
+      image:"../imagenes/presentacion_menu_web_restaurant.jpg",
       title:"Menu Web Restaurant",
       autor:"Rubén Mosqueda"
     },
     {
-      minature:"../imagenes/behance_resume.JPG",
-      image:"../imagenes/Galeria_Diseños/Pressentacion_HojaVida.png",
+      minature:"../imagenes/diseño_resume.JPG",
+      image:"../imagenes/presentacion_HojaVida.jpg",
       title:"Resume",
       autor:"Rubén Mosqueda"
     }
