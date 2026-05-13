@@ -39,6 +39,7 @@ node_modules/
 jspm_packages/
 imagenes/
 test_folder/
+documentation/
 
 # Typescript v1 declaration files
 typings/
