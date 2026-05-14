@@ -19,8 +19,8 @@
   --blur_index: 2px;
 
   --color_background: #cacacb;
-  --light_background: linear-gradient(70deg, transparent 40%, #336b83 50%, transparent 70%);
-  --background_image_url: url(../imagenes/texture_2.png);
+  --light_background: linear-gradient(70deg, transparent 40%, #d75a16 50%, transparent 70%);
+  --background_image_url: url(../imagenes/texture_1.png);
 
 }
 
@@ -64,6 +64,7 @@ body{
 }
 
 .textureLayer{
+
   position: absolute;
   z-index: 2;
   width: 100%;
@@ -81,7 +82,7 @@ body{
   position: relative;
   z-index: 3;
   margin: 0 auto;
-  max-width: 1000px;
+  max-width: 1600px;
   
   background: var(--glass_background);
   box-shadow: var(--glass_box_shadow);
