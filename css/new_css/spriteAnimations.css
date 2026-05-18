@@ -1,5 +1,4 @@
-
-
+/* ~> Animation Configs */
 .canvaAnimated{
   position: relative;
   border-radius: 10px;
@@ -70,32 +69,76 @@
   }
 }
 
-.canva4{
+/* ~> Work Animation Configs */
+
+.workAnimation{
+  width: 100%;
+  height: 100%;
+  background-color: #373737;
+}
+
+.workAnimation .animatedContainer{
+  left: 0%;
+  animation-iteration-count: none;
+}
+
+.workAnimation .animatedContainer .rearShadow{
+  background: linear-gradient(45deg, transparent 30%, #D76F38 50%, transparent 80%);
+}
+
+.workAnimation .canvaBackground{
+  box-shadow: inset 0px -4px 10px 0 rgb(155, 155, 155);
+  background-image: url(../../imagenes/texture_2.png);
+  background-size: 3.5rem;
+}
+
+.workAnimation .animatedContainer .frontShadow{
+  background: none;
+}
+
+.workAnimation .character{
+  align-self: center;
+  margin: 0 auto;
+  align-self: end;
+  background-image: url("/imagenes/Sprites/SpriteCustomWork2.png");
+  background-size: 770px;
+  height: 130px;
+  width: 130px;
+  animation-name: caminar;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-timing-function: steps(5);
+}
+
+/* ~> Footer Animation Configs */
+
+.footerAnimation{
   width: 100%;
   height: 100%;
   margin: 0 auto;
   background-color: #373737;
 }
 
-.canva4 .animatedContainer{
-  animation-duration: 10s;
+.footerAnimation .animatedContainer{
+  animation-duration: 20s;
 }
 
-.canva4 .animatedContainer .rearShadow{
+.footerAnimation .animatedContainer .rearShadow{
   background: radial-gradient(circle, #8FE0F5 10%, transparent 25%);
 }
 
-.canva4 .canvaBackground{
+.footerAnimation .canvaBackground{
   box-shadow: inset 0px -4px 10px 0 rgb(155, 155, 155);
   background-image: url(../../imagenes/texture_2.png);
   background-size: 2.5rem;
 }
 
-.canva4 .animatedContainer .frontShadow{
+.footerAnimation .animatedContainer .frontShadow{
   background: radial-gradient(circle, #b985698a 2%, transparent 10%);
 }
 
-.canva4 .character{
+.footerAnimation .character{
   align-self: center;
   margin: 0 auto;
   align-self: end;

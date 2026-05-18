@@ -1,4 +1,7 @@
 @import url(interface.css);
+@import url(spriteAnimations.css);
+
+/* ~> Header Styles */
 
 .header{
   width: 100%;
@@ -34,11 +37,12 @@
   }
 
   .header h2{
-
     font-size: 1rem;
-
   }
 }
+
+/* ~> Section Styles */
+
 
 .sections{
   max-height: 700px;
@@ -48,15 +52,11 @@
     }
 }
 
+section{
+  /*border:solid 2px red;*/
+}
 
-
-
-
-
-
-
-
-
+/* ~> Section Presentation Styles */
 
 .presentation{
   height: 95%;
@@ -64,7 +64,6 @@
   text-align: center;
   overflow: hidden;
 }
-
 
 .profile_image{
   width: 55%;
@@ -89,7 +88,6 @@
   line-height: 1.4rem;
 }
 
-
 @media (min-width: 600px) {
   .profile_image{
     width: 45%;
@@ -105,7 +103,6 @@
   }
 
 }
-
 
 @media (min-width: 900px) {
   .presentation{
@@ -164,16 +161,7 @@
 
 }
 
-
-
-
-
-
-
-
-
-
-
+/* ~> Section Work Styles */
 
 .work{
   height: 95%;
@@ -182,20 +170,19 @@
   text-align: center;
 }
 
-
-.work .profile_image2{
-  width: 50%;
-  height: auto;
+.workCanva{
+  width: 70%;
+  height: 30%;
   margin: 1rem 0;
-  border: solid #d75a16 4px;
-
+  border: solid #8FE0F5 2px;
+  border-radius: 10px;
 }
 
-.work_section1{
+.work_description{
   margin-top: 3rem;
 }
 
-.work_section1 h1{
+.work_description h1{
   width: 80%;
   color: #8FE0F5;
   text-align: left;
@@ -203,7 +190,7 @@
   font-weight: 400;
 }
 
-.work_section1 p{
+.work_description p{
   width: 60%;
   color: #D5D9DA;
   margin: 1rem 0;
@@ -211,18 +198,18 @@
   line-height: 1.4rem;
 }
 
-
 @media (min-width: 600px) {
-  .profile_image2{
-    width: 45%;
+  .workCanva{
+    width: 55%;
+    margin: 0 auto;
   }
 
-  .work_section1{
+  .work_description{
     width: 70%;
     margin: 3rem auto 0 auto;
   }
 
-  .work_section1 p{
+  .work_description p{
     width: 100%;
   }
 
@@ -237,23 +224,22 @@
     column-gap: 3rem;
   }
 
-  .work .profile_image2{
+  .work .workCanva{
     width: 30%;
-    /* margin: 1rem; */
   }
 
-  .work_section1{
+  .work_description{
     width: 70%;
     margin: 0;
   }
 
-  .work_section1 h1{
+  .work_description h1{
     margin: 1rem 0;
     padding: 0;
     text-align: left;
   }
 
-  .work_section1 p{
+  .work_description p{
     width: 100%;
     text-align: left;
   }
@@ -274,12 +260,12 @@
     margin: 0 auto;
   }
 
-  .work_section1 h1{
+  .work_description h1{
     font-size: 2rem;
     line-height: 1.8rem;
   }
 
-  .work_section1 p{
+  .work_description p{
     font-size: 1.25rem;
     line-height: 1.8rem;
   }
@@ -288,10 +274,6 @@
 }
 
 
-
-section{
-  /*border:solid 2px red;*/
-}
 
 
 
