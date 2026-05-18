@@ -26,16 +26,7 @@ body{
   display: grid;
   grid-row-gap: 0rem;
   grid-template-columns: auto;
-  grid-template-rows: 1fr 5fr;
   margin: 0.5rem 0.5rem;
-
-
-}
-
-@media (min-width: 900px) {
-  .content{
-    grid-template-rows: 25% 75%;
-  }
 }
 
 /* ~> Navbar Styles */

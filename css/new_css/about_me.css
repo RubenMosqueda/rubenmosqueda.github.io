@@ -1,0 +1,372 @@
+@import url(interface.css);
+@import url(spriteAnimations.css);
+@import url(progress_bar.css);
+
+/* ~> content Styles */
+.content{
+  grid-row-gap: 3rem;
+  overflow: auto;
+  &::-webkit-scrollbar {
+       display: none;
+    }
+}
+
+/* ~> Presentation Styles */
+
+.presentation{
+  text-align: center;
+  margin: 1rem 3.5rem 0rem 2rem;
+}
+
+.presentation_section1 .profile_image{
+  width: 65%;
+  height: auto;
+  margin: 1rem 0;
+  border: solid #D76F38 4px;
+  border-radius: 50%;
+}
+
+.presentation_section1 h1{
+  color: #FFFFFF;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.presentation_section1 h2{
+  color: #8FE0F5;
+  font-size: 0.8rem;
+}
+
+.presentation_section1 ul{
+  margin-top: 1.5rem;
+  padding: 0;
+  list-style-type: none;
+}
+
+.presentation_section1 li {
+  display: inline;
+  margin: 0 0.75rem;
+}
+
+.presentation_section1 i{
+  font-size: 2rem;
+}
+
+.presentation_section1 a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.presentation_section1 a:hover{
+  color: #D76F38;
+}
+
+.presentation_section2 p{
+  color: #FFFFFF;
+  margin: 1rem 0;
+  text-align: center;
+  line-height: 1.4rem;
+}
+
+@media (min-width: 700px) {
+  .presentation{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 2rem;
+  }
+
+  .presentation_section1 i{
+    font-size: 1.5rem;
+  }
+
+  .presentation_section2 p{
+    text-align: right;
+  }
+}
+
+@media (min-width: 700px) {
+  .presentation{
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    gap: 2rem;
+  }
+
+  .presentation_section1 i{
+    font-size: 1.5rem;
+  }
+
+  .presentation_section2 p{
+    text-align: right;
+  }
+}
+
+/* ~> Tab y viñeta */
+
+.viñeta{
+  width: 70%;
+  margin: auto;
+  border: 1px solid #D76F38;
+  background-color: #D76F38;
+}
+
+.tab{
+  position: absolute;
+  top: 1rem;
+  left: -2rem;
+  padding: 0.75rem;
+  font-size: 1rem;
+  text-align: center;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  color: #D76F38;
+  border-radius: 10px 0 0 10px;
+  box-shadow: -3px 3px 0px 3px #8FE0F5;
+  background-color: #272729;
+}
+
+@media (min-width: 700px) {
+  .viñeta{
+    display: none;
+  }
+
+  .tab{
+    position: static;
+    width: 90%;
+    margin-bottom: 2rem;
+    margin-left: -2.1rem;
+    font-size: 1.5rem;
+    writing-mode: horizontal-tb ;
+    transform: rotate(0);
+    border-radius: 0 8px 8px 0px;
+    box-shadow: 4px 0px 0px 3px #8FE0F5;
+  }
+}
+
+/* ~> Formacion Academica */
+
+.studies{
+  position: relative;
+  margin: 0rem 3.5rem 0rem 2rem;
+  text-align: left;
+}
+
+.career, .grades{
+  margin-left: 2rem;
+}
+
+.grades hr{
+  margin: 1rem 1rem;
+}
+
+.gradesList{
+  height: 13rem;
+  overflow: hidden;
+  transition: all 1s ease;
+}
+
+.studies a{
+  text-decoration: none;
+  color: #D76F38;
+}
+
+.career .grade{
+  color: #8FE0F5;
+}
+
+.grade{
+  margin-top: 1.15rem;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #FFFFFF;
+}
+
+.career .grade_date{
+  margin-top:0.25rem;
+  margin-left: 1rem;
+  color: #FFFFFF;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.gradesList .grade_date{
+  margin-top:0.25rem;
+  margin-left: 1rem;
+  color: #8FE0F5;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.openButton{
+  width: 1.75rem;
+  height: 1.75rem;
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 7px;
+  background-color: #272729;
+  box-shadow: -2px 2px 0px 0px #8FE0F5;
+}
+
+.openButton i{
+  font-size: 1.25rem;
+  color: #D5D9DA;
+}
+
+.openButton i:hover{
+  color: #D76F38;
+}
+
+.openButton:hover{
+  box-shadow: -2px 2px 0px 0px #D5D9DA;
+}
+
+@media (min-width: 700px) {
+  .studies{
+    text-align: center;
+  }
+
+  .career .grade{
+    font-size: 1.5rem;
+  }
+
+  .career .grade_date{
+    font-size: 1.2rem;
+  }
+}
+
+@media (min-width: 850px){
+  .studies{
+    text-align: left;
+  }
+
+  .career{
+    text-align: center;
+  }
+
+  .career .grade_date{
+    margin-left: 0;
+  }
+
+  .gradesList{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 1rem;
+    column-gap: 2rem;
+  }
+}
+
+/* ~> Skills */
+
+.skills{
+  position: relative;
+  margin: 0 3rem 0 2rem;
+}
+
+.software_tecnology{
+  margin: 1rem 0 0 2rem;
+}
+
+.software_tecnology h2{
+  margin-bottom: 1.5rem;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.software_tecnology h3{
+  color: #FFFFFF;
+  margin-bottom: 0.5rem;
+}
+
+.element_tec{
+  display: grid;
+  grid-template-columns: 15% 85%;
+  align-items: center;
+}
+
+.element_tec img{
+  width: 25px;
+  height: auto;
+  margin: 0.5rem;
+}
+
+.tecnology{
+  padding: 0.5rem;
+}
+
+.profesional_skills{
+  margin: 1.5rem 0;
+  display: grid;
+  grid-template-columns: 2fr 1fr 2fr;
+  align-items: center;
+  color: #FFFFFF;
+}
+
+.profesional_skills h2{
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  text-align: center;
+  padding: 1rem 1.5rem;
+  margin: 0;
+  color: #FFFFFF;
+  border-radius: 5px;
+  box-shadow: 0px 0px 4px 3px #D76F38;
+  background-color: #272729;
+}
+
+.profesional_skills p{
+  margin: 1.5rem 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+@media (min-width: 700px){
+
+  .software_tecnology{
+    margin: 0 2rem;;
+  }
+
+  .profesional_skills h2{
+    writing-mode: horizontal-tb;
+    transform: rotate(0deg);
+    padding: 1rem 1.5rem;
+    align-self: center;
+  }
+}
+
+@media (min-width: 850px){
+  .software_tecnology{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 3rem;
+  }
+}
+
+/* ~> Hobbies */
+
+.hobbies{
+  position: relative;
+  margin: 0 3rem 0 2rem;
+  padding-bottom: 3rem;
+}
+
+.hobies_icons{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-row-gap: 1.5rem;
+  margin: 1rem 0 0 2rem;
+}
+
+.hobbie_element img{
+  width: 50px;
+  height: auto;
+  margin-bottom: 0.75rem;
+}
+
+.hobbie_element{
+  text-align: center;
+  font-weight: bold;
+}

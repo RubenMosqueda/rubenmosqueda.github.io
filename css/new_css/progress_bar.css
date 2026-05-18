@@ -1,0 +1,144 @@
+.progress_bar{
+  width: 100%;
+  height: 20px;
+  margin: 0rem auto;
+  background-color: #272729;
+  border-radius: 10px;
+  box-shadow: -5px -5px 5px -2px #7fc7cc inset;
+}
+
+.progress{
+  height: 18px;
+  width: 5%;
+  border-radius: 10px;
+  border: solid 1px #a7a7a7cc;
+  background: linear-gradient(0deg, rgb(139, 139, 139) 10%, rgba(59,215,255,1) 65%);
+  box-shadow:2px 0px 2px 0px rgba(255, 255, 255, 0.75);
+}
+
+.p60{
+  animation-name: load-progress_60;
+  animation-duration: 0.6s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
+  animation-fill-mode: forwards;
+}
+  
+@keyframes load-progress_60 {
+   100% {
+      width: 60%;
+   }
+}
+
+.p65{
+  animation-name: load-progress_65;
+  animation-duration: 0.6s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
+  animation-fill-mode: forwards;
+}
+  
+@keyframes load-progress_65 {
+   100% {
+      width: 65%;
+      
+   }
+}
+
+.p70{
+  animation-name: load-progress_70;
+  animation-duration: 0.6s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
+  animation-fill-mode: forwards;
+}
+  
+@keyframes load-progress_70 {
+   100% {
+      width: 70%;
+   }
+}
+
+.p75{
+  animation-name: load-progress_75;
+  animation-duration: 0.6s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
+  animation-fill-mode: forwards;
+}
+  
+@keyframes load-progress_75 {
+   100% {
+      width: 75%;
+   }
+}
+
+.p80{
+  animation-name: load-progress_80;
+  animation-duration: 0.6s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
+  animation-fill-mode: forwards;
+}
+  
+@keyframes load-progress_80 {
+   100% {
+      width: 80%;
+   }
+}
+
+.p85{
+  animation-name: load-progress_85;
+  animation-duration: 0.6s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
+  animation-fill-mode: forwards;
+}
+  
+@keyframes load-progress_85 {
+   100% {
+      width: 85%;
+   }
+}
+
+.p90{
+  animation-name: load-progress_90;
+  animation-duration: 0.6s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
+  animation-fill-mode: forwards;
+}
+  
+@keyframes load-progress_90 {
+   100% {
+      width: 90%;
+   }
+}
+
+.p96{
+  animation-name: load-progress_95;
+  animation-duration: 0.6s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
+  animation-fill-mode: forwards;
+}/*HTML*/
+  
+@keyframes load-progress_95 {
+   100% {
+      width: 95%;
+   }
+}
+
+.p100{
+  animation-name: load-progress_100;
+  animation-duration: 0.6s;
+  animation-iteration-count: 1;
+  animation-timing-function: cubic-bezier(.7,1.11,.81,.95);
+  animation-fill-mode: forwards;
+}/*HTML*/
+  
+@keyframes load-progress_100 {
+   100% {
+      width: 99%;
+   }
+}

@@ -5,9 +5,9 @@ export function navBarBuilder(){
   const navBar = `
                   <nav id="navbar">
                     <ul>
-                      <li> <a href="index.html" class="link home"> <i class="fa-solid fa-house-chimney active"></i> </a> </li>
-                      <li> <a href="pages/galeria.html" class="link galery"> <i class="fa-regular fa-images"></i> </a> </li>
-                      <li> <a href="pages/sobre_mi.html" class="link background"> <i class="fa-solid fa-address-card"></i> </a> </li>
+                      <li> <a href="index3.html" class="link home"> <i class="fa-solid fa-house-chimney active"></i> </a> </li>
+                      <li> <a href="pages/galeria2.html" class="link galery"> <i class="fa-regular fa-images"></i> </a> </li>
+                      <li> <a href="pages/sobre_mi2.html" class="link background"> <i class="fa-solid fa-address-card"></i> </a> </li>
                       <li> <a href="mailto:developments.rmb@gmail.com?Subject=Me%20gustaría%20trabajar%20contigo" class="link mail"> <i class="fa-regular fa-envelope"></i> </a> </li>
                     </ul>
                   </nav>
@@ -27,7 +27,7 @@ export function navbarFixedBehavior(){
   const contentBlock = document.getElementById("content");
   const contentHeigth = contentBlock.offsetHeight;
 
-  console.log("altura de nav " + navbarHeigth);
+  //console.log("altura de nav " + navbarHeigth);
   const topPosition =  (contentHeigth / 2) - (navbarHeigth / 2);
   
   navbar.style.top = topPosition + "px";
@@ -50,6 +50,16 @@ export function navbarFixedBehavior(){
     
   }
 
+}
+
+export function backgroundBuilder(){
+  const body = document.getElementById("body");
+  const background = `
+                  <div class="backgroundGradientLayer">
+                    <div class="textureLayer"></div>
+                  </div>
+  `;
+  body.insertAdjacentHTML("beforeend", background);
 }
 
 export function footerBuilder(){
