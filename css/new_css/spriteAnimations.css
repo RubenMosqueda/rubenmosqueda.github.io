@@ -121,7 +121,7 @@
 }
 
 .footerAnimation .animatedContainer{
-  animation-duration: 20s;
+  animation-duration: 30s;
 }
 
 .footerAnimation .animatedContainer .rearShadow{
@@ -143,9 +143,9 @@
   margin: 0 auto;
   align-self: end;
   background-image: url("/imagenes/Sprites/SpriteCustomWalk.png");
-  background-size: 288px;
-  height: 31px;
-  width: 31px;
+  background-size: 432px;
+  height: 47px;
+  width: 47px;
   animation-name: caminar;
   animation-duration: 1s;
   animation-iteration-count: infinite;
