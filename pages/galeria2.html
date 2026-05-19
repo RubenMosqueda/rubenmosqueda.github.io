@@ -7,17 +7,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!--Styles Sheet-->
   <link rel="stylesheet" href="../css/configuraciones/Normalizer.css">
-  <link rel="stylesheet" href="../css/galery.css">
-   <link rel="stylesheet" href="../css/modal.css">
+ <link rel="stylesheet" href="../css/new_css/galery.css">
   <!--Google Fonts-->
-  <link href="https://fonts.googleapis.com/css?family=Caveat&amp;display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Sanchez&display=swap" rel="stylesheet">
-
-  <!--Swiper for slider-->
-  <link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
-
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <!--Font awsome icons-->
   <link rel="icon" href="../imagenes/Logo.png" />
   <script src="https://kit.fontawesome.com/9fa61f2471.js" crossorigin="anonymous"></script>
@@ -26,31 +20,13 @@
 
 </head>
 
-<body>
+<body id="body">
 
-  <div class="backgroundGradientLayer">
-    <div class="textureLayer"></div>
-  </div>
-  
-  <nav id="navbar">
-    <ul>
-      <li> <a href="../index.html" class="link home"> <i class="fa-solid fa-house-chimney"></i> </a> </li>
-      <li> <a href="../pages/galeria.html" class="link galery"> <i class="fa-regular fa-images active"></i> </a> </li>
-      <li> <a href="../pages/sobre_mi.html" class="link background"> <i class="fa-solid fa-address-card"></i> </a> </li>
-      <li> <a href="mailto:developments.rmb@gmail.com?Subject=Me%20gustaría%20trabajar%20contigo" class="link mail"> <i class="fa-regular fa-envelope"></i> </a> </li>
-    </ul>
-  </nav>
+  <div class="content-wrapper" id="content-wrapper">
 
-  <div id="myModal" class="modal">
-    <div class="modal-galery" id="modal-galery">
-    </div>
-  </div>
-
-  <div class="content-wrapper">
-
-    <div class="content">
-
-      <section class="workSection">
+    <div class="content glass" id="content">
+      
+       <section class="workSection">
         <h2 class="tab">Trabajo</h2>
         
         <div class="workGrid">
@@ -110,29 +86,16 @@
         </div>
         <div class="swiper-pagination"></div>
       </div>
-      
-      <div class="canvaAnimated canva4">
-        <div class="animatedContainer">
-          <div class="rearShadow"></div>
-          <div class="frontShadow"></div>
-          <div class="characterContainer">
-            <div class="character"></div>
-          </div>
-        </div>
-        <div class="canvaBackground"></div>
-      </div>
 
     </div>
 
   </div>
 
-  <script src="../js/positionNav.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-  <script src="../js/swiper.js"></script>
-
-  <script src="../js/postBuilder.mjs" type = "module" charset="utf-8"></script>
-
 </body>
 
+<script src="../js/new_js/main.mjs" type = "module" charset="utf-8"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="../js/swiper.js"></script>
+  <script src="../js/postBuilder.mjs" type = "module" charset="utf-8"></script>
 
 </html>
