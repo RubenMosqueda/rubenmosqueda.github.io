@@ -22,11 +22,16 @@
 
 <body id="body">
 
+  <div id="myModal" class="modal">
+    <div class="modal-galery" id="modal-galery">
+    </div>
+  </div>
+
   <div class="content-wrapper" id="content-wrapper">
 
     <div class="content glass" id="content">
-      
-       <section class="workSection">
+
+      <section class="workSection">
         <h2 class="tab">Trabajo</h2>
         
         <div class="workGrid">
@@ -69,33 +74,28 @@
 
       <section class="codepenSection">
         <h2 class="tab">Codepen</h2>
-      </section>
 
-      <div class="swiper codepenSwiper">
-        <div class="swiper-wrapper" id="swiper-wrapper-cp">
+        <div class="galeryGrid" id="codepenGrid">
         </div>
-        <div class="swiper-pagination"></div>
-      </div>
+
+      </section>
       
       <section class="designSection">
         <h2 class="tab">Diseños</h2>
+
+        <div class="galeryGrid" id="desingGrid">
+        </div>
+
       </section>
 
-      <div class="swiper designSwiper">
-        <div class="swiper-wrapper" id="swiper-wrapper-dsg">
-        </div>
-        <div class="swiper-pagination"></div>
-      </div>
+      <script src="../js/new_js/main.mjs" type = "module" charset="utf-8"></script>
+      
+      <script src="../js/new_js/postBuilder.mjs" type = "module" charset="utf-8"></script>
 
     </div>
 
   </div>
 
 </body>
-
-<script src="../js/new_js/main.mjs" type = "module" charset="utf-8"></script>
-  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-  <script src="../js/swiper.js"></script>
-  <script src="../js/postBuilder.mjs" type = "module" charset="utf-8"></script>
 
 </html>
