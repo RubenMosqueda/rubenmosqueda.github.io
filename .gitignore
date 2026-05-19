@@ -40,6 +40,9 @@ jspm_packages/
 imagenes/
 test_folder/
 documentation/
+css/old_css/
+pages/old_pages/
+js/old_js/
 
 # Typescript v1 declaration files
 typings/
