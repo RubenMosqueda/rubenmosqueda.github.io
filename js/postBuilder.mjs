@@ -1,14 +1,13 @@
 "use strict";
 
+//~> Base de datos de posts */
 import { articlesCodePenDB } from "./postGaleryDB.mjs";
 import { articlesDesingDB } from "./postGaleryDB.mjs";
 import { logo } from "./postGaleryDB.mjs";
-import { modalGalery } from "./modal_galery.mjs";
 
-
-//*<--------------------Codepen Slide Builder ---------------------->*/
-/* hmtl Codepen post
-    <a class="codepenCard" href="Set Link" target="_blank">
+//*<--------------------Codepen Card Builder ---------------------->*/
+//-> hmtl Codepen Card */
+/*   <a class="codepenCard" href="Set Link" target="_blank">
       <div class="codepenImg" style="background-image: url('Set Image URL');"></div>
       <div class="codepenBackground"></div>
       <div class="codepenDescription">
@@ -21,106 +20,105 @@ import { modalGalery } from "./modal_galery.mjs";
     </a>
 */
 
-//*? Input parameters: Slide number, Swiper where the Slide will go*/
-export function CodePenCardBuilder(indexSlide, myGrid){
-  //*? Create the element will contain the Slide*/
+//--> Input parameters: Card number, Grid where the Card will go*/
+export function CodePenCardBuilder(indexCard, myGrid){
+  //*? Create the element link as a card*/
   const  codepenElement = document.createElement("a");
   codepenElement.className += ("codepenCard");
-  codepenElement.href = articlesCodePenDB[indexSlide].codePenLink;
+  codepenElement.href = articlesCodePenDB[indexCard].codePenLink;
   codepenElement.target += ("_blank");
+  //? Set inner html*/
   codepenElement.innerHTML = `
-      <div class="codepenImg" style="background-image: url('${articlesCodePenDB[indexSlide].image}');"></div>
+      <div class="codepenImg" style="background-image: url('${articlesCodePenDB[indexCard].image}');"></div>
       <div class="codepenBackground"></div>
       <div class="codepenDescription">
         <div class="codepenProfileImage" style="background-image: url('${logo}');"></div>
         <div class="codepenInfo">
-          <h2>${articlesCodePenDB[indexSlide].title}</h2>
-          <h3>${articlesCodePenDB[indexSlide].author}</h3>
+          <h2>${articlesCodePenDB[indexCard].title}</h2>
+          <h3>${articlesCodePenDB[indexCard].author}</h3>
         </div>
       </div>
   `;
-  //*? We add the created slide to the desired swiper block (codepenSwiper)*/
+  //*? We add the created elment to the desired grid*/
   myGrid.appendChild(codepenElement);
 }
 
-//*<---------------------Design Slide Builder ---------------------->*/
+//*<---------------------Design Card Builder ---------------------->*/
 
-/* html Diseños post
-    <button id="myBtn" class="designCard designImg_6">
+//-> hmtl Desings Card */
+/*  <button id="btn_(set_btn_id)" class="designCard btn" style="background-image: url('Set url miniature');">
       <div class="designInfo">
-        <h2>Pusheen Skin Twitch Panels</h2> 
-        <h3>Rubén Mosqueda</h3>
-      </div>
-    </button> 
-
-    <button id="btn_2" class="designCard btn" style="background-image: url('../imagenes/diseño_pusheen_panels.JPG');">
-      <div class="designInfo">
-        <h2>Pusheen Skin Twitch Panels</h2> 
-        <h3>Rubén Mosqueda</h3>
+        <h2>Set title</h2> 
+        <h3>Set authot</h3>
       </div>
     </button>
+
+  This card will contain 3 variables that will be read from the database postGaleryDB.jms 
+     1- ${articlesDesingDB[indexPost].miniature}
+     2- ${articlesDesingDB[indexPost].title}
+     3- ${articlesDesingDB[indexPost].author}
 */
 
-//*? Input parameters: Slide number, Swiper where the Slide will go*/
-export function DesingCardBuilder(indexSlide, mySwiper){
-  //*? Create the element will contain the Slide*/
-  const desingSlide = document.createElement("button");
-  //*? Assign the class slide*/
-  desingSlide.className += ("designCard btn");
-  desingSlide.id += ("btn_" + indexSlide); 
-  desingSlide.style.backgroundImage += "url('" + articlesDesingDB[indexSlide].miniature + "')";
-  /* This slide will contain 3 variables that will be read from the database postGaleryDB.jms 
-   1- ${articlesDesingDB[indexPost].image}
-   2- ${articlesDesingDB[indexPost].title}
-   3- ${articlesDesingDB[indexPost].author}*/
-  //*? We place all the HTML that will go inside this block*/
-  desingSlide.innerHTML = `
+//--> Input parameters: Card number, Grid where the Card will go*/
+export function DesingCardBuilder(indexCard, myGrid){
+  //*? Create the element button as a Card*/
+  const desingCard = document.createElement("button");
+  desingCard.className += ("designCard btn");
+  desingCard.id += ("btn_" + indexCard); 
+  desingCard.style.backgroundImage += "url('" + articlesDesingDB[indexCard].miniature + "')";
+  //? Set inner html*/
+  desingCard.innerHTML = `
       <div class="designInfo">
-        <h2>${articlesDesingDB[indexSlide].title}</h2> 
-        <h3>${articlesDesingDB[indexSlide].author}</h3>
+        <h2>${articlesDesingDB[indexCard].title}</h2> 
+        <h3>${articlesDesingDB[indexCard].author}</h3>
       </div>
   `;
-  //*? We add the created slide to the desired swiper block (designSwiper)*/
-  mySwiper.appendChild(desingSlide);
+  //*? We add the created elment to the desired grid*/
+  myGrid.appendChild(desingCard);
 }
 
-/* hmtl Codepen post
-    <a class="galeryLinkCard" href="../index3.html">
-      <h3>"Mi galeria de ________"</h3>
+//*<---------------------Galery link Builder ---------------------->*/
+
+//-> hmtl Galery link */
+/*
+    <a class="galeryLinkCard" href="set link galery">
+      <h3>"+ ________"</h3>
     </a>
 */
 
-//*? Input parameters: Slide number, Swiper where the Slide will go*/
+//--> Input parameters: Grid, name of galery */
 export function galeryLinkCard(myGrid, myGalery){
-  const  galeryLinkCard = document.createElement("a");
-  galeryLinkCard.className += ("galeryLinkCard");
-  galeryLinkCard.innerHTML = `<h3>+ ${myGalery}</h3>`;
-  if(myGalery=="Codepen"){galeryLinkCard.href = "../pages/galeriaCodepen.html";}
-  if(myGalery=="Diseños"){galeryLinkCard.href = "../pages/galeriaDisenos.html";}
-  //*? We add the created slide to the desired swiper block (codepenSwiper)*/
-  myGrid.appendChild(galeryLinkCard);
+  //*? Create the element link*/
+  const  galeryLink = document.createElement("a");
+  galeryLink.className += ("galeryLinkCard");
+  galeryLink.innerHTML = `<h3>+ ${myGalery}</h3>`;
+  //*? For link to codepen galery*/
+  if(myGalery=="Codepen"){galeryLink.href = "../pages/galeriaCodepen.html";}
+  //*? For link Diseños galery*/
+  if(myGalery=="Diseños"){galeryLink.href = "../pages/galeriaDisenos.html";}
+  //*? We add the created elment to the desired grid*/
+  myGrid.appendChild(galeryLink);
 }
 
-//*<--------------------Function Swiper Filler --------------------->*/
+//*<--------------------Function Galery Filler --------------------->*/
 
-//*? Parametros de entrada: Swiper a rellenar*/
-export function postGridFiller(gridSection) {
-  
-  //*? Seleccionamos el swiper segun el Id del swiper de entrada (swiperWeapper)*/
-  const myGrid = document.getElementById(gridSection);
-  //*? Selector de tipo de Slide a rellenar */
-  if(gridSection == "codepenGrid"){
-    //**? Ciclo para rellenar el Swiper tipo CODEPEN */
+//--> Input parameters: Grid name */
+export function postGridFiller(gridName) {
+  const myGrid = document.getElementById(gridName);
+  //*? For fill codepen galery*/
+  if(gridName == "codepenGrid"){
     for (var indexPost = 0; indexPost < 5; indexPost++) {
     CodePenCardBuilder(indexPost, myGrid);
     }
+    //*? Set codepen link galery page as a last element*/
     galeryLinkCard(myGrid, "Codepen");
   }
-  if(gridSection == "desingGrid"){
-    //**? Ciclo para rellenar el Swiper tipo DISEÑOS */
+  //*? For fill desings galery*/
+  if(gridName == "desingGrid"){
     for (var indexPost = 0; indexPost < 5; indexPost++) {
     DesingCardBuilder(indexPost, myGrid);
     } 
+    //*? Set diseños link galery page as a last element*/
     galeryLinkCard(myGrid, "Diseños");
   } 
 }

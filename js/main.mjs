@@ -12,6 +12,9 @@ import { DesingCardBuilder } from "./postBuilder.mjs";
 import { galeryLinkCard } from "./postBuilder.mjs";
 import { postGridFiller } from "./postBuilder.mjs";
 
+//~> Rutinas para el modal visor de imagenes de galeria de diseños */
+import { modalGalery } from "./modal_galery.mjs";
+
 const title = document.getElementById("title");
 
 navBarBuilder();
