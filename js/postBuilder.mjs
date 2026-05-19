@@ -124,12 +124,3 @@ export function postGridFiller(gridSection) {
     galeryLinkCard(myGrid, "Diseños");
   } 
 }
-
-/*We call the function to fill the swiper with all the CodePen posts*/
-postGridFiller("codepenGrid");
-
-/*We call the function to fill the swiper with all the Desing posts*/
-postGridFiller("desingGrid");
-
-/*Call to modal*/
-modalGalery();
