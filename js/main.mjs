@@ -25,7 +25,6 @@ activePage();
 backgroundBuilder();
 footerBuilder();
 
-
 //~> Pagina de inicio */  
 if (title.innerHTML == "RMB Portafolio") {
 

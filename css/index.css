@@ -304,30 +304,69 @@ section{
 }
 
 .contact ul{
-  display: grid;
   position: relative;
+  border: solid 1px red;
+  height: 350px;
   width: 50%;
   margin: 2rem auto 0 auto;
   padding: 0;
   list-style-type: none;
 }
 
-.contact_links i{
-  font-size: 4rem;
+.firstLi{
+  position: absolute;  
+  /* Centramos la pelota en el medio del contenedor primero */
+  left: 0%;
+  top: 0%;
+  transform: translateX(calc(150px * cos(0deg)));
+  /* Aplicamos la animación */
+  animation: orbitaTrig 1s linear infinite;
 }
 
-.contact_links a{
+:root {
+      --radio: 150px; /* Cambia este valor y el círculo cambiará de tamaño automáticamente */
+    }
+
+@keyframes orbitaTrig {
+      form {
+        /* cos(0deg) y sin(0deg) */
+        transform: translateX(calc(cos(0deg)*150px));
+        /*transform: translate(calc(var(--radio) * cos(0deg)), calc(var(--radio) * sin(0deg)));*/
+        /*transform: translate(0%, 0%);*/
+      }
+      to {
+        /* Vuelta completa a 360deg */
+        /*transform: translate(80%, 80%);*/
+        transform: translateX(calc(cos(360deg)*150px));
+        /*transform: translate(calc(var(--radio) * cos(360deg)), calc(var(--radio) * sin(360deg)));*/
+      }
+    }
+
+.contact_links li{
+  position: relative;
+  width: 65%;
+  border: solid 2px blue;
+  height: 4.5rem;
+}
+
+.contact_links li a{  
   text-decoration: none;
   color: #FFFFFF;
 }
 
-.contact_links a:hover{
+
+.contact_links li a i{
+  font-size: 4rem;
+}
+
+
+.contact_links li a:hover{
   color: #D76F38;
 }
 
 .contact_links li a::after{
   position: absolute;
-  margin: 1.25rem 0 0 1rem
+  padding: 1.25rem 0 0 1rem
 }
 
 .contact_links li:hover .mail::after{
