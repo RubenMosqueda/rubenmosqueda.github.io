@@ -326,7 +326,7 @@ section{
 :root {
       --radio: 150px; /* Cambia este valor y el círculo cambiará de tamaño automáticamente */
     }
-
+/*Bugs no puedo hacer que funcionen las funciones sin y cos dentro del traslate en la animacion fuera de la animacion si funcionan por separado
 @keyframes orbitaTrig {
       form {
         /* cos(0deg) y sin(0deg) */
