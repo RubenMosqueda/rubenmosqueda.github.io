@@ -1,6 +1,9 @@
 "use strict";
 
+//~> Logo de la página /
 export const logo = "../imagenes/Logo.png";
+
+//~> Base de datos de las publicaciones en Codepen /
 export const articlesCodePenDB =
 [
     {
@@ -71,6 +74,7 @@ export const articlesCodePenDB =
     }
 ]
 
+//~> Base de datos de Diseños /
 export const articlesDesingDB =
 [    
     {

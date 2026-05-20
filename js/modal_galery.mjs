@@ -1,7 +1,9 @@
 "use strict";
 
+//~> Importa la base de datos de imagenes de diseños /
 import { articlesDesingDB } from "./postGaleryDB.mjs";
 
+//~> Funcion que crea el modal cuando se da clic sobre un post de Diseños de la pagina galeria.html /
 export function modalGalery(){
   
   //*? Obtain myModal and modal-galery blocks from HTML*/
