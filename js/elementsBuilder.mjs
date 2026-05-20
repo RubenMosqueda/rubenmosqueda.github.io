@@ -5,14 +5,31 @@ export function navBarBuilder(){
   const navBar = `
                   <nav id="navbar">
                     <ul>
-                      <li> <a href="../index.html" class="link home"> <i class="fa-solid fa-house-chimney active"></i> </a> </li>
-                      <li> <a href="../pages/galeria.html" class="link galery"> <i class="fa-regular fa-images"></i> </a> </li>
-                      <li> <a href="../pages/sobre_mi.html" class="link background"> <i class="fa-solid fa-address-card"></i> </a> </li>
+                      <li> <a href="../index.html" class="link home"> <i class="fa-solid fa-house-chimney" id="home"></i> </a> </li>
+                      <li> <a href="../pages/galeria.html" class="link galery"> <i class="fa-regular fa-images" id="galeria"></i> </a> </li>
+                      <li> <a href="../pages/sobre_mi.html" class="link background"> <i class="fa-solid fa-address-card" id="background"></i> </a> </li>
                       <li> <a href="mailto:developments.rmb@gmail.com?Subject=Me%20gustaría%20trabajar%20contigo" class="link mail"> <i class="fa-regular fa-envelope"></i> </a> </li>
                     </ul>
                   </nav>
   `;
   body.insertAdjacentHTML("afterbegin", navBar);
+}
+
+export function activePage(){
+  const activePage = document.getElementById("title");
+  if(activePage.innerHTML == "RMB Portafolio" ){
+    const activeIcon = document.getElementById("home");
+    activeIcon.className += (" active");
+  }
+  if(activePage.innerHTML == "Galeria RMB" ){
+    const activeIcon = document.getElementById("galeria");
+    activeIcon.className += (" active");
+  }
+  if(activePage.innerHTML == "Sobre RMB" ){
+    const activeIcon = document.getElementById("background");
+    activeIcon.className += (" active");
+  }
+
 }
 
 export function navbarFixedBehavior(){

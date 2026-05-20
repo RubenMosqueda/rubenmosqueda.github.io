@@ -3,6 +3,7 @@
 //~> Rutinas para la interfaz */
 import { navBarBuilder } from "./elementsBuilder.mjs";
 import { navbarFixedBehavior } from "./elementsBuilder.mjs";
+import { activePage } from "./elementsBuilder.mjs";
 import { backgroundBuilder } from "./elementsBuilder.mjs";
 import { footerBuilder } from "./elementsBuilder.mjs";
 
@@ -20,8 +21,10 @@ const title = document.getElementById("title");
 navBarBuilder();
 window.addEventListener('resize', navbarFixedBehavior);
 navbarFixedBehavior();
+activePage();
 backgroundBuilder();
 footerBuilder();
+
 
 //~> Pagina de inicio */  
 if (title.innerHTML == "RMB Portafolio") {
