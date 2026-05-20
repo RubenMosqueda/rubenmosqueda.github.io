@@ -1,5 +1,8 @@
+/* ~> Modal Block */
+
+/*? Hidden by default */
 .modal {
-  display: none;  /*Hidden by default*/
+  display: none;
   position: fixed;
   align-items: center;
   justify-items: center;
@@ -11,6 +14,8 @@
   overflow: hidden;
   background-color: rgba(0,0,0,0.7);
 }
+
+/* ~> Modal Content */
 
 .modal-content {
   display: grid;
@@ -25,6 +30,8 @@
   box-shadow: 0px 0px 10px 5px rgba(143,224,245,0.9);
 }
 
+/* ~> Modal Galery */
+
 .modal-galery {
   display: grid;
   align-items: center;
@@ -38,7 +45,7 @@
 
 .modal-galery img{
   max-width: 100%;
-  max-height: inherit; /*Este valor tiene que ser igual al max-height de modal-galery de otra manera la imagen se desborda*/
+  max-height: inherit; /*? Este valor tiene que ser igual al max-height de modal-galery de otra manera la imagen se desborda*/
   border-radius: 15px;
   border: solid 3px #272729;
   box-shadow: -3px 3px 0px 3px #D76F38;

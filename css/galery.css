@@ -13,6 +13,7 @@
     }
 }
 
+/* ~> Section Title Styles */
 .tab{
   width: 60%;
   font-size: 1.75rem;
@@ -23,6 +24,8 @@
   background-color: #272729;
   box-shadow: 4px 0px 0px 3px #8FE0F5;
 }
+
+/* ~> Galery Grid Styles */
 
 .galeryGrid {
   display: grid;
