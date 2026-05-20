@@ -303,6 +303,58 @@ section{
   font-weight: 400;
 }
 
+.contact ul{
+  display: grid;
+  position: relative;
+  width: 50%;
+  margin: 2rem auto 0 auto;
+  padding: 0;
+  list-style-type: none;
+}
+
+.contact_links i{
+  font-size: 4rem;
+}
+
+.contact_links a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.contact_links a:hover{
+  color: #D76F38;
+}
+
+.contact_links li a::after{
+  position: absolute;
+  margin: 1.25rem 0 0 1rem
+}
+
+.contact_links li:hover .mail::after{
+  font-size: 1.5rem;
+  content: "Enviame un Mail";
+}
+
+.contact_links li:hover .instagram::after{
+  font-size: 1.5rem;
+  content: "/ruben.designs_";
+}
+
+.contact_links li:hover .codepen::after{
+  font-size: 1.5rem;
+  content: "/rubenmosqueda";
+}
+
+.contact_links li:hover .github::after{
+  font-size: 1.5rem;
+  content: "/RubenMosqueda";
+}
+
+.contact_links li:hover .twitter::after{
+  font-size: 1.5rem;
+  content: "/RubnMosquedaB1";
+}
+
 
 
 @media (min-width: 720px) {
