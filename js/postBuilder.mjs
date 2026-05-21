@@ -100,25 +100,52 @@ export function galeryLinkCard(myGrid, myGalery){
   myGrid.appendChild(galeryLink);
 }
 
+
+//*<------------------- Random Index Generator --------------------->*/
+export function randomIndex(min, max) {
+  return Math.floor(Math.random() * (max - min) + min);
+}
+
 //*<--------------------Function Galery Filler --------------------->*/
 
 //--> Input parameters: Grid name */
-export function postGridFiller(gridName) {
+export function postGridFiller(gridName, type) {
   const myGrid = document.getElementById(gridName);
-  //*? For fill codepen galery*/
-  if(gridName == "codepenGrid"){
-    for (var indexPost = 0; indexPost < 5; indexPost++) {
-    CodePenCardBuilder(indexPost, myGrid);
+  
+  if(type == "full"){
+    //*? For fill full codepen galery*/
+    if(gridName == "codepenGrid"){
+      for (var indexPost = 0; indexPost < articlesCodePenDB.length; indexPost++) {
+      CodePenCardBuilder(indexPost, myGrid);
+      }
     }
-    //*? Set codepen link galery page as a last element*/
-    galeryLinkCard(myGrid, "Codepen");
-  }
-  //*? For fill desings galery*/
-  if(gridName == "desingGrid"){
-    for (var indexPost = 0; indexPost < 5; indexPost++) {
-    DesingCardBuilder(indexPost, myGrid);
+    //*? For fill full desings galery*/
+    if(gridName == "desingGrid"){
+      for (var indexPost = 0; indexPost < 5; indexPost++) {
+      DesingCardBuilder(indexPost, myGrid);
+      } 
     } 
-    //*? Set diseños link galery page as a last element*/
-    galeryLinkCard(myGrid, "Diseños");
-  } 
+  }
+
+  else{
+    //*? For fill random codepen galery*/
+    if(gridName == "codepenGrid"){
+      for (var indexPost = 0; indexPost < 5; indexPost++) {
+      var indexElement = randomIndex(0, articlesCodePenDB.length);
+      CodePenCardBuilder(indexElement, myGrid);
+      }
+      //*? Set codepen link galery page as a last element*/
+      galeryLinkCard(myGrid, "Codepen");
+    }
+    //*? For fill random desings galery*/
+    if(gridName == "desingGrid"){
+      for (var indexPost = 0; indexPost < 5; indexPost++) {
+      var indexElement = randomIndex(0, articlesDesingDB.length);
+      DesingCardBuilder(indexElement, myGrid);
+      } 
+      //*? Set diseños link galery page as a last element*/
+      galeryLinkCard(myGrid, "Diseños");
+    } 
+  }
+
 }
