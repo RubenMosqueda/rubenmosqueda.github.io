@@ -44,7 +44,7 @@ if (title.innerHTML == "Galeria RMB") {
 
 //~> Mi Codepen */ 
 if (title.innerHTML == "Mi Codepen") {
-
+  postGridFiller("codepenGrid", "full");
 }
 
 //~> Mis Diseños */ 

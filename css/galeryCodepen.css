@@ -1,0 +1,102 @@
+@import url(interface.css);
+@import url(cards_galery.css);
+@import url(spriteAnimations.css);
+
+/* ~> Codepen Header Styles */
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 10vh;
+  border: solid 2px #8FE0F5;
+  margin: 1.5rem;
+  margin-bottom: 0;
+  border-radius: 10px;
+  box-shadow: 
+  inset 0px 0px 14px 7px rgba(143, 224, 245, 0.3),
+  0px 0px 10px 7px rgba(143, 224, 245, 0.5);
+  background-image: url(../../imagenes/codepenHeader.png);
+  background-color: #272729;
+  overflow: auto;
+  &::-webkit-scrollbar {
+     display: none;
+  }
+}
+
+.header h1{
+  display: none;
+  font-size: 2.75rem;
+  margin-top: 2rem;
+  color: #FFFFFF;
+}
+
+.header a{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.header a h2{
+  margin-left: 1rem;
+}
+
+.header a i{
+  font-size: 2.5rem;
+}
+
+.headerLogo{
+  margin-left: 1rem;
+  width: 4rem;
+}
+
+@media (min-width: 800px) {
+
+  .header{
+    flex-direction: column;
+    max-height: 30vh;
+  }
+
+  .header h1{
+    display: block;
+  }
+
+  .header a{
+    margin-top: 1rem;
+  }
+
+  .headerLogo{
+      margin: 0;
+      width: 7rem;
+    }
+
+}
+
+/* ~> Codepen Section Styles */
+
+.codepenSection{
+  width: 95%;
+  max-height: 80vh;
+  margin: 0 auto;
+  overflow: auto;
+  &::-webkit-scrollbar {
+     display: none;
+  }
+}
+
+@media (min-width: 800px) {
+  .codepenSection{
+    max-height: 60vh;
+  }
+}
+
+/* ~> Galery Grid Styles */
+
+.galeryGrid {
+  display: grid;
+  width: 100%;
+  margin: 3rem auto;
+  column-gap: 2rem;
+  row-gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
+}
