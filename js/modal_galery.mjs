@@ -15,13 +15,15 @@ export function modalGalery(){
 
   //*? Function that iterates through the array of buttons*/
   btnsArray.forEach((button, index) => {
-    
     //*? set an EventListener click to each button*/
-    button.addEventListener("click", () => {
+    button.addEventListener("click", function(evento) {
       //*? When the user clicks on the button:
-      //*? 1- Add the image that will be displayed in the modal*/
-      modal_galery.innerHTML=`<img src="${articlesDesingDB[index].image}" alt=""></img>`;
-      //*? 2- Display the modal by changing the property .diplay to grid*/
+      //*? 1- get the id from the button*/
+      var btn_id = evento.target.id;
+      var index_id = btn_id.replace("btn_","");
+      //*? 2- Add the image that will be displayed in the modal*/
+      modal_galery.innerHTML=`<img src="${articlesDesingDB[index_id].image}" alt=""></img>`;
+      //*? 3- Display the modal by changing the property .diplay to grid*/
       modal.style.display = "grid";
     });
   });
