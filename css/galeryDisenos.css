@@ -1,0 +1,67 @@
+@import url(interface.css);
+@import url(cards_galery.css);
+@import url(modal.css);
+@import url(spriteAnimations.css);
+
+/* ~> Codepen Header Styles */
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-height: 10vh;
+  border: solid 2px #6b506e;
+  margin: 1.5rem;
+  margin-bottom: 0;
+  border-radius: 10px;
+  box-shadow: 
+  inset 0px 0px 14px 7px rgba(214, 143, 245, 0.3),
+  0px 0px 10px 7px rgba(214, 143, 245, 0.5);
+  background-image: url(../../imagenes/instagramHeader.png);
+  background-size: 120%;
+  background-repeat: no-repeat;
+  background-position: 10%;
+  background-color: #272729;
+  overflow: auto;
+  &::-webkit-scrollbar {
+     display: none;
+  }
+}
+
+.header a{
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #FFFFFF;
+}
+
+.header a h1{
+  font-size: 2.5rem;
+  margin-left: 1rem;
+}
+
+.header a i{
+  font-size: 2.5rem;
+}
+
+/* ~> Codepen Section Styles */
+
+.designSection{
+  width: 85%;
+  max-height: 70vh;
+  margin: 0 auto;
+  overflow: auto;
+  &::-webkit-scrollbar {
+     display: none;
+  }
+}
+
+
+/* ~> Galery Grid Styles */
+
+.galeryGrid {
+  display: grid;
+  width: 100%;
+  margin: 3rem auto;
+  row-gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr));
+}

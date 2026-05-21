@@ -49,7 +49,8 @@ if (title.innerHTML == "Mi Codepen") {
 
 //~> Mis Diseños */ 
 if (title.innerHTML == "Mis Diseños") {
-
+  postGridFiller("desingGrid", "full");
+  modalGalery();
 }
 
 //~> Tarjeta De Presentación */ 
