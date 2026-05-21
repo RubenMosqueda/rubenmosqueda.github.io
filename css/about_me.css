@@ -99,8 +99,10 @@
   }
 
   .presentation_section2 p{
-    text-align: right;
+    font-size: 1.25rem;
   }
+
+  
 }
 
 /* ~> Tab y viñeta */
