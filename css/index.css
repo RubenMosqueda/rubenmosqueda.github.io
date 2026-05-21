@@ -282,71 +282,37 @@ section{
     font-size: 1.25rem;
     line-height: 1.8rem;
   }
-
-
 }
 
 /* ~> Section Contact Styles */
 
 .contact{
-  height: 95%;
+  height: 100%;
   overflow: hidden;
   padding: 1rem 3rem 0 3rem;
   text-align: center;
 }
 
-
 .contact h2{
   color: #8FE0F5;
-  text-align: left;
-  font-size: 1.5rem;
+  text-align: center;
+  margin-top: 2rem;
+  font-size: 1.8rem;
   font-weight: 400;
 }
 
-.contact ul{
+.contact_links{
+  display: flex;
+  flex-direction: column;
   position: relative;
-  border: solid 1px red;
-  height: 350px;
   width: 50%;
-  margin: 2rem auto 0 auto;
-  padding: 0;
+  margin: 5rem 0 0 3rem;
   list-style-type: none;
 }
 
-.firstLi{
-  position: absolute;  
-  /* Centramos la pelota en el medio del contenedor primero */
-  left: 0%;
-  top: 0%;
-  transform: translateX(calc(150px * cos(0deg)));
-  /* Aplicamos la animación */
-  animation: orbitaTrig 1s linear infinite;
-}
-
-:root {
-      --radio: 150px; /* Cambia este valor y el círculo cambiará de tamaño automáticamente */
-    }
-/*Bugs no puedo hacer que funcionen las funciones sin y cos dentro del traslate en la animacion fuera de la animacion si funcionan por separado
-@keyframes orbitaTrig {
-      form {
-        /* cos(0deg) y sin(0deg) */
-        transform: translateX(calc(cos(0deg)*150px));
-        /*transform: translate(calc(var(--radio) * cos(0deg)), calc(var(--radio) * sin(0deg)));*/
-        /*transform: translate(0%, 0%);*/
-      }
-      to {
-        /* Vuelta completa a 360deg */
-        /*transform: translate(80%, 80%);*/
-        transform: translateX(calc(cos(360deg)*150px));
-        /*transform: translate(calc(var(--radio) * cos(360deg)), calc(var(--radio) * sin(360deg)));*/
-      }
-    }
-
 .contact_links li{
   position: relative;
-  width: 65%;
-  border: solid 2px blue;
-  height: 4.5rem;
+  margin: 1rem 0;
 }
 
 .contact_links li a{  
@@ -354,52 +320,101 @@ section{
   color: #FFFFFF;
 }
 
-
-.contact_links li a i{
-  font-size: 4rem;
-}
-
-
 .contact_links li a:hover{
   color: #D76F38;
 }
 
 .contact_links li a::after{
   position: absolute;
+  color: #8FE0F5;
+  font-size: 1rem;
+  font-weight: 600;
   padding: 1.25rem 0 0 1rem
 }
 
 .contact_links li:hover .mail::after{
-  font-size: 1.5rem;
-  content: "Enviame un Mail";
+  content: "Contactame";
 }
 
 .contact_links li:hover .instagram::after{
-  font-size: 1.5rem;
   content: "/ruben.designs_";
 }
 
 .contact_links li:hover .codepen::after{
-  font-size: 1.5rem;
   content: "/rubenmosqueda";
 }
 
 .contact_links li:hover .github::after{
-  font-size: 1.5rem;
   content: "/RubenMosqueda";
 }
 
 .contact_links li:hover .twitter::after{
-  font-size: 1.5rem;
   content: "/RubnMosquedaB1";
 }
 
-
-
-@media (min-width: 720px) {
-
+.contact_links li a i{
+  font-size: 4rem;
 }
 
-@media (min-width: 1000px) {
+
+
+@media (min-width: 600px) {
+  .contact_links{
+    margin: 5rem auto 0 auto;
+  }
+
+  .contact1{
+    align-self: flex-end;
+  }
+
+  .contact2{
+    align-self: flex-start;
+  }
+
+  .contact3{
+    align-self: flex-end;
+  }
+
+  .contact4{
+    align-self: flex-start;
+  }
+
+  .contact5{
+    align-self: flex-end;
+  }
+}
+
+@media (min-width: 900px) {
+
+  .contact_links{
+    flex-direction: row;
+    width: 65%;
+    height: 30%;
+    margin: 10% auto 10% auto;
+  }
+
+  .contact_links li{
+  width: 25%;
+  }
+
+  .contact1{
+    align-self: flex-end;
+  }
+
+  .contact2{
+    margin: 0;
+  }
+
+  .contact3{
+    align-self: flex-end;
+  }
+
+  .contact4{
+    padding-left: 0rem;
+  }
+
+  .contact5{
+    align-self: flex-end;
+  }
 
 }
