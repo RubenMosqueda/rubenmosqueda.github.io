@@ -88,7 +88,7 @@
 
 .workAnimation .canvaBackground{
   box-shadow: inset 0px -4px 10px 0 rgb(155, 155, 155);
-  background-image: url(../../imagenes/texture_2.png);
+  background-image: url(../../imagenes/site_images/textures/texture_2.png);
   background-size: 3.5rem;
 }
 
@@ -100,7 +100,7 @@
   align-self: center;
   margin: 0 auto;
   align-self: end;
-  background-image: url("/imagenes/Sprites/SpriteCustomWork2.png");
+  background-image: url("../imagenes/site_images/sprites/SpriteCustomWork2.png");
   background-size: 770px;
   height: 130px;
   width: 130px;
@@ -130,7 +130,7 @@
 
 .footerAnimation .canvaBackground{
   box-shadow: inset 0px -4px 10px 0 rgb(155, 155, 155);
-  background-image: url(../../imagenes/texture_2.png);
+  background-image: url(../../imagenes/site_images/textures/texture_2.png);
   background-size: 2.5rem;
 }
 
@@ -142,7 +142,7 @@
   align-self: center;
   margin: 0 auto;
   align-self: end;
-  background-image: url("/imagenes/Sprites/SpriteCustomWalk.png");
+  background-image: url("../imagenes/site_images/sprites/SpriteCustomWalk.png");
   background-size: 432px;
   height: 47px;
   width: 47px;

@@ -15,7 +15,7 @@
   box-shadow: 
   inset 0px 0px 14px 7px rgba(143, 224, 245, 0.3),
   0px 0px 10px 7px rgba(143, 224, 245, 0.5);
-  background-image: url(../../imagenes/codepenHeader.png);
+  background-image: url(../../imagenes/site_images/textures/codepenHeader.png);
   background-color: #272729;
   overflow: auto;
   &::-webkit-scrollbar {

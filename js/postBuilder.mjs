@@ -121,7 +121,7 @@ export function postGridFiller(gridName, type) {
     }
     //*? For fill full desings galery*/
     if(gridName == "desingGrid"){
-      for (var indexPost = 0; indexPost < 5; indexPost++) {
+      for (var indexPost = 0; indexPost < articlesDesingDB.length; indexPost++) {
       DesingCardBuilder(indexPost, myGrid);
       } 
     } 

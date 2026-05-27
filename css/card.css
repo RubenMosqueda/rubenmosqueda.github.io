@@ -40,7 +40,7 @@ body{
   height: 100vh;
   z-index: 5;
   background-color: #D5D9DA;
-  background-image: url(../imagenes/texture_1.png);
+  background-image: url(../imagenes/site_images/textures/texture_1.png);
   background-size: 7rem;
   margin: auto auto;
   overflow: hidden;
