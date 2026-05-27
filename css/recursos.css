@@ -1,0 +1,82 @@
+@import url(interface.css);
+@import url(spriteAnimations.css);
+
+/* ~> Resources Header Styles */
+.header{
+  max-height: 10vh;
+  border: solid 2px #D76F38;
+  margin: 1.5rem;
+  margin-bottom: 0;
+  border-radius: 10px;
+  box-shadow: 
+  inset 0px 0px 14px 7px rgba(215, 111, 56, 0.3),
+  0px 0px 10px 7px rgba(215, 111, 56, 0.3);
+  background-image: url(../../imagenes/site_images/textures/thumb-0001-1920x1080.jpg);
+  background-repeat: no-repeat;
+  background-position: 0% 55%;
+  background-color: #272729;
+  overflow: auto;
+  &::-webkit-scrollbar {
+     display: none;
+  }
+}
+
+.header h1{
+  color: #FFFFFF;
+  font-size: 2.75rem;
+  margin: 1rem auto;
+  text-align: center;
+}
+
+/* ~> Resources Content Styles */
+
+.recursosContent{
+  width: 85%;
+  height: 72vh;
+  margin: 0 auto;
+  overflow: auto;
+  &::-webkit-scrollbar {
+     display: none;
+  }
+}
+
+/* ~> Section Title Styles */
+.tab{
+  width: 40%;
+  font-size: 1.75rem;
+  padding: 1rem;
+  margin: 0 auto;
+  text-align: center;
+  border-radius: 8px 8px 8px 8px;
+  color: #FFFFFF;
+  background-color: #272729;
+  border: solid 2px #D76F38;
+}
+
+
+
+
+
+
+
+
+.galeriaImagenes {
+  margin: 1rem 0 0 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.galeriaImagenes .imgContainer {
+  margin: 0.5rem;
+  background-color: none;
+  border: none;
+  height: 10vh;
+  flex-grow: 1;
+}
+
+.galeriaImagenes img {
+  max-height: 100%;
+  min-width: 100%;
+  object-fit:fill;
+  vertical-align: bottom;
+}

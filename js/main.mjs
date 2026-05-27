@@ -12,6 +12,8 @@ import { CodePenCardBuilder } from "./postBuilder.mjs";
 import { DesingCardBuilder } from "./postBuilder.mjs";
 import { galeryLinkCard } from "./postBuilder.mjs";
 import { postGridFiller } from "./postBuilder.mjs";
+import { galeryImageElement } from "./postBuilder.mjs";
+import { resourcesImageBuilder } from "./postBuilder.mjs";
 
 //~> Rutinas para el modal visor de imagenes de galeria de diseños */
 import { modalGalery } from "./modal_galery.mjs";
@@ -56,6 +58,11 @@ if (title.innerHTML == "Mis Diseños") {
 //~> Tarjeta De Presentación */ 
 if (title.innerHTML == "Tarjeta De Presentación") {
 
+}
+
+//~> Tarjeta De Presentación */ 
+if (title.innerHTML == "Recursos") {
+  resourcesImageBuilder();
 }
 
 

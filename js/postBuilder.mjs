@@ -3,6 +3,7 @@
 //~> Base de datos de posts */
 import { articlesCodePenDB } from "./postGaleryDB.mjs";
 import { articlesDesingDB } from "./postGaleryDB.mjs";
+import { resourcesDB } from "./postGaleryDB.mjs";
 import { logo } from "./postGaleryDB.mjs";
 
 //*<--------------------Codepen Card Builder ---------------------->*/
@@ -148,4 +149,30 @@ export function postGridFiller(gridName, type) {
     } 
   }
 
+}
+
+//-> hmtl Desings Card */
+/*  
+<div class="imgContainer" id="imgContainer">
+  <img src="${resourcesDB.index}" alt="">
+</div>
+*/
+
+export function galeryImageElement(index, galery){
+  
+  const  imageElement = document.createElement("div");
+  
+  imageElement.className += ("imgContainer");
+  imageElement.id += ("imgContainer"+index);
+  imageElement.innerHTML = `<img src="${resourcesDB[index].link}" alt="">`;
+  galery.appendChild(imageElement);
+
+}
+
+export function resourcesImageBuilder(){
+  const myImageGalery= document.getElementById("galeriaImagenes");
+  console.log(myImageGalery);
+  for (var indexImage = 0; indexImage < resourcesDB.length; indexImage++) {
+    galeryImageElement(indexImage, myImageGalery);
+    }
 }
