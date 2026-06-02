@@ -151,27 +151,34 @@ export function postGridFiller(gridName, type) {
 
 }
 
+//*<--------- Function Galery Resources Element Builder ------------>*/
+
 //-> hmtl Desings Card */
 /*  
 <div class="imgContainer" id="imgContainer">
-  <img src="${resourcesDB.index}" alt="">
+  <img src="link de la  imagen" alt="">
 </div>
 */
-
+//--> Input parameters: index, image galery */
 export function galeryImageElement(index, galery){
   
   const  imageElement = document.createElement("div");
   
   imageElement.className += ("imgContainer");
+  //*? Every element have a unique ID*/
   imageElement.id += ("imgContainer"+index);
   imageElement.innerHTML = `<img src="${resourcesDB[index].link}" alt="">`;
+  //*? We add the created elment to the galery*/
   galery.appendChild(imageElement);
 
 }
 
+//*<------------- Function Galery Resources Filler ----------------->*/
+
 export function resourcesImageBuilder(){
+  //*? Select galeriaImagenes element from HTML*/
   const myImageGalery= document.getElementById("galeriaImagenes");
-  console.log(myImageGalery);
+  //*? we loop through the database array and create an element for each image in the array */
   for (var indexImage = 0; indexImage < resourcesDB.length; indexImage++) {
     galeryImageElement(indexImage, myImageGalery);
     }
