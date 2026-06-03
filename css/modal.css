@@ -37,7 +37,7 @@
   align-items: center;
   justify-items: center;
   width: 85%;
-  max-height: 90vh;
+  max-height: 85vh;
   
   /*background-image: url("../imagenes/presentacion_art_creator_web.JPG");
   background-repeat: no-repeat;
@@ -51,9 +51,24 @@
   border: solid 3px #272729;
   box-shadow: -3px 3px 0px 3px #D76F38;
   
-  background: rgba(143, 224, 245, 0.70);
+  background: rgba(110, 110, 110, 0.75);
   backdrop-filter: blur(2px);
   -webkit-backdrop-filter: blur(2px);
+}
+
+.copyButton{
+  margin: 0.75rem;
+  width: 2.25rem;
+  height: 2.25em;
+  border: solid 2px #D76F38;
+  border-radius: 5px;
+  color: #272729;
+}
+
+.copyButton:active{
+  color: #D76F38;
+  border: solid 2px #272729;
+  box-shadow: 0px 0px 8px 4px #8FE0F5;
 }
 /*
 @media (min-width: 750px) {

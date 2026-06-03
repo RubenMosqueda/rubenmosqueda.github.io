@@ -54,9 +54,20 @@ export function modalGaleryResources(){
       var imgElement_id = evento.target.id;
       var index_id = imgElement_id.replace("img_id_","");
       //*? 2- Add the image that will be displayed in the modal*/
-      modal_galery.innerHTML=`<img src="${resourcesDB[index_id].link}" alt=""></img>`;
+      modal_galery.innerHTML=`
+      <img src="${resourcesDB[index_id].link}" alt=""></img>
+      <button class="copyButton" id="copyButton"><i class="fa-solid fa-copy"></i></button>
+      `;
       //*? 3- Display the modal by changing the property .diplay to grid*/
       modal.style.display = "grid";
+      //*? 4-. Function to image button to coppy image adrress to clipboard*/
+      const linkCopyButton = document.getElementById("copyButton");
+      linkCopyButton.addEventListener("click", function(copyToClipboard){
+        var imageLink = resourcesDB[index_id].link;
+        navigator.clipboard.writeText(imageLink);
+        window.alert("Direccion de imagen copiada al porta papeles");
+      });
+
     });
   });
 
