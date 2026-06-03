@@ -16,7 +16,7 @@ import { galeryImageElement } from "./postBuilder.mjs";
 import { resourcesImageBuilder } from "./postBuilder.mjs";
 
 //~> Rutinas para el modal visor de imagenes de galeria de diseños */
-import { modalGalery } from "./modal_galery.mjs";
+import { modalGalery, modalGaleryResources } from "./modal_galery.mjs";
 
 const title = document.getElementById("title");
 
@@ -63,6 +63,7 @@ if (title.innerHTML == "Tarjeta De Presentación") {
 //~> Tarjeta De Presentación */ 
 if (title.innerHTML == "Recursos") {
   resourcesImageBuilder();
+  modalGaleryResources();
 }
 
 

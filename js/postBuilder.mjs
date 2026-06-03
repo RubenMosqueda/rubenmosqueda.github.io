@@ -155,7 +155,7 @@ export function postGridFiller(gridName, type) {
 
 //-> hmtl Desings Card */
 /*  
-<div class="imgContainer" id="imgContainer">
+<div= class="imgContainer" id="imgContainer">
   <img src="link de la  imagen" alt="">
 </div>
 */
@@ -164,10 +164,10 @@ export function galeryImageElement(index, galery){
   
   const  imageElement = document.createElement("div");
   
-  imageElement.className += ("imgContainer");
+  imageElement.className += ("imgContainer imgElement");
   //*? Every element have a unique ID*/
-  imageElement.id += ("imgContainer"+index);
-  imageElement.innerHTML = `<img src="${resourcesDB[index].link}" alt="">`;
+  imageElement.id += ("imgContainer_"+index);
+  imageElement.innerHTML = `<img id="img_id_${index}" src="${resourcesDB[index].link}" alt="">`;
   //*? We add the created elment to the galery*/
   galery.appendChild(imageElement);
 
