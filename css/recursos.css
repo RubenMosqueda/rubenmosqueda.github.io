@@ -43,10 +43,10 @@
 
 /* ~> Section Title Styles */
 .tab{
-  width: 40%;
+  width: 90%;
   font-size: 1.75rem;
   padding: 1rem;
-  margin: 0 auto;
+  margin: 1rem auto;
   text-align: center;
   border-radius: 8px 8px 8px 8px;
   color: #FFFFFF;
@@ -54,15 +54,90 @@
   border: solid 2px #D76F38;
 }
 
+@media (min-width: 990px) {
+  .tab{
+    width: 50%;
+  } 
+}
 
+/* ~> Section Color Palette Styles */
+.colorPickerSection{
+  width: 95%;
+  margin: 0 auto;
+}
 
+.galeriaColores{  
+  display: grid;
+  width: 100%;
+  margin: 2rem 0;
+  gap: 2rem;
+  grid-template-columns: 1fr;
+}
 
+@media (min-width: 990px) {
+  .galeriaColores{  
+    grid-template-columns: 1fr 1fr;
+  }
+}
 
+@media (min-width: 1500px) {
+  .galeriaColores{  
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
 
+.colorPalette{
+  position: relative;
+  margin: 0 auto;
+  width: 380px;
+  height: 600px;
+  border-radius: 10px;
+  border: solid 2px #908e92;
+  box-shadow: 0px 0px 8px 2px #a8abae;
+}
 
+.colorPalette img{
+  z-index: -1;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+  border-radius: 10px;
+}
 
+.colorDiv{
+  display:flex;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.color{
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  padding: 1rem;
+  border-radius: 10px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.color p{
+  color: white;
+  font-size: 0.75rem;
+}
+
+.color h2{
+  font-family: Arial;
+  color: white;
+  font-size: 0.85rem;
+}
+
+/* ~> Section Image Resources Galery Styles */
 .galeriaImagenes {
-  margin: 1rem 0 0 0;
+  margin: 2rem 0 0 0;
   display: flex;
   flex-wrap: wrap;
 }
