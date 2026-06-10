@@ -12,7 +12,7 @@
   box-shadow: 
   inset 0px 0px 14px 7px rgba(215, 111, 56, 0.3),
   0px 0px 10px 7px rgba(215, 111, 56, 0.3);
-  background-image: url(../../imagenes/site_images/textures/thumb-0001-1920x1080.jpg);
+  background-image: url(https://lh3.googleusercontent.com/pw/AP1GczOBvPaC0kPdDcs8av8_EPbMUbxhqlAVNrkq9I-71nctgbvOwEgfIK68aLkBNvSlVTFnaVSZop1w7ErkZNFOfIvVwJenuyMG4eJCx94YkzWHZDU3z4z6hfT4RsaTjW13tzslUkpnttpusaQIBG30UHM_=w1560-h878);
   background-repeat: no-repeat;
   background-position: 0% 55%;
   background-color: #272729;
@@ -61,6 +61,8 @@
 }
 
 /* ~> Section Color Palette Styles */
+
+/* TODO: Section Color Picker */
 .colorPickerSection{
   width: 95%;
   margin: 0 auto;
