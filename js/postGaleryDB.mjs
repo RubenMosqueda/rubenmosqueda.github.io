@@ -206,7 +206,7 @@ export const articlesDesingDB =
 ]
 
 //~> Base de datos de Imagenes de Recursos /
-export const resourcesDB =
+export const resourcesDB = 
 [  
     {
       link:"../imagenes/public_resources/Emotes/Emote.png",
