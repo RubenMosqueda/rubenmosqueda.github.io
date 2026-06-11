@@ -161,16 +161,13 @@ export function postGridFiller(gridName, type) {
 */
 //--> Input parameters: index, image galery */
 export function galeryImageElement(index, galery){
-  
   const  imageElement = document.createElement("div");
-  
   imageElement.className += ("imgContainer imgElement");
   //*? Every element have a unique ID*/
   imageElement.id += ("imgContainer_"+index);
-  imageElement.innerHTML = `<img id="img_id_${index}" src="${resourcesDB[index].link}" alt="">`;
+  imageElement.innerHTML = `<img id="img_id_${index}" src="${resourcesDB[index].shareLink}" alt="">`;
   //*? We add the created elment to the galery*/
   galery.appendChild(imageElement);
-
 }
 
 //*<------------- Function Galery Resources Filler ----------------->*/
