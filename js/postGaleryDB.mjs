@@ -14,19 +14,19 @@ export const articlesCodePenDB =
     },
     {
       codePenLink:"https://codepen.io/rubenmosqueda/pen/jOpwEBZ",
-      image:"../imagenes/site_images/miniatures/codepen_layout_responsive.jpg",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczMULJjfXlhI9L5TMOlRtiwmyrZjRil_lT5HN3wGQVAhKgaTCG3a0CAKWKklrr2jZvyzMnZDl9nIup5aPVK7Yf7k-Grr19X1IU1JD_GFMlF43R9_7sU=w2400",
       title:"Layout Responsive",
       author:"Rubén Mosqueda"
     },
     {
       codePenLink:"https://codepen.io/rubenmosqueda/pen/QWBpzzY",
-      image:"../imagenes/site_images/miniatures/codepen_accordion_list_responsive_with_javascript.jpg",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczP0M1ffb7aLjCVUoFkG2tF1prbht5ADdCnmOfcPLdfZLHm64qUDre4s1LXBhFxuEALAtJqMndcg8dqTc6BGwwFDmb97rVQtyS_8DIMsybMWcmg-UgQ=w2400",
       title:"Accordion List Responsive with JavaScript",
       author:"Rubén Mosqueda"
     },
     {
       codePenLink:"https://codepen.io/rubenmosqueda/pen/jOpMJMp",
-      image:"../imagenes/site_images/miniatures/codepen_accordion_list_with_transition_css.jpg",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczNQewN7zT5IjUYIrIyeMiP7rrME5-9NVIWU3CPbgnX7LVPvOSYk56hG7i-2oVsCNmIAWo-uzYQ6xZ7K3a_u2OmMiEd3LJSMH6SX3EGUdxiuoGcDjpA=w2400",
       title:"Accordion List With Transition CSS",
       author:"Rubén Mosqueda"
     },
@@ -38,7 +38,7 @@ export const articlesCodePenDB =
     },
     {
       codePenLink:"https://codepen.io/rubenmosqueda/pen/RwJOVGp",
-      image:"../imagenes/site_images/miniatures/codepen_e_book_card.JPG",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczPregJU37D5za_28bMOUTWRdoPGXjOea7eYOUWROe8woxdSBO9nTn8K7eGFJLOTxoVMT_1EOjHPuiXqTmYK-04yrCpPTLPghDdcgvPxSD5YojZdlPk=w2400",
       title:"e-Book Responsive Card",
       author:"Rubén Mosqueda"
     },
@@ -50,25 +50,25 @@ export const articlesCodePenDB =
     },
     {
       codePenLink:"https://codepen.io/rubenmosqueda/pen/NWzJEXq",
-      image:"../imagenes/site_images/miniatures/codepen_behance_card.JPG",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczMUCNbUAxKU4ppBttzW7wzVPjKvSCRn8w7VnNguyDKO_0wszsJ0KEo6kK9hfMnKuGgxFHMEMZr7bxaKx5kPBp4D5wNydq94m1TdKN27TUr3i4uVn5s=w2400",
       title:"Behance Card",
       author:"Rubén Mosqueda"
     },
     {
       codePenLink:"https://codepen.io/rubenmosqueda/pen/WNymygW",
-      image:"../imagenes/site_images/miniatures/codepen_card.JPG",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczOs5T4s-_U7Rf6pgqdoJtlhyPOZsS0TA3zWABeor6wMRiJpwh3yXAh2F9LHUDxEv6IKCOCqCxjwWlnXTe96evAFDeEj2ln4VeP-TgBwKGGabPhyUhc=w2400",
       title:"Codepen Card",
       author:"Rubén Mosqueda"
     },
     {
       codePenLink:"https://codepen.io/rubenmosqueda/pen/WNyopYK",
-      image:"../imagenes/site_images/miniatures/codepen_landing_page_exercise.JPG",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczPEsKtOWsBA0XrRmfaMcC-NfZ_7Zi_syGUsl20_VxllEdF_iO19nhKNrKxJsFjtl1YHAdyS3tygCI68UUpJfcfgNhUXBUa9sN-HZutzfolknbUCZRQ=w2400",
       title:"Personal Landing Page Exercise",
       author:"Rubén Mosqueda"
     },
     {
       codePenLink:"https://codepen.io/rubenmosqueda/pen/zYWPoVQ",
-      image:"../imagenes/site_images/miniatures/codepen_css_sprite_animation.JPG",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczNsT-oNoCbdp1kYG0-t7fhvHYyLN1_jxZdNEQQD9YiEKnyIbVR-UC83w-ZX0be82hH6Q2i9y6wpWVZi89l3rHSk5JkwDNoGHNUpKOQVH9qrCiB2N88=w2400",
       title:"CSS Sprite Animation",
       author:"Rubén Mosqueda"
     }
@@ -78,62 +78,62 @@ export const articlesCodePenDB =
 export const articlesDesingDB =
 [  
     {
-      miniature:"../imagenes/public_resources/Mis_Disenos/concept_board_for_food_menu_miniature.jpg",
-      image:"../imagenes/public_resources/Mis_Disenos/concept_board_for_food_menu.jpg",
+      miniature:"https://lh3.googleusercontent.com/pw/AP1GczNV39TKpx3hmabJFwW96UsFT25iB7E_kJKr7mM5ovCUD4hnUepeTnSIJvjdDxQB7yF3svJPQEarrnCR5YJjNQg3MPFLk7JOOQ75BJtpZnlD5IQ3lWYVuf0u9x7Nqsn_gRgwyqGyuHYR0tuJU9R7ad6N=w350-h350",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczOpqyDxN6P2Vp0KC7aF2LbHB5XS_BojLQQCOX93qBlivIxJVLepMEHvXYk1yOgTEiAk32V5WRWV0hhnGPhtoKywculXLXqvMQ9NOagwK-euf5ZioAAdVdJht6HQnMoodLDdGlx-R0VqlHB3C9FoZTLc=w1560-h878",
       title:"Concept Food Menu Board",
       author:"Rubén Mosqueda"
     },
     {
-      miniature:"../imagenes/public_resources/Mis_Disenos/concept_card_book_miniatures.jpg",
-      image:"../imagenes/public_resources/Mis_Disenos/concept_card_book.jpg",
+      miniature:"https://lh3.googleusercontent.com/pw/AP1GczNQdWTPfHWvw_tUMQoEYIxLunqYMECRyEKNdmNZNALEvCU-vToNQm4Yr-ASoCCKNOkhfAZP_xe-snUEYRLDH36wdYpO7tD-Jvv0AdNPVQI_kNyAFnxL7jmFX5yRbbg-XMve0mzsVNVDVO4Is12R4kjf=w350-h350",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczOjMHorIvkwlsoHUshMd9sH7zdxz-fyqs0XFAu2Y27-X3lQpxm8yYmq9MGiHscdC4DemkspCZp7jJfMDzpAckMS4jmarXyjHs1lhBhFX9dtqQgu2e9LPLdvArZu7PWNmwF7xH2b_EJ9Tglb2dYuYkum=w756-h945",
       title:"Concept Card Book",
       author:"Rubén Mosqueda"
     },
     {
-      miniature:"../imagenes/public_resources/Mis_Disenos/concept_card_coffee_artesano_miniature.jpg",
-      image:"../imagenes/public_resources/Mis_Disenos/concept_card_coffee_artesano.jpg",
+      miniature:"https://lh3.googleusercontent.com/pw/AP1GczMLZFoUSHOq5u4nRE8STycQax9MFuj50kF4CYn2wyS2cPgRL-ItECryFufLec60ObBRq45qdB7XKO4JB6mNJPjbLDu9kEceJoERJv2cU5Cd9b-YXD8H2Ea1QjzrggD-RfOwC175NOXdFdPjlb7bZqeS=w350-h350",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczOONqHvC0J1dyhjNPCLlXnHmrcHmEp4epRqGczioYac94MpURhY7oI07KjnmGX3XITuhn2TGKT59MFGU0FJgJ2gMduIgzNmZk2PB7DGr3hVtEbEz2eJYUkC8V2vpEuHUZJkJqMU6oZspxlyO1Us7S2O=w756-h945",
       title:"Concept Cofee Card Artesano",
       author:"Rubén Mosqueda"
     },
     {
-      miniature:"../imagenes/public_resources/Mis_Disenos/concept_card_coffee_artesano_inspiration_miniature.jpg",
-      image:"../imagenes/public_resources/Mis_Disenos/concept_card_coffee_artesano_inspiration.jpg",
+      miniature:"https://lh3.googleusercontent.com/pw/AP1GczNq5mY5ceX9cwfv3tWPq78kxxV5aGPxTyT7yYBgDAsxMZRhdRLtbpSBJUlSmTWKdN437WuGi2jGtBZxl13OJ-NZt8LIDvPv8lyK5UlFarnA4MarHjYGIifKQRKokHE2pvy759UuDOBtTsaFN3Ai6vsC=w350-h350",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczMhxGlPnEHLbBaJZ4P0h4kD7VHcGSZRmeotKV0Lmyf9yIIFhXmr3LyP3SoKmrlg7gkOqmx_XdntNFX5ep22wMds6Ka8RbO1S7YX5_EmUb1NsVA0X0rofqK0lkPZM3Da5BGa2IEU67ZwTGnZWOeBeqol=w756-h945",
       title:"Cafeteria Artesano",
       author:"Rubén Mosqueda"
     },
     {
-      miniature:"../imagenes/public_resources/Mis_Disenos/concept_card_coffee_caligari_miniature.jpg",
-      image:"../imagenes/public_resources/Mis_Disenos/concept_card_coffee_caligari.jpg",
+      miniature:"https://lh3.googleusercontent.com/pw/AP1GczNXy3VSorl9lOcczFoM-Vmwi_PrXg-tnyUcw1pN0yUthAbPJ-R_8EPf2bb20mslhwsr_6pqT6GUkuaxXTXlhhZmddAOoD3RAW70LtL-havBqxv3aoAmQCT2AVEz3Oj-BPK-WswYPsBMl8d9rEwfRgYW=w350-h350",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczOlrRYFyUef1znti8RekAYA5xJrgZtcN88UC6uKgIK9INrEKyLA4GWr2ZSY31SWJX8hH-6jV210-0Hjqwzh_P1mt1RNCfZmtWXxjM0g3kw_I0ScwDfja_-4jWMv_VqCw1c4NhZNCCAR-Mz7frn7GgAW=w756-h945",
       title:"Concept Cofee Card Caligari",
       author:"Rubén Mosqueda"
     },
     {
-      miniature:"../imagenes/public_resources/Mis_Disenos/concept_card_coffee_caligari_inspiration_miniature.jpg",
-      image:"../imagenes/public_resources/Mis_Disenos/concept_card_coffee_caligari_inspiration.jpg",
+      miniature:"https://lh3.googleusercontent.com/pw/AP1GczOEAw0HgnWaQ_bhgsVfDgOnG-Jfk9-9ohu3v2UfE5KPFCsRNHVFT0sIsTEodBt_kdv8Jt01Rrh6mIw1-sP5gGpGAek7ig1Tl802eGcp33iCKuBU5TUr_ciJPBXBEzEf2jlPLwGy2XK9RHqgMH8Ngas6=w350-h350",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczOedxD1mJsa3mtzzh3QpK3NxCpdhD6ipH2hXGl8nfc5YVfw_ybnHu5234L6NZ4WXhnQeL4H9lvPW1jZcTceyWSXzYVr1aOS2x0GR8QEmd__n-pZh4NRftt2XtCtcntIAV7y62LCIfhfda5DQbLWJWqH=w423-h945",
       title:"Cafeteria Caligari",
       author:"Rubén Mosqueda"
     },
     {
-      miniature:"../imagenes/public_resources/Mis_Disenos/concept_card_food_miniature.jpg",
-      image:"../imagenes/public_resources/Mis_Disenos/concept_card_food.jpg",
+      miniature:"https://lh3.googleusercontent.com/pw/AP1GczPeyn-K9bT-rwPXrn_bojQJaV7vWezdxqbZs7WNKDe2L6xbPWMGbEVOWnpe_L2V4yjChEVarpb_DV7NIw1NIltX1471ob0tH3FJBEQQ_c9iBbEw39QVQxUDIYxpS0lF5rJuHCz60tnzq0x9rH8eslxu=w350-h350",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczNDyA61Sz6SGKwcPaPRlRzil04N1vVFi9RtgeaaSx2VvR4w4_oSN84_W3QAG_EL0D8hVngzHUyd0SmxVcxQhcXR_0CbZNLaVkjgoJKUDWbn6H-BG0Zx3-mXLrhUkYGlyBKOqpj_n3ZeKNTFiWcYahZF=w1560-h878",
       title:"Concpet Food Card",
       author:"Rubén Mosqueda"
     },
     {
-      miniature:"../imagenes/public_resources/Mis_Disenos/concept_control_panel_fox_miniature.jpg",
-      image:"../imagenes/public_resources/Mis_Disenos/concept_control_panel_fox.jpg",
+      miniature:"https://lh3.googleusercontent.com/pw/AP1GczPvq9CWQUwKrkSA_4tlYaHL8yoRIx3dTIjN9GE3dtq_K8AJdApfkgdVLA61zaBLw2bA4kQEX7Uw-ogS_am7rDi9-MfUnX4MbSrxjCLvu5cF2iJdLCzThdUjCaiC4aepJC--rJsTPoLA5jigsmR1qyKh=w350-h350",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczML2xMSw6vqJ8bYrwyMGHxUGOY7JdUc4RmY_6l0AmZmETbfA4qAPE7RldJpKdZ7szogsYMfyLJmuFXRc7nPUNNU1Dr4Efy79WxzJuQy1ickL20TiAGMFoK_QhnbO9THqe8KMjNNkn3s_6JNnC8QdV25=w1560-h848",
       title:"Concept Interface Fox",
       author:"Rubén Mosqueda"
     },
     {
-      miniature:"../imagenes/public_resources/Mis_Disenos/concept_control_panel_miniature.jpg",
-      image:"../imagenes/public_resources/Mis_Disenos/concept_control_panel.png",
+      miniature:"https://lh3.googleusercontent.com/pw/AP1GczOXXJOq_ai1WxFMXP7emVsWbuIYzBj_5z2KUzYD6HTUAB7puoS54yzvXImayhWxqtw7UdjlUrbHUuMx1GtnInS2ZIwqYuob18ZC8RswpiuNOx_7z1XYnd8JmXN9xqaFKqjUFvdLlAnf5H4-uQDBJvJz=w350-h350",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczNIAEmk_W1kLM8h2usU3XZs4X0p50Ps2O9tTFbmsacLZ-q10RdbYxST-zZgSpvLo7Qa-M9pO5o1bypbBzbbjFS9W-xWhTzIF5zwK_Zhcqfu9kqjPYC4_MhbwnrP58PmOi0sQQWLwxjntzFfIzlmIjix=w1560-h878",
       title:"Concept Control Panel Fox",
       author:"Rubén Mosqueda"
     },
     {
-      miniature:"../imagenes/public_resources/Mis_Disenos/desing_tommy_slide_miniature.jpg",
-      image:"../imagenes/public_resources/Mis_Disenos/desing_tommy_slide.jpg",
+      miniature:"https://lh3.googleusercontent.com/pw/AP1GczM5DGhowCfllKHuyROsVhWTvcG0_7n5zUjbvLWMHDpVMbmUnahS5xiZhvM2XcA60TeoVevjbNX4MZxPczlKHr14XnIp1ymest8mEayP61PqUIXsIwyT4TP3MRyESfpGcjLlpcrfuTlPRqBSxV9VQAT2=w350-h350",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczOIRlAHCZ5tFs9jdE8XwtYOVUNU6_6hAJxznQdMWOANm6koQjJKvNuIDUTrZ6fVN4guxgtm5GJfvEH8RuQ1j8Fu6zBM_ZdVO3pup2Mgii84Ou4aVnyfPLIHFQ83WXC7MrT9gKAPbF_aQg6cQrs82yS1=w756-h945",
       title:"Cafeteria Tommy Slide",
       author:"Rubén Mosqueda"
     },
@@ -144,62 +144,62 @@ export const articlesDesingDB =
       author:"Rubén Mosqueda"
     },
     {
-      miniature:"../imagenes/public_resources/Mis_Disenos/design_cofee_talisman_miniature.jpg",
-      image:"../imagenes/public_resources/Mis_Disenos/design_cofee_talisman.jpg",
+      miniature:"https://lh3.googleusercontent.com/pw/AP1GczOInpDSm1GBnMi-pYLSn_uPIsH-vYq_i4-lFMHxRtjXHfaXFzHNFCilaURt5pftcd_6pc_IHb7fFdgn3hMIDLih150HdsCUvc6gTsANEGiU8pIb3cDp21oRAMsDk8iQ5XFSxT3vJQVXvr4cfiZhGbAG=w350-h350",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczPg4AGWvHhSKV9Hf7gNlWo1QVzzZxv_7CyuHwcONxI7FKRGwUmQDr2YnSKqDmR9cC9T74iOW1lqLseEyeYZFTb24aEMyHYXkSp55R7032kOmECMhfFF7TTnkTNsJoC29G5aKI1H-9A-Gymj-JkD9BUA=w756-h945",
       title:"Cafe Talisman",
       author:"Rubén Mosqueda"
     },
     {
-      miniature:"../imagenes/public_resources/Mis_Disenos/design_cofee_talisman_2_miniature.jpg",
-      image:"../imagenes/public_resources/Mis_Disenos/design_cofee_talisman_2.jpg",
+      miniature:"https://lh3.googleusercontent.com/pw/AP1GczP7CPmr3Q7345uETkBEsFMNr4YSBF0lvHBPjnHjY8nhNhLEnxkeuNQYQmtzJLee_14aNoAgU7TyRhzvabSCZoci5JMFybEt4pMYUdRSh4R2cdDpQkNdu3kgANlgwJf53tZjxGgCTwX6ubmDvsk3T0lS=w350-h350",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczPeA0yAvXFyLTvIHwIT40JZLzFLE0qMGQVwW5OjBUv2IN4hcHFEurHbNiW7fX6TlSqt-NTIcOzsb4T8xH1M6BuHMCNgPpESf79JT2j19afN4QCyAHEnoL8Gn3J5YKYzvOX9BUPx0Dmrk7n2v64mn2jh=w756-h945",
       title:"Cafe Talisman",
       author:"Rubén Mosqueda"
     },
     {
-      miniature:"../imagenes/public_resources/Mis_Disenos/proyecto_tarjeta_madre_asus_miniature.jpg",
-      image:"../imagenes/public_resources/Mis_Disenos/proyecto_tarjeta_madre_asus.jpg",
+      miniature:"https://lh3.googleusercontent.com/pw/AP1GczPuCzfzeY7cJN7It2jHdumfqlffKY4StLJ5EqdTq4RGJPqxQz4eqDNWa4zzu1H2_Mz6gvbqUdBYLfMxK5XCbzph_1PZv-mYpcoPTlElp6eidknlNsTH6GuVIWCMG3anB_23MzUHOzlhjgqAOkVND9cA=w350-h350",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczOPex4SD2jDtsCHMf-j1odEFPVkKj44S_3r8oqBEW3OqMWEVTudmxg2I5GJ-TgeQLRxv7BmD3FxrLW-zsmzw75HNmYru7iCR-Drzl8xTcrAgjbDo16su4DKAs2V01ac12x3kHkJ8IfXURsai-kY9ukI=w709-h945",
       title:"Tarjeta Madre Asus Maximus Hero IX",
       author:"Rubén Mosqueda"
     },
     {
-      miniature:"../imagenes/public_resources/Mis_Disenos/presentacion_comisiones_art_miniarure.jpg",
-      image:"../imagenes/public_resources/Mis_Disenos/presentacion_comisiones_art.jpg",
+      miniature:"https://lh3.googleusercontent.com/pw/AP1GczPdiEyMCJURlA9HMa8naz6Ta7u638wQ5H8pj2F1ls2JEK0B1eArrCr3NiIOrjQWd81JJLJkPmOjW86K9w-8aa88Ktg2Mj7bcmt_Ccn4VBQ0XmJggk7SEdPlr8IBvbnRX2kTGyEiyq0Bsd0xG0lE3Cy7=w350-h350",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczOXoHmuvYUZKcJZceGyLZa7oNbIo6GLuepWuRG3LV2mvMD33kZZdiEU3pEE2YTRr_13SdkTBs6EUWHQt4Vbg-YqhHd_Gdm07WoBFIh7FD1KrSYmYWyJ9czZhUzdJAQDB7jh1uw1IxYxeejlktqjIQ-g=w567-h945",
       title:"Streamer Comissions",
       author:"Rubén Mosqueda"
     },
     {
-      miniature:"../imagenes/public_resources/Mis_Disenos/presentacion_kpt_miniature.jpg",
-      image:"../imagenes/public_resources/Mis_Disenos/presentacion_kpt.jpg",
+      miniature:"https://lh3.googleusercontent.com/pw/AP1GczOl-1ThMo_EsWhUQLHBZx1oIx5ADvKY-pCGWjIXZ7do70GkYQ_0iiOFnwPNZGYHZpA20lAe1RoHJvDZgLuVXh-e8Un4egfTFVz9RVFpiDQiNDPYL-PcOHpjJHhtJMn-wXxrTXY9KBpypCKz7Av7O3lu=w350-h350",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczOZMhVzCUYVHvPJ1aL62Ptjs9A2zWAGtLIyllSpGunzpFSnyxOFZ9JGtAasVUJxgKBT1C2NCrN5iPXB_Vz8fHmFAudnj8ZtitrnFj7QhDbOZ-0wL7vOADEZW_HXFcBjgHWqpOViXcHlJxiZwBpcyuZl=w454-h945",
       title:"Presentacion Kits para Todos",
       author:"Rubén Mosqueda"
     },
     {
-      miniature:"../imagenes/public_resources/Mis_Disenos/presentacion_pusheen_miniature.jpg",
-      image:"../imagenes/public_resources/Mis_Disenos/presentacion_pusheen.jpg",
+      miniature:"https://lh3.googleusercontent.com/pw/AP1GczPX1Khm21yOoVYMW8hVFsV4OM4aOSwM9lR-tddgoEIqzTye1wodqx9Pd2X-2ZOvwP6AMZfmV7749TPhviO3MtrUktqzZ8shV-tE6ZOMQlj_0e1GPwpWPIgHgxUbIDrG3MutHVtT_sRN20hXIeAWxQKp=w350-h350",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczOKGre8yJAg1FCTfW7ypUnvWynLrUGPnZX4MgrdQnmEbBA4-VaHtKFDLMZx_MtKrT2r_mjQsUNm5LbuRt-cmcpUx9NFen08dMAv-MEPn6ccieQ-D3IcZ1BkeweW5pwJEnwnnPi6Jgk76xLfyd-cTpPf=w962-h945",
       title:"Paneles Pusheen",
       author:"Rubén Mosqueda"
     },
     {
-      miniature:"../imagenes/public_resources/Mis_Disenos/presentacion_hoja_vida_miniature.jpg",
-      image:"../imagenes/public_resources/Mis_Disenos/presentacion_hoja_vida.png",
+      miniature:"https://lh3.googleusercontent.com/pw/AP1GczNsW8Vq_Yzftajl6msy5lRmhpWmEXTe55PO6QBkAxCyTjmlaDw022Ep0aIcbb7mbKlicY4cBwyNL5GTEE-VD328swbxW8kLWWqkMqMXhNb-etzgiSlB8Z99GKLcfE63uD7TWd7lsSRadMfl2QGfAr7J=w350-h350",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczOBQia42ID_8NEXx8YXlEWckiWsXWmvz6DGJIHZE8aLj9cWuaA77Tuosz5y06nqRjMqiKBu0w0zpZwwZicqVEe_yWI2Y1atJWA8wy0qmlbLgWzDvAxAM6jWY811PdeYNOqKfU3cSWgoxc8CYxHnXH8P=w907-h945",
       title:"Hoja de Vida",
       author:"Rubén Mosqueda"
     },
     {
-      miniature:"../imagenes/public_resources/Mis_Disenos/presentacion_la_gorda_miniature.jpg",
-      image:"../imagenes/public_resources/Mis_Disenos/presentacion_la_gorda.jpg",
+      miniature:"https://lh3.googleusercontent.com/pw/AP1GczNiTWOAW8Gk-OeIRPyBVmgxRNJ86lKkfmWcbHcMmbO6gE0ysiOaIlnIhCbs73n6y8BhDBypj4LqrY5jGSwQTPtgvEeuXtE-NmyapyglvBbX4k_pLxr2zcSmg4g-bYTKTOpedVEzYG9KLxsqSa7ebEhN=w350-h350",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczNyaRMFtgZHlPyTeE2JpiwhqJcLXY0W_LO2tULf9_rJOXWtJlmOMDg4j1J8PecwezASranOJtt67E9DAIlGoNPd8zKQAjmZo-1MmlLALhFjN1HloHe3ILbFZ8PFGwlBWBxRzKx7M-UBXTV7mvs0IXLL=w567-h945",
       title:"Presentation Desing La Gorda",
       author:"Rubén Mosqueda"
     },
     {
-      miniature:"../imagenes/public_resources/Mis_Disenos/web_concept_la_gorda_miniature.jpg",
-      image:"../imagenes/public_resources/Mis_Disenos/web_concept_la_gorda.png",
+      miniature:"https://lh3.googleusercontent.com/pw/AP1GczNptDa_Ff5S4Q_aW3hng5QOiFiglZmR5oIAtV5hK4aedgdejNynMSrTqMTRXTAG54ZkfJutEowvSih7p9ACpXoq8oqTJ3G0swzm8-5tX7wyutneR3SiAMrA7FaQUJL5Dpb2Au_lRO8gkNb1Lin91xNY=w350-h350",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczMmXh_aNFFfimE3a7Ddl5jsPIhmqUzUuH70s-iQnBpyX_mZgDsqs_L0y-RrHIT3KgNp-aioAU1vdo0PjwrW0QzAseB31K5zGiyvD4tzyWHo0sjJkRDA1g9z60cVebEnoDUTydobJNWJc2_Oi8z-h1Ij=w1560-h878",
       title:"Web Concept La Gorda",
       author:"Rubén Mosqueda"
     },
     {
-      miniature:"../imagenes/public_resources/Mis_Disenos/web_concept_tacos_al_pastor_miniature.jpg",
-      image:"../imagenes/public_resources/Mis_Disenos/web_concept_tacos_al_pastor.jpg",
+      miniature:"https://lh3.googleusercontent.com/pw/AP1GczMOuw8jUd_FKtsC5YqNtvi-uHwyNmqmptBvReTK6d_iqMITcJx9vLsVtPPIiH0JVuq2EptTFuedabqBAW3h9qDlP_LWmuPzV2ImJCOH9xBy6SDP204wt0eBb4QKjhfuJlXNc2eFja_qvrfcXG4uUSNb=w350-h350",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczMEfT5Boteg6vdSjrJhxzUK7C9Gv6__4y-ZhlAvSIaZNS2ayBo22nb4NZRnRnsIqSkMoUV8EL0KaBapreJsViwHfVOH2_JiLUXp2F1vU7VznraeHZqZcF5ILV_1_Veuu-rzuCmFjkoaDgzoH1wIAAUy=w1560-h878",
       title:"Web Concept Tacos al Pastor",
       author:"Rubén Mosqueda"
     },
@@ -1888,301 +1888,6 @@ export const resourcesDB =
     gPhotosLink: "https://photos.app.goo.gl/J86V8RKFEQAsn3NcA",
     shareLink: "https://lh3.googleusercontent.com/pw/AP1GczPkPne0jyhtN_21RQ7zArfHDZrfKFlWY_LA-Uv-P1jtsnXRqddR0dMxhCcKznz3csW8en955dIbmEf2mwK198IxcP6m2gPtXQleAbYrGvz4IAew0Jm2QzmwKrJ0jOxFoG09DvVuhpicRnqAXyTpeSE1=w512-h512",
     type: "Icon",
-    project: "none",
-  },
-  //-> Diseños /
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/concept_board_for_food_menu.jpg",
-    gPhotosLink: "https://photos.app.goo.gl/DYki2J8WCRaTqAq57",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczOpqyDxN6P2Vp0KC7aF2LbHB5XS_BojLQQCOX93qBlivIxJVLepMEHvXYk1yOgTEiAk32V5WRWV0hhnGPhtoKywculXLXqvMQ9NOagwK-euf5ZioAAdVdJht6HQnMoodLDdGlx-R0VqlHB3C9FoZTLc=w1560-h878",
-    type: "Diseños",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/concept_board_for_food_menu_miniature.jpg",
-    gPhotosLink: "https://photos.app.goo.gl/6sGZVsi8uDegoMSV7",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczNV39TKpx3hmabJFwW96UsFT25iB7E_kJKr7mM5ovCUD4hnUepeTnSIJvjdDxQB7yF3svJPQEarrnCR5YJjNQg3MPFLk7JOOQ75BJtpZnlD5IQ3lWYVuf0u9x7Nqsn_gRgwyqGyuHYR0tuJU9R7ad6N=w350-h350",
-    type: "Miniature",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/concept_card_book.jpg",
-    gPhotosLink: "https://photos.app.goo.gl/pMHrkp6Qu3CyRGVm7",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczOjMHorIvkwlsoHUshMd9sH7zdxz-fyqs0XFAu2Y27-X3lQpxm8yYmq9MGiHscdC4DemkspCZp7jJfMDzpAckMS4jmarXyjHs1lhBhFX9dtqQgu2e9LPLdvArZu7PWNmwF7xH2b_EJ9Tglb2dYuYkum=w756-h945",
-    type: "Diseños",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/concept_card_book_miniatures.jpg",
-    gPhotosLink: "https://photos.app.goo.gl/Hbh8fsFib2kTknvy6",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczNQdWTPfHWvw_tUMQoEYIxLunqYMECRyEKNdmNZNALEvCU-vToNQm4Yr-ASoCCKNOkhfAZP_xe-snUEYRLDH36wdYpO7tD-Jvv0AdNPVQI_kNyAFnxL7jmFX5yRbbg-XMve0mzsVNVDVO4Is12R4kjf=w350-h350",
-    type: "Miniature",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/concept_card_coffee_artesano.jpg",
-    gPhotosLink: "https://photos.app.goo.gl/CPNUi9taXQpnzNcD9",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczOONqHvC0J1dyhjNPCLlXnHmrcHmEp4epRqGczioYac94MpURhY7oI07KjnmGX3XITuhn2TGKT59MFGU0FJgJ2gMduIgzNmZk2PB7DGr3hVtEbEz2eJYUkC8V2vpEuHUZJkJqMU6oZspxlyO1Us7S2O=w756-h945",
-    type: "Diseños",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/concept_card_coffee_artesano_inspiration.jpg",
-    gPhotosLink: "https://photos.app.goo.gl/hxA1n5GmgAuZo8ys6",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczMhxGlPnEHLbBaJZ4P0h4kD7VHcGSZRmeotKV0Lmyf9yIIFhXmr3LyP3SoKmrlg7gkOqmx_XdntNFX5ep22wMds6Ka8RbO1S7YX5_EmUb1NsVA0X0rofqK0lkPZM3Da5BGa2IEU67ZwTGnZWOeBeqol=w756-h945",
-    type: "Diseños",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/concept_card_coffee_artesano_inspiration_miniature.jpg",
-    gPhotosLink: "https://photos.app.goo.gl/wAxHeQ7woFp7uMVy7",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczNq5mY5ceX9cwfv3tWPq78kxxV5aGPxTyT7yYBgDAsxMZRhdRLtbpSBJUlSmTWKdN437WuGi2jGtBZxl13OJ-NZt8LIDvPv8lyK5UlFarnA4MarHjYGIifKQRKokHE2pvy759UuDOBtTsaFN3Ai6vsC=w350-h350",
-    type: "Miniature",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/concept_card_coffee_artesano_miniature.jpg",
-    gPhotosLink: "https://photos.app.goo.gl/t4Xgvy6pkqJ8pr3a6",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczMLZFoUSHOq5u4nRE8STycQax9MFuj50kF4CYn2wyS2cPgRL-ItECryFufLec60ObBRq45qdB7XKO4JB6mNJPjbLDu9kEceJoERJv2cU5Cd9b-YXD8H2Ea1QjzrggD-RfOwC175NOXdFdPjlb7bZqeS=w350-h350",
-    type: "Miniature",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/concept_card_coffee_caligari.jpg",
-    gPhotosLink: "https://photos.app.goo.gl/PBpgMBJGQuwn9JL98",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczOlrRYFyUef1znti8RekAYA5xJrgZtcN88UC6uKgIK9INrEKyLA4GWr2ZSY31SWJX8hH-6jV210-0Hjqwzh_P1mt1RNCfZmtWXxjM0g3kw_I0ScwDfja_-4jWMv_VqCw1c4NhZNCCAR-Mz7frn7GgAW=w756-h945",
-    type: "Diseños",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/concept_card_coffee_caligari_inspiration.jpg",
-    gPhotosLink: "https://photos.app.goo.gl/VoEeyKo2rmWbvLdA7",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczOedxD1mJsa3mtzzh3QpK3NxCpdhD6ipH2hXGl8nfc5YVfw_ybnHu5234L6NZ4WXhnQeL4H9lvPW1jZcTceyWSXzYVr1aOS2x0GR8QEmd__n-pZh4NRftt2XtCtcntIAV7y62LCIfhfda5DQbLWJWqH=w423-h945",
-    type: "Diseños",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/concept_card_coffee_caligari_inspiration_miniature.jpg",
-    gPhotosLink: "https://photos.app.goo.gl/2mWk7Fdxwu2jk3qB8",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczOEAw0HgnWaQ_bhgsVfDgOnG-Jfk9-9ohu3v2UfE5KPFCsRNHVFT0sIsTEodBt_kdv8Jt01Rrh6mIw1-sP5gGpGAek7ig1Tl802eGcp33iCKuBU5TUr_ciJPBXBEzEf2jlPLwGy2XK9RHqgMH8Ngas6=w350-h350",
-    type: "Miniature",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/concept_card_coffee_caligari_miniature.jpg",
-    gPhotosLink: "https://photos.app.goo.gl/5kcoYXTTsrrQ1o6Y8",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczNXy3VSorl9lOcczFoM-Vmwi_PrXg-tnyUcw1pN0yUthAbPJ-R_8EPf2bb20mslhwsr_6pqT6GUkuaxXTXlhhZmddAOoD3RAW70LtL-havBqxv3aoAmQCT2AVEz3Oj-BPK-WswYPsBMl8d9rEwfRgYW=w350-h350",
-    type: "Miniature",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/concept_card_food.jpg",
-    gPhotosLink: "https://photos.app.goo.gl/wDxpsXzLJjXnnzbA6",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczNDyA61Sz6SGKwcPaPRlRzil04N1vVFi9RtgeaaSx2VvR4w4_oSN84_W3QAG_EL0D8hVngzHUyd0SmxVcxQhcXR_0CbZNLaVkjgoJKUDWbn6H-BG0Zx3-mXLrhUkYGlyBKOqpj_n3ZeKNTFiWcYahZF=w1560-h878",
-    type: "Diseños",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/concept_card_food_miniature.jpg",
-    gPhotosLink: "https://photos.app.goo.gl/GGoPPupGtBc2GKx26",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczPeyn-K9bT-rwPXrn_bojQJaV7vWezdxqbZs7WNKDe2L6xbPWMGbEVOWnpe_L2V4yjChEVarpb_DV7NIw1NIltX1471ob0tH3FJBEQQ_c9iBbEw39QVQxUDIYxpS0lF5rJuHCz60tnzq0x9rH8eslxu=w350-h350",
-    type: "Miniature",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/concept_control_panel.png",
-    gPhotosLink: "https://photos.app.goo.gl/1DTNWkCzQUBpqa8T9",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczNIAEmk_W1kLM8h2usU3XZs4X0p50Ps2O9tTFbmsacLZ-q10RdbYxST-zZgSpvLo7Qa-M9pO5o1bypbBzbbjFS9W-xWhTzIF5zwK_Zhcqfu9kqjPYC4_MhbwnrP58PmOi0sQQWLwxjntzFfIzlmIjix=w1560-h878",
-    type: "Diseños",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/concept_control_panel_fox.jpg",
-    gPhotosLink: "https://photos.app.goo.gl/4Lpa8SUGrgMpwLYf6",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczML2xMSw6vqJ8bYrwyMGHxUGOY7JdUc4RmY_6l0AmZmETbfA4qAPE7RldJpKdZ7szogsYMfyLJmuFXRc7nPUNNU1Dr4Efy79WxzJuQy1ickL20TiAGMFoK_QhnbO9THqe8KMjNNkn3s_6JNnC8QdV25=w1560-h848",
-    type: "Diseños",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/concept_control_panel_fox_miniature.jpg",
-    gPhotosLink: "https://photos.app.goo.gl/SZZbYK39B75ER4Ru9",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczPvq9CWQUwKrkSA_4tlYaHL8yoRIx3dTIjN9GE3dtq_K8AJdApfkgdVLA61zaBLw2bA4kQEX7Uw-ogS_am7rDi9-MfUnX4MbSrxjCLvu5cF2iJdLCzThdUjCaiC4aepJC--rJsTPoLA5jigsmR1qyKh=w350-h350",
-    type: "Miniature",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/concept_control_panel_miniature.jpg",
-    gPhotosLink: "https://photos.app.goo.gl/DsacJjLLFzEfEiX76",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczOXXJOq_ai1WxFMXP7emVsWbuIYzBj_5z2KUzYD6HTUAB7puoS54yzvXImayhWxqtw7UdjlUrbHUuMx1GtnInS2ZIwqYuob18ZC8RswpiuNOx_7z1XYnd8JmXN9xqaFKqjUFvdLlAnf5H4-uQDBJvJz=w350-h350",
-    type: "Miniature",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/design_cofee_talisman.jpg",
-    gPhotosLink: "https://photos.app.goo.gl/NCbdpthcebmQk4Ws9",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczPg4AGWvHhSKV9Hf7gNlWo1QVzzZxv_7CyuHwcONxI7FKRGwUmQDr2YnSKqDmR9cC9T74iOW1lqLseEyeYZFTb24aEMyHYXkSp55R7032kOmECMhfFF7TTnkTNsJoC29G5aKI1H-9A-Gymj-JkD9BUA=w756-h945",
-    type: "Diseños",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/design_cofee_talisman_2.jpg",
-    gPhotosLink: "https://photos.app.goo.gl/CdVamLw6mq5nPtnt8",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczPeA0yAvXFyLTvIHwIT40JZLzFLE0qMGQVwW5OjBUv2IN4hcHFEurHbNiW7fX6TlSqt-NTIcOzsb4T8xH1M6BuHMCNgPpESf79JT2j19afN4QCyAHEnoL8Gn3J5YKYzvOX9BUPx0Dmrk7n2v64mn2jh=w756-h945",
-    type: "Diseños",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/design_cofee_talisman_2_miniature.jpg",
-    gPhotosLink: "https://photos.app.goo.gl/MRzrXG47sf72YEpU6",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczP7CPmr3Q7345uETkBEsFMNr4YSBF0lvHBPjnHjY8nhNhLEnxkeuNQYQmtzJLee_14aNoAgU7TyRhzvabSCZoci5JMFybEt4pMYUdRSh4R2cdDpQkNdu3kgANlgwJf53tZjxGgCTwX6ubmDvsk3T0lS=w350-h350",
-    type: "Miniature",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/design_cofee_talisman_miniature.jpg",
-    gPhotosLink: "https://photos.app.goo.gl/uep9NfN8fZqjDGcz6",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczOInpDSm1GBnMi-pYLSn_uPIsH-vYq_i4-lFMHxRtjXHfaXFzHNFCilaURt5pftcd_6pc_IHb7fFdgn3hMIDLih150HdsCUvc6gTsANEGiU8pIb3cDp21oRAMsDk8iQ5XFSxT3vJQVXvr4cfiZhGbAG=w350-h350",
-    type: "Miniature",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/desing_tommy_slide.jpg",
-    gPhotosLink: "https://photos.app.goo.gl/sqDTGZXMdrNyCrE26",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczOIRlAHCZ5tFs9jdE8XwtYOVUNU6_6hAJxznQdMWOANm6koQjJKvNuIDUTrZ6fVN4guxgtm5GJfvEH8RuQ1j8Fu6zBM_ZdVO3pup2Mgii84Ou4aVnyfPLIHFQ83WXC7MrT9gKAPbF_aQg6cQrs82yS1=w756-h945",
-    type: "Diseños",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/desing_tommy_slide_miniature.jpg",
-    gPhotosLink: "https://photos.app.goo.gl/9XWT1vYDDMHB8wBt5",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczM5DGhowCfllKHuyROsVhWTvcG0_7n5zUjbvLWMHDpVMbmUnahS5xiZhvM2XcA60TeoVevjbNX4MZxPczlKHr14XnIp1ymest8mEayP61PqUIXsIwyT4TP3MRyESfpGcjLlpcrfuTlPRqBSxV9VQAT2=w350-h350",
-    type: "Miniature",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/presentacion_comisiones_art.jpg",
-    gPhotosLink: "https://photos.app.goo.gl/UohSH8WU8GkN8UnB7",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczOXoHmuvYUZKcJZceGyLZa7oNbIo6GLuepWuRG3LV2mvMD33kZZdiEU3pEE2YTRr_13SdkTBs6EUWHQt4Vbg-YqhHd_Gdm07WoBFIh7FD1KrSYmYWyJ9czZhUzdJAQDB7jh1uw1IxYxeejlktqjIQ-g=w567-h945",
-    type: "Diseños",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/presentacion_comisiones_art_miniarure.JPG",
-    gPhotosLink: "https://photos.app.goo.gl/C327g17xNNV4QbpY9",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczPdiEyMCJURlA9HMa8naz6Ta7u638wQ5H8pj2F1ls2JEK0B1eArrCr3NiIOrjQWd81JJLJkPmOjW86K9w-8aa88Ktg2Mj7bcmt_Ccn4VBQ0XmJggk7SEdPlr8IBvbnRX2kTGyEiyq0Bsd0xG0lE3Cy7=w350-h350",
-    type: "Miniature",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/presentacion_hoja_vida.png",
-    gPhotosLink: "https://photos.app.goo.gl/aKacFnmAh1M3UWRf8",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczOBQia42ID_8NEXx8YXlEWckiWsXWmvz6DGJIHZE8aLj9cWuaA77Tuosz5y06nqRjMqiKBu0w0zpZwwZicqVEe_yWI2Y1atJWA8wy0qmlbLgWzDvAxAM6jWY811PdeYNOqKfU3cSWgoxc8CYxHnXH8P=w907-h945",
-    type: "Diseños",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/presentacion_hoja_vida_miniature.JPG",
-    gPhotosLink: "https://photos.app.goo.gl/77wrDksbH9LXa2T86",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczNsW8Vq_Yzftajl6msy5lRmhpWmEXTe55PO6QBkAxCyTjmlaDw022Ep0aIcbb7mbKlicY4cBwyNL5GTEE-VD328swbxW8kLWWqkMqMXhNb-etzgiSlB8Z99GKLcfE63uD7TWd7lsSRadMfl2QGfAr7J=w350-h350",
-    type: "Miniature",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/presentacion_kpt.jpg",
-    gPhotosLink: "https://photos.app.goo.gl/3JbMTEYaVVMV9Sbu9",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczOZMhVzCUYVHvPJ1aL62Ptjs9A2zWAGtLIyllSpGunzpFSnyxOFZ9JGtAasVUJxgKBT1C2NCrN5iPXB_Vz8fHmFAudnj8ZtitrnFj7QhDbOZ-0wL7vOADEZW_HXFcBjgHWqpOViXcHlJxiZwBpcyuZl=w454-h945",
-    type: "Diseños",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/presentacion_kpt_miniature.JPG",
-    gPhotosLink: "https://photos.app.goo.gl/Tjt5LRfYbm8gjcpdA",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczOl-1ThMo_EsWhUQLHBZx1oIx5ADvKY-pCGWjIXZ7do70GkYQ_0iiOFnwPNZGYHZpA20lAe1RoHJvDZgLuVXh-e8Un4egfTFVz9RVFpiDQiNDPYL-PcOHpjJHhtJMn-wXxrTXY9KBpypCKz7Av7O3lu=w350-h350",
-    type: "Miniature",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/presentacion_la_gorda.jpg",
-    gPhotosLink: "https://photos.app.goo.gl/BSrd4oUphVqtVETC7",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczNyaRMFtgZHlPyTeE2JpiwhqJcLXY0W_LO2tULf9_rJOXWtJlmOMDg4j1J8PecwezASranOJtt67E9DAIlGoNPd8zKQAjmZo-1MmlLALhFjN1HloHe3ILbFZ8PFGwlBWBxRzKx7M-UBXTV7mvs0IXLL=w567-h945",
-    type: "Diseños",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/presentacion_la_gorda_miniature.JPG",
-    gPhotosLink: "https://photos.app.goo.gl/YCkEY75QDDKZShuP9",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczNiTWOAW8Gk-OeIRPyBVmgxRNJ86lKkfmWcbHcMmbO6gE0ysiOaIlnIhCbs73n6y8BhDBypj4LqrY5jGSwQTPtgvEeuXtE-NmyapyglvBbX4k_pLxr2zcSmg4g-bYTKTOpedVEzYG9KLxsqSa7ebEhN=w350-h350",
-    type: "Miniature",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/presentacion_pusheen.jpg",
-    gPhotosLink: "https://photos.app.goo.gl/8hWhBSEd7nWLsVUE8",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczOKGre8yJAg1FCTfW7ypUnvWynLrUGPnZX4MgrdQnmEbBA4-VaHtKFDLMZx_MtKrT2r_mjQsUNm5LbuRt-cmcpUx9NFen08dMAv-MEPn6ccieQ-D3IcZ1BkeweW5pwJEnwnnPi6Jgk76xLfyd-cTpPf=w962-h945",
-    type: "Diseños",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/presentacion_pusheen_miniature.jpg",
-    gPhotosLink: "https://photos.app.goo.gl/uAkrsdHnHSTfVe2C7",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczPX1Khm21yOoVYMW8hVFsV4OM4aOSwM9lR-tddgoEIqzTye1wodqx9Pd2X-2ZOvwP6AMZfmV7749TPhviO3MtrUktqzZ8shV-tE6ZOMQlj_0e1GPwpWPIgHgxUbIDrG3MutHVtT_sRN20hXIeAWxQKp=w350-h350",
-    type: "Miniature",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/proyecto_tarjeta_madres_dc_chips.jpg",
-    gPhotosLink: "https://photos.app.goo.gl/azp4aBybcpvbiZsV9",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczMzCKzJnHVaMMntZhlA-lqnbP__0wT7GCFgg9EE9tEHHIajVPJVYdBoay3R2r1O_VjmEGXkQIwRmK92G8KRnso_HXP0zY2tbXIvDpU3tN6pl0VZkxZe-OcXaRt8PPWB-UvrGR6YRjWZaMV-BMwXOoQM=w1560-h936",
-    type: "Diseños",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/proyecto_tarjeta_madres_dc_chips_miniature.jpg",
-    gPhotosLink: "https://photos.app.goo.gl/846bwqukNCLjJBBR6",
-    shareLink: "https://photos.fife.usercontent.google.com/pw/AP1GczNUn4hkH2q6q3nAq3l-7uvQrPtrWn4Ts6ijyPg7SzLXQJpgn_7IqRXS=w350-h350",
-    type: "Miniature",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/proyecto_tarjeta_madre_asus.jpg",
-    gPhotosLink: "https://photos.app.goo.gl/K29B4NeUZ1e7fn1J8",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczOPex4SD2jDtsCHMf-j1odEFPVkKj44S_3r8oqBEW3OqMWEVTudmxg2I5GJ-TgeQLRxv7BmD3FxrLW-zsmzw75HNmYru7iCR-Drzl8xTcrAgjbDo16su4DKAs2V01ac12x3kHkJ8IfXURsai-kY9ukI=w709-h945",
-    type: "Diseños",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/proyecto_tarjeta_madre_asus_miniature.jpg",
-    gPhotosLink: "https://photos.app.goo.gl/aTKZ1uM8iWn7ELqVA",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczPuCzfzeY7cJN7It2jHdumfqlffKY4StLJ5EqdTq4RGJPqxQz4eqDNWa4zzu1H2_Mz6gvbqUdBYLfMxK5XCbzph_1PZv-mYpcoPTlElp6eidknlNsTH6GuVIWCMG3anB_23MzUHOzlhjgqAOkVND9cA=w350-h350",
-    type: "Miniature",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/web_concept_la_gorda.png",
-    gPhotosLink: "https://photos.app.goo.gl/BSmA6twuysryPsBq8",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczMmXh_aNFFfimE3a7Ddl5jsPIhmqUzUuH70s-iQnBpyX_mZgDsqs_L0y-RrHIT3KgNp-aioAU1vdo0PjwrW0QzAseB31K5zGiyvD4tzyWHo0sjJkRDA1g9z60cVebEnoDUTydobJNWJc2_Oi8z-h1Ij=w1560-h878",
-    type: "Diseños",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/web_concept_la_gorda_miniature.jpg",
-    gPhotosLink: "https://photos.app.goo.gl/qSiY1XaHn6R6M2fz5",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczNptDa_Ff5S4Q_aW3hng5QOiFiglZmR5oIAtV5hK4aedgdejNynMSrTqMTRXTAG54ZkfJutEowvSih7p9ACpXoq8oqTJ3G0swzm8-5tX7wyutneR3SiAMrA7FaQUJL5Dpb2Au_lRO8gkNb1Lin91xNY=w350-h350",
-    type: "Miniature",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/web_concept_tacos_al_pastor.jpg",
-    gPhotosLink: "https://photos.app.goo.gl/pyoRfZruZik8DQrJA",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczMEfT5Boteg6vdSjrJhxzUK7C9Gv6__4y-ZhlAvSIaZNS2ayBo22nb4NZRnRnsIqSkMoUV8EL0KaBapreJsViwHfVOH2_JiLUXp2F1vU7VznraeHZqZcF5ILV_1_Veuu-rzuCmFjkoaDgzoH1wIAAUy=w1560-h878",
-    type: "Diseños",
-    project: "none",
-  },
-  {
-    localLink: "../imagenes/public_resources/Mis_Disenos/web_concept_tacos_al_pastor_miniature.JPG",
-    gPhotosLink: "https://photos.app.goo.gl/zcv11HefAAYJwyy77",
-    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczMOuw8jUd_FKtsC5YqNtvi-uHwyNmqmptBvReTK6d_iqMITcJx9vLsVtPPIiH0JVuq2EptTFuedabqBAW3h9qDlP_LWmuPzV2ImJCOH9xBy6SDP204wt0eBb4QKjhfuJlXNc2eFja_qvrfcXG4uUSNb=w350-h350",
-    type: "Miniature",
     project: "none",
   },
   //-> Panels /

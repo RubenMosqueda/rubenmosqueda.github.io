@@ -13,7 +13,7 @@ export function modalGalery(){
   
   //*? Select all buttons with class 'btn'*/
   const btnsArray = document.querySelectorAll(".btn");
-console.log(btnsArray);
+  //console.log(btnsArray);
   //*? Function that iterates through the array of buttons*/
   btnsArray.forEach((button, index) => {
     //*? set an EventListener click to each button*/
@@ -55,7 +55,7 @@ export function modalGaleryResources(){
       var index_id = imgElement_id.replace("img_id_","");
       //*? 2- Add the image that will be displayed in the modal*/
       modal_galery.innerHTML=`
-      <img src="${resourcesDB[index_id].link}" alt=""></img>
+      <img src="${resourcesDB[index_id].shareLink}" alt=""></img>
       <button class="copyButton" id="copyButton"><i class="fa-solid fa-copy"></i></button>
       `;
       //*? 3- Display the modal by changing the property .diplay to grid*/
@@ -63,7 +63,7 @@ export function modalGaleryResources(){
       //*? 4-. Function to image button to coppy image adrress to clipboard*/
       const linkCopyButton = document.getElementById("copyButton");
       linkCopyButton.addEventListener("click", function(copyToClipboard){
-        var imageLink = resourcesDB[index_id].link;
+        var imageLink = resourcesDB[index_id].shareLink;
         navigator.clipboard.writeText(imageLink);
         window.alert("Direccion de imagen copiada al porta papeles");
       });
