@@ -94,13 +94,25 @@ export function galeryLinkCard(myGrid, myGalery){
   galeryLink.className += ("galeryLinkCard");
   galeryLink.innerHTML = `<h3>+ ${myGalery}</h3>`;
   //*? For link to codepen galery*/
-  if(myGalery=="Codepen"){galeryLink.href = "../pages/galeriaCodepen.html";}
+  if(myGalery=="Codepen"){
+    galeryLink.href = "../pages/galeriaCodepen.html";
+    //*? We add the created elment to the desired grid*/
+    myGrid.appendChild(galeryLink);
+  }
   //*? For link Diseños galery*/
-  if(myGalery=="Diseños"){galeryLink.href = "../pages/galeriaDisenos.html";}
-  //*? We add the created elment to the desired grid*/
-  myGrid.appendChild(galeryLink);
-}
+  if(myGalery=="Diseños"){
+    //*? Create the element link for resources page*/
+    const  galeryLink2 = document.createElement("a");
+    galeryLink2.className += ("galeryLinkCard");
+    galeryLink2.innerHTML = `<h3>+ Recursos</h3>`;
+    galeryLink.href = "../pages/galeriaDisenos.html";
+    galeryLink2.href = "../pages/recursos.html";
+    //*? We add the created elment to the desired grid*/
+    myGrid.appendChild(galeryLink);
+    myGrid.appendChild(galeryLink2);
+  }
 
+}
 
 //*<------------------- Random Index Generator --------------------->*/
 export function randomIndex(min, max) {
@@ -140,7 +152,7 @@ export function postGridFiller(gridName, type) {
     }
     //*? For fill random desings galery*/
     if(gridName == "desingGrid"){
-      for (var indexPost = 0; indexPost < 5; indexPost++) {
+      for (var indexPost = 0; indexPost < 4; indexPost++) {
       var indexElement = randomIndex(0, articlesDesingDB.length);
       DesingCardBuilder(indexElement, myGrid);
       } 

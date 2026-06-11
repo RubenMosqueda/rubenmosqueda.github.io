@@ -253,8 +253,16 @@
   text-decoration: none;
 }
 
+.galeryLinkCard:hover{
+  border: solid #D76F38 2px;
+}
+
 .galeryLinkCard h3{
   color:#D5D9DA;
   font-size: 2rem;
   text-align: center;
+}
+
+.galeryLinkCard:hover h3{
+  color: #8FE0F5;
 }
