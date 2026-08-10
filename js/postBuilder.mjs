@@ -95,7 +95,7 @@ export function galeryLinkCard(myGrid, myGalery){
   galeryLink.innerHTML = `<h3>+ ${myGalery}</h3>`;
   //*? For link to codepen galery*/
   if(myGalery=="Codepen"){
-    galeryLink.href = "/galeriaCodepen.html";
+    galeryLink.href = "../pages/galeriaCodepen.html";
     //*? We add the created elment to the desired grid*/
     myGrid.appendChild(galeryLink);
   }
@@ -105,8 +105,8 @@ export function galeryLinkCard(myGrid, myGalery){
     const  galeryLink2 = document.createElement("a");
     galeryLink2.className += ("galeryLinkCard");
     galeryLink2.innerHTML = `<h3>+ Recursos</h3>`;
-    galeryLink.href = "/galeriaDisenos.html";
-    galeryLink2.href = "/recursos.html";
+    galeryLink.href = "../pages/galeriaDisenos.html";
+    galeryLink2.href = "../pages/recursos.html";
     //*? We add the created elment to the desired grid*/
     myGrid.appendChild(galeryLink);
     myGrid.appendChild(galeryLink2);
