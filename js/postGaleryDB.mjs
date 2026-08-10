@@ -8,7 +8,7 @@ export const articlesCodePenDB =
 [
     {
       codePenLink:"https://codepen.io/rubenmosqueda",
-      image:"imagenes/site_images/miniatures/codepen_my_codepen_space.jpg",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczP9BOGXwkSlG4-6p6sg_OztsfSCTgHGhtmXlx-ZIzeJR182jr768ekv6LppQL28s9iJInFhSk8Tmjby1ZYip4BCYoeGEmbJQPnMXpGF9QkFiuXA3AWUa564TNkkiR4MNPcqoULtynT-hYdd2o55YqE5=w800-h380",
       title:"My CodePen Space",
       author:"Rubén Mosqueda"
     },
@@ -32,25 +32,25 @@ export const articlesCodePenDB =
     },
     {
       codePenLink:"https://codepen.io/rubenmosqueda/pen/oNMzaWO",
-      image:"imagenes/site_images/miniatures/codepen_accordion_list_css.JPG",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczPregJU37D5za_28bMOUTWRdoPGXjOea7eYOUWROe8woxdSBO9nTn8K7eGFJLOTxoVMT_1EOjHPuiXqTmYK-04yrCpPTLPghDdcgvPxSD5YojZdlPk=w2400",
       title:"Accordion List CSS",
       author:"Rubén Mosqueda"
     },
     {
       codePenLink:"https://codepen.io/rubenmosqueda/pen/RwJOVGp",
-      image:"https://lh3.googleusercontent.com/pw/AP1GczPregJU37D5za_28bMOUTWRdoPGXjOea7eYOUWROe8woxdSBO9nTn8K7eGFJLOTxoVMT_1EOjHPuiXqTmYK-04yrCpPTLPghDdcgvPxSD5YojZdlPk=w2400",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczMrxvmXpBuUqoxrctgJUDfx4mxoY_a6j-oWoAeJ_P1X-jSKFtq93QWgO-5da37YYTTW7p6Z5i8RFDCJJLuL5rcKDA0YhRbyI4iydzYD06elaFFlJys6U1Nbh_mYCyXTd1HkWVWTH4ZUFxF17IMH163T=w800-h380",
       title:"e-Book Responsive Card",
       author:"Rubén Mosqueda"
     },
     {
       codePenLink:"https://codepen.io/rubenmosqueda/pen/ZERZpvR",
-      image:"imagenes/site_images/miniatures/codepen_fake_window_card.JPG",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczMUCNbUAxKU4ppBttzW7wzVPjKvSCRn8w7VnNguyDKO_0wszsJ0KEo6kK9hfMnKuGgxFHMEMZr7bxaKx5kPBp4D5wNydq94m1TdKN27TUr3i4uVn5s=w2400",
       title:"Window Card",
       author:"Rubén Mosqueda"
     },
     {
       codePenLink:"https://codepen.io/rubenmosqueda/pen/NWzJEXq",
-      image:"https://lh3.googleusercontent.com/pw/AP1GczMUCNbUAxKU4ppBttzW7wzVPjKvSCRn8w7VnNguyDKO_0wszsJ0KEo6kK9hfMnKuGgxFHMEMZr7bxaKx5kPBp4D5wNydq94m1TdKN27TUr3i4uVn5s=w2400",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczPPQmfGDDmFrEf9Tuqbup4kDB9DrT9uii90NgAhgjtD93JFBmuVKezwi3DktWfci-ZoImRj2i351ag2OIq2TMa1a3rABp3_ytYyBPZF_6nTVZ59KiK4CwPfNXMDNg2vIFny6ipXWJNoEZ9RKfD7laHu=w800-h380",
       title:"Behance Card",
       author:"Rubén Mosqueda"
     },
