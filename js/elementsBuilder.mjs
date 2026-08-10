@@ -5,9 +5,9 @@ export function navBarBuilder(){
   const navBar = `
                   <nav id="navbar">
                     <ul>
-                      <li> <a href="../index.html" class="link home"> <i class="fa-solid fa-house-chimney" id="home"></i> </a> </li>
-                      <li> <a href="../pages/galeria.html" class="link galery"> <i class="fa-regular fa-images" id="galeria"></i> </a> </li>
-                      <li> <a href="../pages/sobre_mi.html" class="link background"> <i class="fa-solid fa-address-card" id="background"></i> </a> </li>
+                      <li> <a href="index.html" class="link home"> <i class="fa-solid fa-house-chimney" id="home"></i> </a> </li>
+                      <li> <a href="pages/galeria.html" class="link galery"> <i class="fa-regular fa-images" id="galeria"></i> </a> </li>
+                      <li> <a href="pages/sobre_mi.html" class="link background"> <i class="fa-solid fa-address-card" id="background"></i> </a> </li>
                       <li> <a href="mailto:developments.rmb@gmail.com?Subject=Me%20gustaría%20trabajar%20contigo" class="link mail"> <i class="fa-regular fa-envelope"></i> </a> </li>
                     </ul>
                   </nav>

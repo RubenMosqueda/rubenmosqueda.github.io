@@ -8,7 +8,7 @@ export const articlesCodePenDB =
 [
     {
       codePenLink:"https://codepen.io/rubenmosqueda",
-      image:"../imagenes/site_images/miniatures/codepen_my_codepen_space.jpg",
+      image:"imagenes/site_images/miniatures/codepen_my_codepen_space.jpg",
       title:"My CodePen Space",
       author:"Rubén Mosqueda"
     },
@@ -32,7 +32,7 @@ export const articlesCodePenDB =
     },
     {
       codePenLink:"https://codepen.io/rubenmosqueda/pen/oNMzaWO",
-      image:"../imagenes/site_images/miniatures/codepen_accordion_list_css.JPG",
+      image:"imagenes/site_images/miniatures/codepen_accordion_list_css.JPG",
       title:"Accordion List CSS",
       author:"Rubén Mosqueda"
     },
@@ -44,7 +44,7 @@ export const articlesCodePenDB =
     },
     {
       codePenLink:"https://codepen.io/rubenmosqueda/pen/ZERZpvR",
-      image:"../imagenes/site_images/miniatures/codepen_fake_window_card.JPG",
+      image:"imagenes/site_images/miniatures/codepen_fake_window_card.JPG",
       title:"Window Card",
       author:"Rubén Mosqueda"
     },
