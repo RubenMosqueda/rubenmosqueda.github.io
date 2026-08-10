@@ -138,8 +138,8 @@ export const articlesDesingDB =
       author:"Rubén Mosqueda"
     },
     {
-      miniature:"../imagenes/public_resources/Mis_Disenos/proyecto_tarjeta_madres_dc_chips_miniature.jpg",
-      image:"../imagenes/public_resources/Mis_Disenos/proyecto_tarjeta_madres_dc_chips.jpg",
+      miniature:"https://lh3.googleusercontent.com/pw/AP1GczMMJbFznYh0SDlaKNgiZfgNtZqLCUoHSSMrrduD08-BthSiFhRdrHW7twKcNlXjyRj7_ycgQ9y1MtkHVbhqDnkKvwDEg2_Cfgs9zXn_sjhOL6vgbdkODqtaFIEmgegcmn7u2I96KE1NQURaXjYjkfWb=w350-h350",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczOcDD7f-EsuwLg3i_1DZQQslSvTL4oFUsqIViWK7Un5G7b178-d_0A6B7H-jaSMS7VSiFIcRUPr4kgM15YMdKjDXByMBnkWM4aPcRksEWfDdzlPmS9lW4ncNyxuqIynIgrMe8ybfL5QZzWYkOIHhAEz=w904-h542",
       title:"Tarjeta Madre DC Chips",
       author:"Rubén Mosqueda"
     },
