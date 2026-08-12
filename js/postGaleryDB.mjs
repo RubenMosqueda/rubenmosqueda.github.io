@@ -1,6 +1,6 @@
 "use strict";
 
-//~> Logo de la página /
+//~> Logo de la página./
 export const logo = "https://lh3.googleusercontent.com/pw/AP1GczNw0PbStR8a-NBO7dWOZkPW3U66O-NjDYM66WWf5WVs6Sd07Xllr-_tBosTRtLqjWgP_N6TRXE1Q8jQw4Tv-GgwLkmgVoroOuYX44WNdpHTf4RYbWLTqq1AQsbBScRHfKZETavr1_nl7SZSoHGZF6WL=w300-h300";
 
 //~> Base de datos de las publicaciones en Codepen /
