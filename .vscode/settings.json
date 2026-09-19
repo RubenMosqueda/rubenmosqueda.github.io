@@ -2,7 +2,7 @@
   "liveServer.settings.port": 5501,
   "workbench.colorCustomizations": {
     "activityBar.activeBackground": "#c3d3dc",
-    "activityBar.activeBorder": "#f26dd7",
+    "activityBar.activeBorder": "#15202b",
     "activityBar.background": "#c3d3dc",
     "activityBar.foreground": "#15202b",
     "activityBar.inactiveForeground": "#15202b99",
@@ -25,7 +25,8 @@
     "activityBarTop.inactiveForeground": "#15202b99",
     "commandCenter.foreground": "#15202b",
     "statusBar.debuggingBackground": "#a3bcc9",
-    "statusBar.debuggingForeground": "#15202b"
+    "statusBar.debuggingForeground": "#15202b",
+    "activityBarTop.activeBorder": "#15202b"
   },
   "peacock.color": "#a3bcc9"
 }

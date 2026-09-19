@@ -13,6 +13,66 @@ export const articlesCodePenDB =
       author:"Rubén Mosqueda"
     },
     {
+      codePenLink:"https://codepen.io/editor/rubenmosqueda/pen/01a0acf7-9a05-7a49-92a4-8bfe011c5257",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczPUiO3kg7fZdvQP0Poy2zRFkvyXJKDx_nUUiWb5bdYEzVucXPHLLbR5SdWit2w_0pTS17K9-aqyefpxo7nnPFO_pZ5balLjXPZObzaelTAZZP4R8ULjlfGRYZmy6hm1cfhhZQLqgVNeRDo69GZ_B0XH=w800-h380",
+      title:"Layout Exercise Responsive",
+      author:"Rubén Mosqueda"
+    },
+    {
+      codePenLink:"https://codepen.io/editor/rubenmosqueda/pen/01a0aca5-77b2-7aff-bdf5-b31a4a50007b",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczPj2qz_n1m-FoulvwOrRxr6mjdYlIsmZHbyEowXAJmBJtUo6aMmcgK_RNIgvvXD3iGuTheCLYWeaqJXgH5h6tSsbj9F-jch0uY-fevAFAjjk8rSxeZf_v_c2TYQiNIhbae6-07cfVksgnPZ2MwBgrUd=w800-h380",
+      title:"Layout Exercise",
+      author:"Rubén Mosqueda"
+    },
+    {
+      codePenLink:"https://codepen.io/editor/rubenmosqueda/pen/01a0ac87-da02-76a5-8cd0-d35f865702b9",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczOi_UkzdB7h0kJaGEzPUkxAjCo8j_yomzMe77Icch9X4CFCZhkUeFB1O2kwp40xye4T9X4LbQUbWnH7NUxkaASLWOtnf-SmkF-elVvneRpDofLhSOiFRX8cUVF6jHwX8hdVbKNMe6iGWnyLE82jrmtL=w800-h380",
+      title:"Classic Navbar Left",
+      author:"Rubén Mosqueda"
+    },
+    {
+      codePenLink:"https://codepen.io/editor/rubenmosqueda/pen/01a0ac7e-e50c-750e-beb6-6d1312d7a9a6",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczMBb3CGehGZeKaQw0h2pN--p9iznZ5HueJCo-3Wb3q4OU-BD8hrqx_nCA2Bo0oa3O-xONgeJFZ0Cd4lt-lZFhrPyVOtaLjqZgAxU_Eh5yaBx9URm0HP51KY51Yc3pNF_d0_XBZ9X9T7k7SLyH-BqD4I=w800-h380",
+      title:"Classic Navbar Center Logo",
+      author:"Rubén Mosqueda"
+    },
+    {
+      codePenLink:"https://codepen.io/editor/rubenmosqueda/pen/01a0ac75-7a90-736d-923f-fa27ec3e4f74",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczNAAqqZuR58CSDZzLEwzcmcgO6DUwHzrCLiNco42CtQ_z8j3bT3lwyB5kw3hBo_lFAn8ADFzmswSuMOf15JkAKltsQERuO462mpGFUGZo2k8JbG1bNM6vZ6VW-gnXygvM3j1Oi1OHmdNuPvrAlpLFNY=w800-h380",
+      title:"Classic Navbar 2Lines Right",
+      author:"Rubén Mosqueda"
+    },
+    {
+      codePenLink:"https://codepen.io/editor/rubenmosqueda/pen/01a0ac6b-55c2-721c-a979-a1e473d7cb29",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczO3bz1N_cmYcB2lk9C319xjx7QAW5gAarKG5j-COhIrJW7liMf9QxNDITqX3jXZ-29u90Dmwv8kHV7DAscQcK-X4rUKuTaZDu-rz6FHey-n7GDHHid_2P_Kh8UQYHqcMBAB6fVt9inOQGiI2tGwa3Yt=w800-h380",
+      title:"Classic Navbar 2Lines Center",
+      author:"Rubén Mosqueda"
+    },
+    {
+      codePenLink:"https://codepen.io/editor/rubenmosqueda/pen/01a0ac60-7f7c-7042-9c9d-c974d63b639e",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczMp2aqdEGVGo7m0tQo3i-WjsGUzBsmjqa9_xF-PBon_z5QvzjvlZWCH21KbNezV62tZHLGblKyeixyPfD3dC0R5F27wFLdlUxzhJixXBnAhtLimHNslUkFJ5kDQWgrPLYxQLntrGgwLlSSQSHiJuBQa=w800-h380",
+      title:"Classic Navbar 2Lines",
+      author:"Rubén Mosqueda"
+    },
+    {
+      codePenLink:"https://codepen.io/editor/rubenmosqueda/pen/01a0ac56-2b16-7e23-97e4-643d4ae2e9c8",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczMjI64Nq86ShHynQ0XO3qBfPignGavPej_-eYRUzFEvXvSuYLygUO5Y8jgJ7E_5oC0KROWZKx2VXk2dYGL8ab2K0uoweIeYzx6taVgexeAVkXJHfGeFZmwXsA2SFQrn1EmGy8ra-IsV9d9__N_RqgKY=w800-h380-s-no-gm?authuser=0",
+      title:"Classic Navbar Rule",
+      author:"Rubén Mosqueda"
+    },
+    {
+      codePenLink:"https://codepen.io/editor/rubenmosqueda/pen/01a0ac4f-3667-7cb7-8320-ef73803373c3",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczOWnJnyZsNmEkfEdlQPHS4ZfYxjssnXbMNg24dquPVIX1j5BtXtLaneJqy7AgqcvIvZmEo8b2Q9KTvmZaIh3IzVpzB5hZCYa0P8jvDN5WBxFRZ-jvX0hm664Kzw5cMRPShQU0pfPw2UpnkHkwNYXLrE=w800-h380",
+      title:"Classic Navbar Top",
+      author:"Rubén Mosqueda"
+    },
+    {
+      codePenLink:"https://codepen.io/editor/rubenmosqueda/pen/01a0ac3c-8d9b-7946-81e5-94a6f834b55d",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczNo09Y7OExEmbh6dKeVpa5NGMKSHb9mmAuSfWbu7sKOgD8FGS6k_56c_7y3ftC56ghIMq-yFpat6F2skovEbpMlbLcoQbUWgKlZGvmxwn_8wOGx_ZvtZ14vYbwPyh_UKRysRJTUXkKeLVHiczfiwm2v=w800-h380",
+      title:"Classic Navbar",
+      author:"Rubén Mosqueda"
+    },
+    {
       codePenLink:"https://codepen.io/rubenmosqueda/pen/jOpwEBZ",
       image:"https://lh3.googleusercontent.com/pw/AP1GczMULJjfXlhI9L5TMOlRtiwmyrZjRil_lT5HN3wGQVAhKgaTCG3a0CAKWKklrr2jZvyzMnZDl9nIup5aPVK7Yf7k-Grr19X1IU1JD_GFMlF43R9_7sU=w2400",
       title:"Layout Responsive",
@@ -77,6 +137,54 @@ export const articlesCodePenDB =
 //~> Base de datos de Diseños /
 export const articlesDesingDB =
 [  
+    {
+      miniature:"https://lh3.googleusercontent.com/pw/AP1GczM43CfRrPzurQPs-b_dVrNNTz1kwVEfhYteYkSlFterFKX8IVIuLpMUe0dxQHpEscZiW0Bsal_zkPUnCYXN6icBsuQ0wxADwV8rPJrTXk-PBXAhq7JYvvpTK7zC26CitUEhY68NqKn0ZeO3PBK9Jf05=w350-h350",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczMyGnGdMpEXtZmR2ZA_1wfMkQjdzAvooi-8mNOHKQGJvA4N_Z73t2mEKiVMaDzpZq7nYfO-Vz15HMSJfNj9u71vOzzNZYJCTh7xxQ_bvvb7PcIzNrmF2zXCyuiMHzKI8nyVAQvSI_pvCULJIpv7WLhq=w1238-h696",
+      title:"Twitch ADC Estudio Overlay Programación",
+      author:"Rubén Mosqueda"
+    },
+    {
+      miniature:"https://lh3.googleusercontent.com/pw/AP1GczPuTIyw3FGXqGqf2zysu2VWajaivZzSWPsaC2IA_oljImxS3MzaApckGuFJwAuiaCbexsS7H0Ka0dr9WDbPbFQ6neG6s3Qjmd2ujoEdJ-7wjaG40Pi4NiPpB1-1yyMuBcfnFYGctbWOYlUKqD9b2Gmt=w350-h350",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczOAo4lizxcjSaKWL48CsKcTSFAGdp4dtsieXbMxheQDNJ9QTVjdU0Bz_D5uv_WvK0pw9vo6NlxPS0tTuKO8a39nadEUUEyEusDOgk8ZXi322W6IyyM3dFkpgQP8flGK7xhSc_mGrPGWDN6XfL13vsfx=w1238-h696",
+      title:"Twitch ADC Estudio Overlay Diseño",
+      author:"Rubén Mosqueda"
+    },
+    {
+      miniature:"https://lh3.googleusercontent.com/pw/AP1GczNhldBfkW3ySUOd7zC-KQTIUnRIVgzqzwhob0gJFX-Wrcz-GGTsEGNVmO5nS4g2ehYMtIoZTdER7x9MY4udmnehMuGdny1jBqoicq6jb9ccSnnkqov-b9wVYziFtciKtfYZoXOiMtMGWr02YJcg3T8A=w350-h350",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczPlca6krSiR8hkZPmWwa1_y33_Dwc0dy6UgXCoKguFaBMOP1VyrW8zkH2u180ZZEBNyBEX2DcOiD7da6_tD0xEfPq1ukK-4FQCT61aOLWXcg1g210DJjYMsiOQHIdhjk7Y1mNEKCYJdDMRVhydICF6l=w1238-h696",
+      title:"Twitch ADC Estudio Overlay Gaming",
+      author:"Rubén Mosqueda"
+    },
+    {
+      miniature:"https://lh3.googleusercontent.com/pw/AP1GczPf4jOIN55vcIg-TUlaZJ8b-Xf9rECiwsZeu3ODJlArVoOi6yXah3LNrxugaa7m_rnrEHT8itfxiObsqiesaiGyY0al_fs2198sb17qMQC3GpCmtpIwLZ5oXxhnhb2rSy4IYPB0RdCIfL73raYCE-pb=w350-h350-s-no-gm?authuser=0",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczP_PILDIEM_KQ0exPJS2-1R56fkcpHQ9TYO-fzEwpyKbm9L8FT7nUBaWybPYHPzCweemPTZK6Ih_B5anaPH07AGCAiltoO50IngfvdmumHuNuzL6fkRslj6mdsEIH_8SfI4TMP-C2MOFA6HJuH1upVL=w1238-h696",
+      title:"Blueprint ADC Estudio",
+      author:"Rubén Mosqueda"
+    },
+    {
+      miniature:"https://lh3.googleusercontent.com/pw/AP1GczPQ2xeOfh1wmJLv4GecW_VBbtTG8zO9x7xsLfXCHhXchcJnT8S_F91pqPHb0wOkLpbvPb7MvFta56D18Y_-vw4HDKZblBzq8mPkhYIaJr1XwwZ0gwWKsQDvP05VRjhMisUt6TTXf__MJnPeVL1xxovL=w350-h350",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczPgI1HH250MHl5kE-amCj3pQS-bKLgDbfpyoyFqndwcOuEZRXE9t6bAPl0QqvPOmOiH8kqyRPHqWIzCuIqfHeWlCJ-bb5yM8k5N8h-DRI5YjHaWMoc9BoMz6T6TtB8563lDsUWlWcBFuYWgZqwfggZp=w650-h812",
+      title:"Concept coffee Card Mugen",
+      author:"Rubén Mosqueda"
+    },
+    {
+      miniature:"https://lh3.googleusercontent.com/pw/AP1GczP16J4faEILMlq_PgxVZwAkB16cZPuf4jH8SCd5tq0HmA5k4QtzLhzuoAZmDO_qdtq_rEsYELFERJ489au3q-9x2yUr4xLWrZTTwuWwXpU76vQsJUPoW0fW8a69NFeKrZN2Ei8eV5D7taGCVnfQku-E=w350-h350",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczO2avVQS3f2CEE7rix8lHRUlCowdERc57BrLS38AqlDKJlg7REfFNcIqbUXbP6_YejLzu0_ngicuxRnX97yZ6YS8093z10gtIZIVJE9SR_O0NXYuZwDI9_uSmrCvb52Io2n5jLNReYHy48w5qeHrENO=w1001-h812",
+      title:"Cafeteria Mugen",
+      author:"Rubén Mosqueda"
+    },
+    {
+      miniature:"https://lh3.googleusercontent.com/pw/AP1GczOUYtqF5I6uu3CNP4ie_AkvCadPukAGzWS0KYi-HuiSYR3df2ELmahBMKPhalQpwzRJVisGcI8E1YO_qln3gwrvyFql2LaLgUhHjDzDkqEvssesCE4eKxrKOm9eod7pf_Tqmv4CU9yXarzsWDcxwF5E=w350-h350",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczMX5dbgwsvQkbVGLWy7rWyyY4v7juTQWuBzCAsg_w6-4RWbmFhgGXI1OiZLs4BFe-N-4trawgvx4h9yLupBK27kD4OOda9gM-8z3V8vgLBOYA1fVhm4ILVi7WgDK4y16PMtkS3FST8Bg8fozmNyiOj1=w650-h812",
+      title:"Concept coffee Card Witch",
+      author:"Rubén Mosqueda"
+    },
+    {
+      miniature:"https://lh3.googleusercontent.com/pw/AP1GczPw0vweBONQ3oK8pHX6OVwX6-PNAJ_GBzZAfp_2QX9XofmVhCgxIisSRZ0wfDwLZwIItY-KnsaH0EdyBKQ7GC6hijMyeLzSQEDF0ovmWBGK_qBRjnI8QfIwPfPmQJGGj6YueBx2oUR9pjC7gy0o7zWh=w350-h350",
+      image:"https://lh3.googleusercontent.com/pw/AP1GczMEZ7hbvLqoAfbkAgbiIS4o6Ubeyvo-AGrCMdLayI3D0AhvczKiWGdN1no20K_JIQ0plHUpt6y8S7S4CmGFAvDt3KoOlpoeuAdZs8SPwks1seuSUr8009Eytn5DqAGY0O8dz3vVoXgUbYjnYwPAZLIC=w1238-h555",
+      title:"Cafeteria Pretty Witch",
+      author:"Rubén Mosqueda"
+    },
     {
       miniature:"https://lh3.googleusercontent.com/pw/AP1GczNV39TKpx3hmabJFwW96UsFT25iB7E_kJKr7mM5ovCUD4hnUepeTnSIJvjdDxQB7yF3svJPQEarrnCR5YJjNQg3MPFLk7JOOQ75BJtpZnlD5IQ3lWYVuf0u9x7Nqsn_gRgwyqGyuHYR0tuJU9R7ad6N=w350-h350",
       image:"https://lh3.googleusercontent.com/pw/AP1GczOpqyDxN6P2Vp0KC7aF2LbHB5XS_BojLQQCOX93qBlivIxJVLepMEHvXYk1yOgTEiAk32V5WRWV0hhnGPhtoKywculXLXqvMQ9NOagwK-euf5ZioAAdVdJht6HQnMoodLDdGlx-R0VqlHB3C9FoZTLc=w1560-h878",
@@ -209,6 +317,27 @@ export const articlesDesingDB =
 export const resourcesDB =
 [  
   //-> Emotes /
+    {
+    localLink: "../imagenes/public_resources/Emotes/Zorrito0.png",
+    gPhotosLink: "https://photos.app.goo.gl/Ezq8iQjWGnpz9nVZA",
+    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczOUpYsEl3pFTbXm4eYS7CraVhmHw_y_eTrskvNS02Ii-nIdW9Ch_rYKa2u3N_T5XtJlwhNBcoSiCm87GZA3zk7T1PyMazi-Gqe44sEtxoLzOFFVsH-DP9Hsv_6am-jY-255VRwrOH3ODHxhpNNT3Zt2=w500-h500",
+    type: "Emote",
+    project: "none",
+  },
+  {
+    localLink: "../imagenes/public_resources/Emotes/Zorrito1.png",
+    gPhotosLink: "https://photos.app.goo.gl/eaewkUv2a6W1ckiC8",
+    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczPtRnbPAudQo-l7qNmUrMVsf1KIo8mutItyfc1Fl5WhFHbrQpDUwCrOehIMHNqHMsJEqp-hA1MFQn9kP0cY9Wu8x271ooOEE2ulcoMs0bVV2DlV1IIgLJuOwXJc6N14xd5SMw2-oQDd3trDAM-EGRgf=w300-h200",
+    type: "Emote",
+    project: "none",
+  },
+  {
+    localLink: "../imagenes/public_resources/Emotes/ZorritoStress.png",
+    gPhotosLink: "https://photos.app.goo.gl/H93uKELsqPN1AASk6",
+    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczM7GHHd8uwkFqicuuyO38ybLE4D4rwQ-TkonQ9ArZiJ27pbXtdeik8TW_MIL519sAwVMTS7S_ZB94_CyLJbZtpxlfAgQ8gPWnA5OTcuavjko4AZOoQbz91tP_EuHuwqW3MeWquLsE9FWn66GJwLCPbJ=w600-h600",
+    type: "Emote",
+    project: "none",
+  },
   {
     localLink: "../imagenes/public_resources/Emotes/Emote.png",
     gPhotosLink: "https://photos.app.goo.gl/oBz51At2zjg1GURP7",
@@ -413,6 +542,13 @@ export const resourcesDB =
     project: "none",
   },
   //-> Icons /
+  {
+    localLink: "../imagenes/public_resources/Iconos/Icon_fox_tangerine.png",
+    gPhotosLink: "https://photos.app.goo.gl/7DJKgPik5E4f5M3Q7",
+    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczOXnoWVVfbTGrm3n1R01JyAWwrj7nxtVnaVY5ssDDakXxok3bPYKW9hzIX_S34XUZHaZDZM1J6nNz8_2qCR2wlos_tdBypeltIRprQjQyYNGwZ_jXN5nOPr0dkwur7chFyavJX0kN81xfi9vr95I1lR=w250-h250",
+    type: "Icon",
+    project: "none",
+  },
   {
     localLink: "../imagenes/public_resources/Iconos/Icono_twiter_streamer_hex_000000.png",
     gPhotosLink: "https://photos.app.goo.gl/3uDyRyH4VYvdkEud9",
@@ -1892,6 +2028,27 @@ export const resourcesDB =
   },
   //-> Panels /
   {
+    localLink: "../imagenes/public_resources/Paneles/Logo_ADC_Estudio.png",
+    gPhotosLink: "https://photos.app.goo.gl/RAufMoTxZJNvgXuY6",
+    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczO5Ypmc0DboGABkZREKXETrTUj0c_Vw0i9HSoZv3H0GHb24TPJndcSw3nl6CkueLvR0nV33Gzvds6sEw1q1zAT0xo4qGqzjZJQWXl7pJBiyE9fdgTWO1BmnGxl_JFdEI-DQtk7kOJJarxrht3YMGo9h=w800-h800",
+    type: "Paneles",
+    project: "none",
+  },
+  {
+    localLink: "../imagenes/public_resources/Paneles/Banner_ADC_Estudio_1.png",
+    gPhotosLink: "https://photos.app.goo.gl/PJGyDP25VzSWPkQHA",
+    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczM9pTFDqSkfxWybaLX-VmiW11AM8hIF95OLsGAg4PZlWtUfmsGhtkjuSQ93GMFUz3ucO6imSHuHOZA1c-fjF_5tDTEMWXZ89KLSRN-3xottX_oSsu-rAbZxSjmrrP4J87ttmF96Cjq0N01I0ryuY0ZT=w1238-h479",
+    type: "Paneles",
+    project: "none",
+  },
+  {
+    localLink: "../imagenes/public_resources/Paneles/Banner_ADC_Estudio_2.png",
+    gPhotosLink: "https://photos.app.goo.gl/L6Dq5k4TpcL6u9Vh7",
+    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczMPv1bjNGuIs8QGGn-DaMQyCbtTrjDZ2SGxpkx6kw5T67HRDxmZvKhZ5vgxxJYdmnrPa8Ynk09177dkQHP-oAjft7P_prgJlxCuOYMnsyVxm8MOL43C5hC1WKVdPpads-xxhmSwYRior-sMYDt5fkNO=w1238-h479",
+    type: "Paneles",
+    project: "none",
+  },
+  {
     localLink: "../imagenes/public_resources/Paneles/Overlays.png",
     gPhotosLink: "https://photos.app.goo.gl/nNu97hb6vGo2KQnNA",
     shareLink: "https://lh3.googleusercontent.com/pw/AP1GczPLI5hVGxfQsNI6zb5WPKNcIE3MFba4DMKsluIdZoJwgtk5gdb9NIa3hdbcauA6pnrffFAjSFXFdNkKAXxpvv7eYh50cWtnGWEo5dB2SKNN_ykc4V4iXqHhxOz797ohAaH2m6EV_7lLtBsU98PaeuZT=w1560-h764",
@@ -2011,6 +2168,13 @@ export const resourcesDB =
     project: "none",
   },
     //-> Recursos-pngs /
+  {
+    localLink: "../imagenes/public_resources/recursos/pngs/Ticket.png",
+    gPhotosLink: "https://photos.app.goo.gl/qH45JsAvXoYQZx1f8",
+    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczMmxedsLaCXB2ZDC3wfv5QJPFWkEF0ElRXTC12FSKAF1j7Hmshr0YrSRIAMxGL0WOsbaSWzAoFnHRQAp9TaGOVNTmBheY3yIa5y2bM9VW-y4_fOdDGevzErkf3h8KtzXDTCXg0jz5GuJKAwMzwoaDof=w1238-h675",
+    type: "PNGs",
+    project: "none",
+  },
   {
     localLink: "../imagenes/public_resources/recursos/pngs/cafe artesano2.png",
     gPhotosLink: "https://photos.app.goo.gl/8jVvWNHRWumFKVNRA",
@@ -2270,7 +2434,28 @@ export const resourcesDB =
     type: "PNGs",
     project: "none",
   },
-  //-> Icons /
+  //-> Stok /
+  {
+    localLink: "../imagenes/public_resources/Recursos/stok/Background_Overlay_Design_Clean.png",
+    gPhotosLink: "https://photos.app.goo.gl/uWwuVd83Yi74jh9XA",
+    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczPPcqvQJy8V0_0a9UPLsu2ZGVRuK5WvokpDuGiqGLUyYIznChQmRT_5MpZEq7_svl6ATashf4CwXhlqc_2CsaVgqIsXJ5bU6wTdao_hNIs1vr7QCBWtHV0zfV6deROlNUVM9CHGS0JUn9qIehrBm2Ed=w1238-h675",
+    type: "Stok",
+    project: "none",
+  },
+  {
+    localLink: "../imagenes/public_resources/Recursos/stok/Background_Overlay_Gaming_Clean.jpg",
+    gPhotosLink: "https://photos.app.goo.gl/1FoiwEmK3hao2DFYA",
+    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczO0h0MzA57XjinnD6rvq4E0Gf02-WG-TsVK00ssK2g_3LOcedN9v4IO2i8dOniiRMGQA69roDVFrPmrOdpc9HWyanVY-6OLQYXNdgvdLEW6A7e7IcCqXr9c-d9i7x4F_V7v9BUc2p0Qj1oj89QTb6s6=w1238-h696",
+    type: "Stok",
+    project: "none",
+  },
+  {
+    localLink: "../imagenes/public_resources/Recursos/stok/Background_Overlay_Programing_Clean.png",
+    gPhotosLink: "https://photos.app.goo.gl/uNEKiRRn93CRMaSt6",
+    shareLink: "https://lh3.googleusercontent.com/pw/AP1GczMJSUKpyN-1oM-ZHGioa-Om5YQwOjv5lOQv3KobXDtCwKczeLzlfmc9KTcHy419xtP58rVZMHn66K2JgrzrK6IyqDz0z0gUMbDa_ww53bUnNcBedUbxlaKF_MEBE4ck0CjxrMN0cVFz_no_GAdFvlEI=w1238-h696",
+    type: "Stok",
+    project: "none",
+  },
   {
     localLink: "../imagenes/public_resources/Recursos/stok/stok_image_001.jpg",
     gPhotosLink: "https://photos.app.goo.gl/qnW1aUGWaJkpLFss7",
